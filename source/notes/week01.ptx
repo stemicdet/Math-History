@@ -109,4 +109,112 @@
     
   </subsection>
   
+  <subsection xml:id="subsec-Ciphered-Grouping-Systems">
+    <title>Ciphered Grouping Systems</title>
+
+    <p>
+      In a ciphered numeral system, after base $b$ has been selected, sets of symbols are adopted for $1, 2, \ldots, b-1, b, 2b, 3b, \ldots (b-1)b, b^2, 2b^2, 3 b^2, \ldots (b-1)b^2$ and so on.
+    </p>
+
+    <p>
+      A ciphered numeral system requires more memorization of symbols, but representing numbers is compact.
+    </p>
+
+    <p>
+      An example of the ciphered numeral system is the Greek numeral system which uses the letters of the Greek alphabet as symbols as well as some additions from the obsolete Phoenician alphabet. 
+    </p>
+
+
+    <p>
+      Because the system was of the additive type, every integer from <m>1</m> to <m>999</m> could be represented using at most 3 letters.
+    </p>
+
+    <p>
+      Example: Write the number <m>534</m> using the Greek numeral system.
+    </p>
+
+    <p>
+      For larger numbers an accent mark to the lower left means to multiply the number by <m>1000</m>. So <m>_'\beta</m> means <m>2000</m> not <m>2</m>.
+    </p>
+
+    <p>
+      An M (for Myriad) next to a number means to multiply by <m>10,000</m>. So <m>M\beta</m> means <m>20,000</m>
+    </p>
+
+    <p>
+      Example: Write the number <m>34,129</m> using the Greek numeral system.
+    </p>
+
+    <p>
+      Because the Greek numeral system uses letters, each word and name has an associated number. For example the name Maria (<m>\mu\alpha\rho\iota\alpha</m>) has the associated number <m>40+1+100+10+1 = 152</m>
+    </p>
+
+    <p>
+      This is the meaning behind the number of the beast mentioned in the Biblical book of Revelation.
+    </p>
+
+    <p>
+      <blockquote>
+        <p>
+          ``Let him who hath understanding calculate the number of the beast, for it is the number of a man: His number is 666''
+        </p>
+      </blockquote>
+      -- Revelation 13:18
+    </p>
+
+    <p>
+      Many people have been proposed for the identity of this man. For example, the Renaissance mathematician Michael Stifel gave the following argument to show that Pope Leo X was the antichrist.
+    </p>
+
+    <p>
+      <ul>
+        <li>
+          <p>
+            In Latin, Leo X is written as LEO DECIMVS. 
+          </p>
+        </li>
+        <li>
+          <p>
+            Removing all the letters that are not Roman numerals leaves LDCIMV which adds up to <m>1656</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Because there are 10 letters in LEO DECIMVS and M is the first letter in Mysterium the value for the letter M should be replaced with <m>10</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+          This gives a sum of <m>666</m>, the number of the beast.
+          </p>
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      In the 2001 book <em>Science Askew</em> authors Donald Simanek and John Holden gave a similar proof that Barney the Dinosaur is the antichrist.
+    </p>
+
+    <p>
+      <ul>
+        <li>
+          <p>
+            Barney is well described as a CUTE PURPLE DINOSAUR
+          </p>
+        </li>
+        <li>
+          <p>
+            Since the Latin alphabet used <em>V</em> instead of <em>U</em> the above phrase is CVTE PVRPLE DINOSAVR
+          </p>
+        </li>
+        <li>
+          <p>
+            Remove the letters that are not Roman numerals to get CVVLDIV which adds up to <m>666</m>
+          </p>
+        </li>
+      </ul>
+    </p>
+    
+  </subsection>
+
 </section>
