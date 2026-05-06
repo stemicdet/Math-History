@@ -19,7 +19,7 @@
     </p>
 
     <p>
-      In a base system, some number $b$ is selected as the base. Names are assigned to numbers $1, 2, \ldots, b$ and larger numbers are given by combinations of the number names already selected.
+      In a base system, some number <m>b</m> is selected as the base. Names are assigned to numbers <m>1, 2, \ldots, b</m> and larger numbers are given by combinations of the number names already selected.
     </p>
 
     <p>
@@ -63,7 +63,7 @@
     </p>
 
     <p>
-      In a simple grouping system, some number $b$ is selected as a base and symbols are adopted for $1, b, b^2, \ldots$. A number is expressed by using the symbols additively, where each symbol is repeated the required number of times.
+      In a simple grouping system, some number <m>b</m> is selected as a base and symbols are adopted for <m>1, b, b^2, \ldots</m>. A number is expressed by using the symbols additively, where each symbol is repeated the required number of times.
     </p>
 
     <p>
@@ -92,11 +92,11 @@
     <title>Multiplicative Grouping Systems</title>
 
     <p>
-      In a multiplicative grouping system, after a base $b$ is selected, symbols are chosen for $1, 2, \ldots, b-1$ and a second set of symbols are adopted for $b, b^2, b^3, \ldots$. The symbol of the 2 sets are employed multiplicatively to show how many units of the higher groups are needed.
+      In a multiplicative grouping system, after a base <m>b</m> is selected, symbols are chosen for <m>1, 2, \ldots, b-1</m> and a second set of symbols are adopted for <m>b, b^2, b^3, \ldots</m>. The symbol of the 2 sets are employed multiplicatively to show how many units of the higher groups are needed.
     </p>
 
     <p>
-      As an example of this let $a = 10$ $b=100$ and $c=1000$. Then we would express the number 7453 as $7c4b5a3$
+      As an example of this let <m>a = 10</m> <m>b=100</m> and <m>c=1000</m>. Then we would express the number 7453 as <m>7c4b5a3</m>
     </p>
 
     <p>
@@ -104,7 +104,7 @@
     </p>
 
     <p>
-      Example: Let $a = 10$ $b=100$ and $c=1000$. How would you express the number <m>9268</m> in this system?
+      Example: Let <m>a = 10</m> <m>b=100</m> and <m>c=1000</m>. How would you express the number <m>9268</m> in this system?
     </p>
     
   </subsection>
@@ -113,7 +113,7 @@
     <title>Ciphered Grouping Systems</title>
 
     <p>
-      In a ciphered numeral system, after base $b$ has been selected, sets of symbols are adopted for $1, 2, \ldots, b-1, b, 2b, 3b, \ldots (b-1)b, b^2, 2b^2, 3 b^2, \ldots (b-1)b^2$ and so on.
+      In a ciphered numeral system, after base <m>b</m> has been selected, sets of symbols are adopted for <m>1, 2, \ldots, b-1, b, 2b, 3b, \ldots (b-1)b, b^2, 2b^2, 3 b^2, \ldots (b-1)b^2</m> and so on.
     </p>
 
     <p>
@@ -134,7 +134,7 @@
     </p>
 
     <p>
-      For larger numbers an accent mark to the lower left means to multiply the number by <m>1000</m>. So <m>_'\beta</m> means <m>2000</m> not <m>2</m>.
+      For larger numbers an accent mark to the lower left means to multiply the number by <m>1000</m>. So <m>_{'}\beta</m> means <m>2000</m> not <m>2</m>.
     </p>
 
     <p>
@@ -216,5 +216,92 @@
     </p>
     
   </subsection>
+<subsection xml:id="subsec-Positional-Numeral-Systems">
+  <title>Positional Numeral Systems</title>
+
+  <p>
+    Modern mathematics uses a positional numeral system with base 10. In a positional numeral system, after a base <m>b</m> has been selected, symbols are adopted for <m>0,1,2, \ldots, b-1</m>. These symbols are called the digits of the system.
+  </p>
+
+  <p>
+    Any whole number <m>N</m> can be written uniquely in the form 
+    <md>
+      N= a_n b^n + a_{n-1}b^{n-1} + \ldots + a_1 b + a_0
+    </md>
+    and the number <m>N</m> is written using the sequence of basic symbols <m>a_n a_{n-1}\ldots a_1 a_0</m>
+  </p>
+
+  <p>
+    For example, <m>29,608 = 2\cdot 10^4 + 9 \cdot 10^3 + 6 \cdot 10^2 + 0 \cdot 10 + 8</m>
+  </p>
+
+  <p>
+    Another example of a positional number system is the Mayan numeral system which is (mostly) a base-20 system. The Mayan numeral system uses the following digits.
+  </p>
+
+
+
+
+  <p>
+    In a pure base-20 system the positional values would be <m>1, 20, 20^2, 20^3, \ldots</m>; however in the  Mayan system the positional values are <m>1, 20, 20 \cdot 18, 20^2 \cdot 18, \ldots</m>.
+  </p>
+
+  <p>
+    It is believed that the reason for this is because the Mayan year consisted of 360 days and <m>20\cdot 18 = 360</m>.
+  </p>
+
+  <p>
+    In addition, Mayan numerals are written vertically with larger positional values on top.
+  </p>
+
+  <p>
+    To express a number using Mayan numerals use the process of division and remainder to expand the number and obtain the digits.
+  </p>
+
+  <p>
+    Example: Write the number <m>5,981</m> using Mayan numerals.
+  </p>
+
+  <p>
+    Example: Write the number <m>64,128</m> using Mayan numerals.
+  </p>
+
+  <p>
+    Another positional numeral system is the Kaktovik Inupiaq numerals. The Kaktovik Inupiaq numerals were invented in 1998 by a group of middle school children in Kaktovik, Alaska to create symbols for the Inupiaq language which is base 20.
+  </p>
+
+  <p>
+    The ancient Babylonians used clay tablets to record information. They would scratch markings on these tablets, which today is called <term>cuneiform</term>. The Babylonian positional number system is the oldest positional number system that we know of. It is a sexagesimal (Base 60) system with place values <m>1</m>,<m>60</m>,<m>60^2= 3600</m>, <m>60^3 \ldots</m>  
+  </p>
+
+  <p>
+    For example, the number <m>2,51,28</m> might stand for the number <m>2 \cdot 3600+51 \cdot 60 + 28 \cdot 1 = 10,288</m>
+  </p>
+
+  <p>
+    Unlike the Maya, the Babylonians had no concept of <m>0</m>. Instead gaps were used to represent the empty place value. This could cause confusion because sometimes a scribe copying a tablet might not notice the gap. It was also very difficult to record two consecutive gaps as in <m>1001</m>.
+  </p>
+
+  <p>
+    Eventually a solution was developed by using a separate symbol called a divider to indicate an empty space; however, it was only used in the middle of symbols and not at the end. Thus the symbol <m>31,6</m> (in cuneiform) might stand for <m>31\cdot 60+6*1 = 1866</m> or <m>31*60^2 + 6*60 = 111,960</m> or even as a fraction <m>31*1+6*\frac{1}{60} = 31 \frac{1}{10}</m>
+  </p>
+
+  <p>
+    Oftentimes the correct value could be determined by context, but this ambiguity is a shortcoming of the Babylonian positional system.
+  </p>
+
+  <p>
+    A modern convention when expressing values in the Babylonian system is to use a semicolon to separate integers from fractions and commas to separate the other places values. Thus <m>2,45,0;1 = 2 \cdot 3600 + 45 \cdot 60 + 0 \cdot 1 + 1 \cdot \frac{1}{60} = 9900 \frac{1}{60} </m>
+  </p>
+
+  <p>
+    It is not clear why the Babylonians developed a base 60 system. Some historians suggest that 60 was chosen as base because it is divisible by 2, 3, 4, 5, and 6 and thus it was convenient to represent important fractions in the system. Others suggest that it was chosen because the Babylonians calculated the year as 360 days long and the higher base of 360 was lowered to 60. Another theory is that it represents a merger between peoples using a base 10 system and a base 12 system. 60 is the least common multiple of 10 and 12.
+  </p>
+
+  <p>
+    Reminants of the Babylonian system can be found in the modern world. There are 60 seconds in a minute and 60 minutes in an hour and a complete revolution measures 360 degrees
+  </p>
+  
+</subsection>
 
 </section>
