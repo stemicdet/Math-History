@@ -7,19 +7,36 @@
     <title>Written Number Systems</title>
     
     <p>
-      The earliest evidence of mathematics is a bone found in the village of Ishago in the Democratic Republic on the Congo, which is over 8,000 years old. he markings in the bone are believed to have been tally marks; however, there are patterns in the bone that suggest that more mathematics than just counting is recorded here. For example, one row of the bone contains markings for the prime numbers between 10 and 20. 
+      The earliest evidence of mathematics is a bone found in the village of Ishango in the Democratic Republic on the Congo, which is over 8,000 years old. he markings in the bone are believed to have been tally marks; however, there are patterns in the bone that suggest that more mathematics than just counting is recorded here. For example, one row of the bone contains markings for the prime numbers between 10 and 20. 
     </p>
 
     <figure>
-      <caption>The graph of Darboux's function</caption>
-      <image source="desmos-graph - 2022-12-06T202928.958.png" width="50%">
-        <description>A picture of a function that oscilates between positive and negative values and tends to 0 as x approaches 0 .</description>
+      <caption>The Ishango Bone.</caption>
+      <image source="bone.jpg" width="50%">
+        <description>Two elongated, brown, bone-like objects placed horizontally on a plain light background, each covered with rows of short, evenly spaced carved notches resembling tally marks.
+</description>
+      </image>
+    </figure>
+
+    <figure>
+      <caption>The prime numbers between 10 and 20 are present on one row of the bone.</caption>
+      <image source="bone2.png" width="50%">
+        <description>Diagram showing four grouped sets of vertical tally marks separated by plus signs. The groups are labeled 19, 17, 13, and 11, with the equation “19 + 17 + 13 + 11 = 60” written below, illustrating how the marks sum to a total of 60.
+</description>
       </image>
     </figure>
 
     <p>
       The Inca built the largest empire in pre-Columbian America. They ruled over a vast landscape that included mountains, deserts, and rain forests. They kept their empire together despite lacking the wheel, pack animals, or writing. Instead of using marking to record numbers, the Inca used knotted strings called Quipu. According to their positions on the string, the knots could signify units, tens, hundreds, thousands, ten thousands or hundred thousands.
     </p>
+
+     <figure>
+      <caption>A Quipu used to record numbers.</caption>
+      <image source="quipu.jpg" width="50%">
+        <description>Fan-shaped arrangement of many thin, tan and orange cords radiating downward from a central loop or knot, resembling a bundle of strings spread out against a dark background.
+</description>
+      </image>
+    </figure>
 
     <p>
       Written number systems are a culmination of these earlier developments. Tally marks like those on the Ishango bone where first used to record information. Over time more complex recording devices like the quipu were invented. Before the appearance of such devices, there must have been an efficient system of spoken numbers founded on the idea of base to enable numbers to be arranged in efficient groups.
@@ -77,6 +94,14 @@
       An example of this type of system is found in the early Egyptian hieroglyphic system. This is a base 10 system.
     </p>
 
+    <figure>
+      <caption>The symbols of the Egyptian hieroglyphic system.</caption>
+      <image source="Hieroglyph.png" width="50%">
+        <description>Chart displaying ancient Egyptian numeral hieroglyphs in a grid. Each symbol corresponds to a place value, labeled beneath as 1, 10, 100, 1,000, 10,000, 100,000, and 1,000,000. The symbols include simple strokes and increasingly complex shapes, with a caption reading “Egyptian numeral hieroglyphs.”
+</description>
+      </image>
+    </figure>
+
     <p>
       Each picture represents the value of the number. To express multiples of the number you repeat the symbol that many times. For example to express the number <m>300,000</m> you would draw three tadpoles.
     </p>
@@ -88,6 +113,14 @@
     <p>
       Another example of a simple grouping system is Roman numerals. Unlike Egyptian numerals which are multiples of 10, Roman numerals are multiples of 5. In modern use of Roman numerals a smaller numeral before a larger one represents subtraction. For example IV means <m>5-1=4</m>; however, the ancient Romans did not do this.
     </p>
+
+     <figure>
+      <caption>The symbols of the Roman numeral system.</caption>
+      <image source="roman.png" width="50%">
+        <description>Table listing Roman numerals alongside their Latin names and Arabic values. The columns are labeled “Roman symbol,” “Name,” and “Arabic Value.” Entries include I (unus) = 1, V (quinque) = 5, X (decem) = 10, L (quinquaginta) = 50, C (centum) = 100, D (quingenti) = 500, and M (mille) = 1,000.
+</description>
+      </image>
+    </figure>
 
     <p>
       Example: Write <m>2024</m> using Roman numerals
@@ -130,6 +163,14 @@
     <p>
       An example of the ciphered numeral system is the Greek numeral system which uses the letters of the Greek alphabet as symbols as well as some additions from the obsolete Phoenician alphabet. 
     </p>
+
+    <figure>
+      <caption>The symbols of the Greek numeral system.</caption>
+      <image source="greek.png" width="50%">
+        <description>Table showing Greek letters with their corresponding numeric values. The chart is arranged in rows and columns, pairing each letter with its name and a number value from 1 to 900. Examples include alpha = 1, beta = 2, gamma = 3, continuing through kappa = 20, mu = 40, and up to omega = 800 and sampi = 900. Some obsolete characters (such as vau, koppa, and sampi) are noted in a footnote.
+</description>
+      </image>
+    </figure>
 
 
     <p>
@@ -246,6 +287,13 @@
     Another example of a positional number system is the Mayan numeral system which is (mostly) a base-20 system. The Mayan numeral system uses the following digits.
   </p>
 
+  <figure>
+      <caption>The digits of the Mayan numeral system.</caption>
+      <image source="maya.png" width="50%">
+        <description>Dark, nearly black rectangular image showing faint rows of small, pale symbols arranged in horizontal lines. The symbols are grouped into clusters of five, forming the repeating row pattern characteristic of the Mayan numeral system, where dots and bars are used to represent digits.
+</description>
+      </image>
+    </figure>
 
 
 
@@ -276,6 +324,14 @@
   <p>
     Another positional numeral system is the Kaktovik Inupiaq numerals. The Kaktovik Inupiaq numerals were invented in 1998 by a group of middle school children in Kaktovik, Alaska to create symbols for the Inupiaq language which is base 20.
   </p>
+
+  <figure>
+      <caption>The digits of the Kaktovik Inupiaq numeral system.</caption>
+      <image source="ki.png" width="50%">
+        <description>Chart displaying a set of stylized numerals from 0 to 19, each shown as a unique angular or curved symbol arranged in a grid. The symbols are organized in rows of five, with each character labeled by its corresponding Arabic numeral beneath it (0 through 19). The shapes vary in complexity, combining lines, angles, and curves to represent each number in this numeral system.
+</description>
+      </image>
+    </figure>
 
   <p>
     The ancient Babylonians used clay tablets to record information. They would scratch markings on these tablets, which today is called <term>cuneiform</term>. The Babylonian positional number system is the oldest positional number system that we know of. It is a sexagesimal (Base 60) system with place values <m>1</m>,<m>60</m>,<m>60^2= 3600</m>, <m>60^3 \ldots</m>  
