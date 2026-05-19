@@ -1,28 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="notes-week-02">
-  <title>Week 2</title>
+  <title>Egyptian and Babylonian Mathematics (2.1-2.6)</title>
 
-  <subsection>
-    <title>Monday</title>
-
-    <p>
-    </p>
-  </subsection>
-
-
-  <subsection>
-    <title>Wednesday</title>
+  <subsection xml:id="subsec-History-of-Egypt">
+    <title>History of Egypt</title>
 
     <p>
+      The empire of Egypt, located in the fertile Nile river valley, was one of the world's earliest civilizations. The empire was founded around 3000 B.C and lasted until around 300 B.C. when it was conquered by Alexander the Great. The Egyptians built many impressive monuments such as the Spinx and the pyramids which required precise mathematical calculations. They also had highly sophisticated agricultural techniques and an effective system of medicine. Their pyramids are some of the oldest monuments that are still standing, and they are predicted to outlast modern skyscrapers.
     </p>
-  </subsection>
-
-
-  <subsection>
-    <title>Friday</title>
 
     <p>
+      Archaeological evidence shows that Egyptian numerals date back to at least 3200 B.C. The Great Pyramid was built around 2600 B.C. For the next 3800 years it was the tallest man made structure in the world. The ratio of the pyramid to the height is $\frac{44}{7}$ which is approximately $2\pi$ leading some to believe that the Egyptians knew about $\pi$
     </p>
+
+    <p>
+      Around 1850 B.C. a text containing 25 mathematical problems known as the Moscow Papyrus was written. It is one of the most important sources that we have about Egyptian Mathematics; however, it is very different from our modern mathematics textbooks. Instead of explaining the technique behind solving a problem, it simply lists problems and works out the solution. This creates a puzzle for math historians to determine the breath of Egyptian mathematical knowledge. Around 1650 B.C. another mathematical text, the Rhind Papyrus, was written. It too provides insight into Egyptian mathematical knowledge and is written similarly to the Moscow Papyrus.
+    </p>
+
+    <p>
+      In 1799 A.D. The Rosetta stone was discovered by the French military engineers working for Napoleon. The stone contains the same message written in Hieroglyphics, Egyptian demotic, and Ancient Greek, and provided a way to decipher the Hieroglyphics which had fallen out of use centuries earlier.
+    </p>
+    
   </subsection>
+
+  <subsection xml:id="subsec-Egyptian-Arithmetic">
+    <title>Egyptian Arithmetic</title>
+
+    <p>
+      As mentioned previously, Egyptians used an additive base 10 numeral system. Later an alternate system was developed with more symbols so that large numbers could be expressed with fewer signs.
+    </p>
+
+    <p>
+      In many ways Egyptian mathematics is additive and multiplication is always thought of as repeated addition. They used an interesting technique to easily multiply 2 numbers. They would write one number as a sum of powers of 2, then double the other number as many times necessary and add the correct numbers together.
+    </p>
+
+    <p>
+      For example to multiply 42 times 37, they would first write $37 = 32 + 4 + 1$. Then they would compute
+      <md>
+        <mrow> \amp 1 \cdot 42 = 42</mrow>
+        <mrow> \amp 2 \cdot 42 = 84</mrow>
+        <mrow> \amp 4 \cdot 42 = 168</mrow>
+        <mrow> \amp 8 \cdot 42 = 336</mrow>
+        <mrow> \amp 16 \cdot 42 = 672</mrow>
+        <mrow> \amp 32 \cdot 42 = 1344</mrow>
+      </md>
+      Finally they add $1344+ 168+42 = 1554$. So $42\cdot 37 = 1554$
+    </p>
+
+    <p>
+      Example: Use Egyptian multiplication to find $24\cdot 27$
+    </p>
+
+    <p>
+      The Egyptian multiplication method can also be used to solve division problems. Suppose the Pharaoh wants to divide $1652$ bushels of wheat to give to $75$ officials. How much wheat should each official receive?
+    </p>
+
+    <p>
+      First we double $75$ repeatedly until we find a multiple larger than $1652$
+
+      <md>
+        <mrow> \amp 1 \cdot 75 = 75</mrow>
+        <mrow> \amp 2 \cdot 42 = 150</mrow>
+        <mrow> \amp 4 \cdot 42 = 300</mrow>
+        <mrow> \amp 8 \cdot 42 = 600</mrow>
+        <mrow> \amp 16 \cdot 42 = 1200</mrow>
+        <mrow> \amp 32 \cdot 42 = 2400</mrow>
+      </md>
+
+      Since $1200+300+150 = 1650$ which leaves <m>2</m> left over it follows that <m>\dfrac{1652}{75} = 22 + \dfrac{2}{75}</m>
+      
+    </p>
+
+    <p>
+      The Egyptians would then rewrite $\dfrac{2}{75}$ as a sum of unit fractions. In the next section, we will discuss unit fractions.
+    </p>
+
+    <p>
+      Example: Use Egyptian division to divide 84,136 by 239.
+    </p>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-Unit-Fractions">
+    <title>Unit Fractions</title>
+
+    <p>
+      One thing that is unique about Egyptian mathematics is their use of <term>unit fractions</term>. A unit fraction is a fraction whose numerator is <m>1</m> such as <m>\dfrac{1}{2}</m> or <m>\dfrac{1}{3}</m>. With the exception of $\frac{2}{3}$ all fractions were written as $\frac{1}{n}$. Other fractions can be written as a sum of unit fractions.
+    </p>
+
+    <p>
+      Special symbols were developed for the fractions $\frac{1}{2}$, $\frac{1}{4}$, $\frac{1}{8}$, $\frac{1}{16}$, $\frac{1}{32}$, and $\frac{1}{64}$. These are called Horus-eye fractions based on a theory that the symbols were based on parts of a symbol called the eye of Horus. 
+    </p>
+
+    <p>
+      The Egyptians would try to represent fractions using Horus-eye fractions. If there was a remainder left over, it would be represented using other unit fractions.
+    </p>
+    
+    <p>
+      The Ancient Egyptian scribes seemed to have developed certain rules about unit fractions. For example <m>\dfrac{2}{35}</m> was represented as <m>\dfrac{1}{30}+ \dfrac{1}{42}</m>. Based on the examples we've discovered it seems that they chose unit fraction representations based on the following guidelines
+      <ol>
+        <li>
+          <p>
+            Small denominators were preferred over larger ones
+          </p>
+        </li>
+        <li>
+          <p>
+            Fewer unit fractions were preferred over many unit fractions
+          </p>
+        </li>
+        <li>
+          <p>
+            Unit fractions were never repeated, so you couldn't write <m>\dfrac{2}{35}</m> as <m>\dfrac{1}{35}+\dfrac{1}{35}</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            Even denominators were preferred over odd ones
+          </p>
+        </li>
+        <li>
+          <p>
+            Smaller denominators were written first
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <p>
+      Why these rules were chosen, or even if these were actual rules that were followed, is unclear to math historians.
+    </p>
+
+    <p>
+      To express a number as a sum of unit fractions following these guidelines, you can use the so called <term>Brute Force Method</term>. Given a unit fraction such as <m>\dfrac{11}{15}</m> we first find the fraction with the smallest denominator that is less than it, in this case <m>\dfrac{1}{2}</m> to be our first unit fraction. Subtracting <m>\dfrac{11}{15}-\dfrac{1}{2} = \dfrac{7}{30}</m> so we repeat the process with the remainder term <m>\dfrac{7}{30}</m>. The unit fraction with the smallest denominator that is smaller than <m>\dfrac{7}{30}</m> is <m>\dfrac{1}{5}</m> and <m>\dfrac{7}{30}-\dfrac{1}{5} = \dfrac{1}{30}</m>. Hence <m>\dfrac{11}{15} = \dfrac{1}{2}+\dfrac{1}{5}+\dfrac{1}{30}</m>
+    </p>
+    
+  </subsection>
+
 </section>
