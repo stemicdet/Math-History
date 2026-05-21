@@ -68,12 +68,12 @@
         <mrow> \amp 32 \cdot 42 = 2400</mrow>
       </md>
 
-      Since $1200+300+150 = 1650$ which leaves <m>2</m> left over it follows that <m>\dfrac{1652}{75} = 22 + \dfrac{2}{75}</m>
+      Since $1200+300+150 = 1650$ which leaves <m>2</m> left over it follows that <m>\frac{1652}{75} = 22 + \frac{2}{75}</m>
       
     </p>
 
     <p>
-      The Egyptians would then rewrite $\dfrac{2}{75}$ as a sum of unit fractions. In the next section, we will discuss unit fractions.
+      The Egyptians would then rewrite $\frac{2}{75}$ as a sum of unit fractions. In the next section, we will discuss unit fractions.
     </p>
 
     <p>
@@ -86,7 +86,7 @@
     <title>Unit Fractions</title>
 
     <p>
-      One thing that is unique about Egyptian mathematics is their use of <term>unit fractions</term>. A unit fraction is a fraction whose numerator is <m>1</m> such as <m>\dfrac{1}{2}</m> or <m>\dfrac{1}{3}</m>. With the exception of $\frac{2}{3}$ all fractions were written as $\frac{1}{n}$. Other fractions can be written as a sum of unit fractions.
+      One thing that is unique about Egyptian mathematics is their use of <term>unit fractions</term>. A unit fraction is a fraction whose numerator is <m>1</m> such as <m>\frac{1}{2}</m> or <m>\frac{1}{3}</m>. With the exception of $\frac{2}{3}$ all fractions were written as $\frac{1}{n}$. Other fractions can be written as a sum of unit fractions.
     </p>
 
     <p>
@@ -98,7 +98,7 @@
     </p>
     
     <p>
-      The Ancient Egyptian scribes seemed to have developed certain rules about unit fractions. For example <m>\dfrac{2}{35}</m> was represented as <m>\dfrac{1}{30}+ \dfrac{1}{42}</m>. Based on the examples we've discovered it seems that they chose unit fraction representations based on the following guidelines
+      The Ancient Egyptian scribes seemed to have developed certain rules about unit fractions. For example <m>\frac{2}{35}</m> was represented as <m>\frac{1}{30}+ \frac{1}{42}</m>. Based on the examples we've discovered it seems that they chose unit fraction representations based on the following guidelines
       <ol>
         <li>
           <p>
@@ -112,7 +112,7 @@
         </li>
         <li>
           <p>
-            Unit fractions were never repeated, so you couldn't write <m>\dfrac{2}{35}</m> as <m>\dfrac{1}{35}+\dfrac{1}{35}</m>
+            Unit fractions were never repeated, so you couldn't write <m>\frac{2}{35}</m> as <m>\frac{1}{35}+\frac{1}{35}</m>
           </p>
         </li>
         <li>
@@ -129,11 +129,255 @@
     </p>
 
     <p>
-      Why these rules were chosen, or even if these were actual rules that were followed, is unclear to math historians.
+      The reason for some of these rules comes from the Egyptian terms used for fractions. The Egyptian symbols that we would translate as <m>\frac{1}{3}</m> and <m>\frac{1}{4}</m> are more accurately translated as "the third part" and "the fourth part". Thus these symbols don't easily lend themselves to representing fractions like <m>\frac{3}{4}</m>, which is why they used unit fractions. This is also why they didn't repeat unit fractions when using them to represent other quantities: there can only be one third part of a quantity! 
     </p>
 
     <p>
-      To express a number as a sum of unit fractions following these guidelines, you can use the so called <term>Brute Force Method</term>. Given a unit fraction such as <m>\dfrac{11}{15}</m> we first find the fraction with the smallest denominator that is less than it, in this case <m>\dfrac{1}{2}</m> to be our first unit fraction. Subtracting <m>\dfrac{11}{15}-\dfrac{1}{2} = \dfrac{7}{30}</m> so we repeat the process with the remainder term <m>\dfrac{7}{30}</m>. The unit fraction with the smallest denominator that is smaller than <m>\dfrac{7}{30}</m> is <m>\dfrac{1}{5}</m> and <m>\dfrac{7}{30}-\dfrac{1}{5} = \dfrac{1}{30}</m>. Hence <m>\dfrac{11}{15} = \dfrac{1}{2}+\dfrac{1}{5}+\dfrac{1}{30}</m>
+      To express a number as a sum of unit fractions following these guidelines, you can use the so called <term>Brute Force Method</term>. Given a unit fraction such as <m>\frac{11}{15}</m> we first find the fraction with the smallest denominator that is less than it, in this case <m>\frac{1}{2}</m> to be our first unit fraction. Subtracting <m>\frac{11}{15}-\frac{1}{2} = \frac{7}{30}</m> so we repeat the process with the remainder term <m>\frac{7}{30}</m>. The unit fraction with the smallest denominator that is smaller than <m>\frac{7}{30}</m> is <m>\frac{1}{5}</m> and <m>\frac{7}{30}-\frac{1}{5} = \frac{1}{30}</m>. Hence <m>\frac{11}{15} = \frac{1}{2}+\frac{1}{5}+\frac{1}{30}</m>
+    </p>
+
+    <p>
+      Example: Represent the number $\frac{3}{7}$ using unit fractions
+    </p>
+
+    <p>
+      It can be proven, although we will not do so, that every rational number can be represented as a finite sum of unit fractions using the Brute Force Method.
+    </p>
+
+    <p>
+      At the Beginning of the Rhind Papyrus is a table giving breakdowns of various rational numbers with a numerator of <m>2</m> and an odd denominator into unit fractions. Egyptian scribes made use of these tables to simplify calculations with unit fractions.
+    </p>
+
+    <p>
+      Multiplication of unit fractions can be done by the method of doubling. For example to multiply <m>5+\frac{1}{2}</m> and <m>1+\frac{1}{2}+\frac{1}{5}</m> we make a doubling table:
+      <md>
+        <mrow> \amp 1 \cdot 1+\frac{1}{2}+\frac{1}{5} = 1+\frac{1}{2}+\frac{1}{5}</mrow>
+        <mrow> \amp 2 \cdot 1+\frac{1}{2}+\frac{1}{5} = 3 + \frac{2}{5}</mrow>
+        <mrow> \amp 4 \cdot 1+\frac{1}{2}+\frac{1}{5} = 6 + \frac{4}{5}</mrow>
+        <mrow> \amp \frac{1}{2} \cdot 1+\frac{1}{2}+\frac{1}{5} = \frac{1}{2} + \frac{1}{4} + \frac{1}{10}</mrow>
+      </md>
+      
+    </p>
+
+    <p>
+      Adding the first row and the last two rows gives that the product of <m>4+\frac{1}{2}</m> and <m>1+\frac{1}{2}+\frac{1}{5}</m> is <m>9+\frac{1}{4}+\frac{1}{10}</m>. In modern notation, we have shown that <m>5 \frac{1}{2}\cdot 1 \frac{7}{10} = 9\frac{7}{20}</m>
+    </p>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-Egyptian-Algebra">
+    <title>Egyptian Algebra</title>
+
+    <p>
+      The Rhind Papyrus contains 84 problems of various kinds that have been translated into English. Part of the difficulty of understanding Egyptian mathematics is trying to interpret what is was that the scribe was trying to solve. For example Problem 40 literally reads
+      </p>
+
+      <blockquote>
+        <p>
+          Loaves 100 for man 5, <m>\frac{1}{7}</m> of the 3 above to man 2 those below. What is the difference of share?
+        </p>
+      </blockquote>
+    
+
+    <p>
+      Historians believe that this problem means that 100 loaves of bread is to be divided unequally among five men so that the two men who receive the least amount of loaves receive <m>\frac{1}{7}</m> of the amount of the other three men and each man receives a fixed number of loaves more than the next man. 
+    </p>
+
+    <p>
+      Problem 24 illustrates the Egyptian method for solving equations. It reads
+      </p>
+      <blockquote>
+        <p>
+          A quantity, <m>\frac{1}{7}</m> is added to it, becomes it: <m>19</m>
+        </p>
+      </blockquote>
+
+      <p>
+        In modern notation, this is asking us to find a number such that when <m>\frac{1}{7}</m> of it is added to it equals <m>19</m> or to solve the equation <m>x+\frac{1}{7}x = 19</m>
+      </p>
+
+      <p>
+        The solution given in the Rhind Papyrus is to first guess that <m>x=7</m>. This guess is chosen because it eliminates the fraction. However if <m>x=7</m> then <m>x+\frac{1}{7}x = 8</m>, which is not the correct answer. However, the scribe recognizes that this  is <m>\frac{19}{8}</m> of the correct answer and thus the correct answer is <m>7 \cdot \frac{19}{8} = \frac{133}{8}</m> which he expresses using unit fractions. More accurately, he first divides <m>19</m> by <m>8</m> and then multiplies by <m>7</m>.
+      </p>
+
+      <p>
+        This solution technique of multiplying by a guess and then determining the correct solution from the incorrect guess is known as the <term>Method of False Position</term>
+      </p>
+
+      <p>
+        Example: Problem 26 from the Rhind Papyrus asks for the solution of $x+ \frac{x}{4} = 15$. Solve this using the method of false position.
+      </p>
+    
+    
+  </subsection>
+
+  <subsection xml:id="subsec-Egyptian-Geometry">
+    <title>Egyptian Geometry</title>
+
+    <p>
+      The Greek Historian Herodotus wrote that the Greeks learned the art of measurement from the Egyptians. Another Greek author, Proclus, in summarizing Greek geometry before Euclid wrote
+    </p>
+
+    <blockquote>
+      <p>
+        Thales, who had traveled to Egypt, was the first to introduce this science into Greece.
+      </p>
+    </blockquote>
+
+    <p>
+      According to Herodotus, if the Nile overflowed its bank and made land unsuitable for growing crops, then the Pharaoh's officials would calculate the proportion of land that was destroyed and reduce the taxation on the land by that amount.
+    </p>
+
+    <p>
+      26 of the 110 problems from the Moscow Papyrus and Rhind Papyrus are geometric. 
+    </p>
+
+    <p>
+      Problem 50 of the Rhind Papyrus deals with finding the area of a circle. It states
+    </p>
+
+    <blockquote>
+      <p>
+        Example of a round field of diameter 9 khet. What is its area?
+      </p>
+    </blockquote>
+
+    <p>
+      The solution given is
+    </p>
+
+    <blockquote>
+      <p>
+        Take away <m>\frac{1}{9}</m> of the diameter, namely <m>1</m>; the remainder is <m>8</m>. Multiply <m>8</m> by <m>8</m>; it makes <m>64</m>. Therefore it contains <m>64</m> setat of land
+      </p>
+    </blockquote>
+
+    <p>
+      The scribe's process for finding area is essentially to multiply the diameter by <m>\frac{8}{9}</m> and square the result. That is
+      <md>
+        A = \left( \frac{8d}{9}\right)^2 = \frac{64}{81}d^2
+      </md>
+      
+    </p>
+
+    <p>
+      Comparing this with the formula for the exact area of a circle
+      <md>
+        A = \pi r^2 = \frac{\pi}{4}d^2
+      </md>
+      we find that 
+      <md>
+        \frac{64}{81}d^2 = \frac{\pi}{4}d^2
+      </md>
+      so that <m>\pi = \frac{256}{81} \approx 3.16</m> which is good enough for most applications.
+    </p>
+
+    <p>
+      Problem 14 of the Moscow Papyrus involves the volumes of a truncated pyramid, also called a frustrum. It reads
+    </p>
+
+    <blockquote>
+      <p>
+        Example of calculating a truncated pyramid. If you are told: a truncated pyramid of 6 for the vertical height by 4 on the base by 2 on the top: You are to square this 4; result 16. You are to double 4; result 8. You are to square this 2; result 4. You are to add the 16 and the 8 and the 4; result 28. You are to take <m>\frac{1}{3}</m> of 6; result 2. You are to take 28 twice; result 56. See, it is of 56. You will find it right.
+      </p>
+    </blockquote>
+
+    <p>
+      This example illustrates that the Egyptians were familiar with the formula to find the volume of a truncated pyramid with vertical height <m>h</m> whose top and bottom are squares of length <m>a</m> and <m>b</m>:
+      <md>
+        V = \frac{h}{3}(a^2+ab+b^2)
+      </md>
+      although historians are not sure how they deduced this.
+    </p>
+
+    <p>
+      Example: Suppose that a frustum has a height of 9 ft, and the lengths of the square bases are $10$ ft and $3$ ft. What is the volume of the frustum?
+    </p>
+
+    <p>
+      Problem 10 of the Moscow Papyrus deals with finding the area of a <em>nbet</em>. The word <em>nbet</em> appears in no other Egyptian manuscript so we aren't quite sure what type of an object it refers to. Based on the solution given, it seems to refer to either a hemisphere with diameter $4.5$ or a semicylinder whose height is half its diameter. The problem reads:
+    </p>
+
+    <blockquote>
+      <p>
+        Example of calculating a <em>nbet</em>. You are given a <em>nbet</em> with a mouth of <m>4+\frac{1}{2}</m>. What is its surface?
+      </p>
+    </blockquote>
+
+    <p>
+      And the solution is given
+    </p>
+
+    <blockquote>
+      <p>
+        Take <m>\frac{1}{9}</m> of <m>9</m> since the <em>nbet</em> is half an egg-shell. You get <m>1</m>. Calculate the remainder which is <m>8</m>. Calculate <m>\frac{1}{9}</m> of <m>8</m>. You get <m>\frac{2}{3}+\frac{1}{6}+\frac{1}{18}</m>. Find the remainder of this <m>8</m> after subtracting <m>\frac{2}{3}+\frac{1}{6}+\frac{1}{18}</m>. You get <m>7+\frac{1}{9}</m>. Multiply <m>7+\frac{1}{9}</m> by <m>4+\frac{1}{2}</m>. You get <m>32</m>. Behold this is its area! You have found it correctly.
+      </p>
+    </blockquote>
+
+    <p>
+      In modern notation the solution computes the area as
+      <md>
+        A = (((2\times d)\times\frac{8}{9})\times \frac{8}{9}) \times d = \frac{128}{81}d^2
+      </md>
+      
+    </p>
+
+    <p>
+      This is the same as the exact formula for the area of a hemisphere 
+      <md>
+        A = \frac{1}{2}\pi d^2
+      </md>
+      where <m>\frac{256}{81}</m> is used as an approximation for <m>\pi</m>
+    </p>
+
+    <p>
+      This is possibly the earliest calculation of a curved surface. It would be take another 1500 years before the formula for the surface area of a sphere was rediscovered by the Greek mathematician Archimedes.
+    </p>
+
+    <p>
+      Find the surface area of a hemisphere with diameter of $5$m using both the Egyptian formula and the modern formula. 
+    </p>
+    
+  </subsection>
+
+
+  <subsection xml:id="subsec-Egyptian-Mathematics-as-Applied-Arithmetic">
+    <title>Egyptian Mathematics as Applied Arithmetic?</title>
+
+    <p>
+      On page 50 of Burton's book <em>History of Mathematics: An Introduction</em> he writes
+    </p>
+
+    <blockquote>
+      <p>
+        Looking at the extant Egyptian mathematical manuscripts as a whole, we find that they are nothing but collections of practical problems of the kind that are associated with business and administrative transactions. The teaching of the art of calculation appears to be the chief element in the problems. Everything is stated in terms of specific numbers, and nowhere does one find a trace of what might properly be called a theorem or a general rule of procedure. If the criterion for scientific mathematics is the existence of the concept of proof, the ancient Egyptians confined themselves to "applied arithmetic".
+      </p>
+    </blockquote>
+
+    <p>
+      In contrast A.B. Chase wrote
+    </p>
+
+    <blockquote>
+      <p>
+        A careful study of the Rhind Papyrus convinced me several years ago that this work is not a mere selection of practical problems especially useful to determine land values, and that the Egyptians were not a nation of shopkeepers, interested only in that which they could use. Rather I believe that they studied mathematics and other subjects for their own sakes.
+      </p>
+    </blockquote>
+
+    <p>
+      Thinking about these two quotes, answer the following questions:
+      <ol>
+        <li>
+          <p>
+            What evidence can you give to support each of these arguments?
+          </p>
+        </li>
+        <li>
+          <p>
+            Which argument do you find most convincing? Why?
+          </p>
+        </li>
+      </ol>
     </p>
     
   </subsection>
