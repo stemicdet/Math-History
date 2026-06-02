@@ -11,7 +11,7 @@
     </p>
 
     <p>
-      Archaeological evidence shows that Egyptian numerals date back to at least 3200 B.C. The Great Pyramid was built around 2600 B.C. For the next 3800 years it was the tallest man made structure in the world. The ratio of the pyramid to the height is $\frac{44}{7}$ which is approximately $2\pi$ leading some to believe that the Egyptians knew about $\pi$
+      Archaeological evidence shows that Egyptian numerals date back to at least 3200 B.C. The Great Pyramid was built around 2600 B.C. For the next 3800 years it was the tallest man made structure in the world. The ratio of the pyramid to the height is <m>\frac{44}{7}</m> which is approximately <m>2\pi</m> leading some to believe that the Egyptians knew about <m>\pi</m>
     </p>
 
     <p>
@@ -36,7 +36,7 @@
     </p>
 
     <p>
-      For example to multiply 42 times 37, they would first write $37 = 32 + 4 + 1$. Then they would compute
+      For example to multiply 42 times 37, they would first write <m>37 = 32 + 4 + 1</m>. Then they would compute
       <md>
         <mrow> \amp 1 \cdot 42 = 42</mrow>
         <mrow> \amp 2 \cdot 42 = 84</mrow>
@@ -45,19 +45,19 @@
         <mrow> \amp 16 \cdot 42 = 672</mrow>
         <mrow> \amp 32 \cdot 42 = 1344</mrow>
       </md>
-      Finally they add $1344+ 168+42 = 1554$. So $42\cdot 37 = 1554$
+      Finally they add <m>1344+ 168+42 = 1554</m>. So <m>42\cdot 37 = 1554</m>
     </p>
 
     <p>
-      Example: Use Egyptian multiplication to find $24\cdot 27$
+      Example: Use Egyptian multiplication to find <m>24\cdot 27</m>
     </p>
 
     <p>
-      The Egyptian multiplication method can also be used to solve division problems. Suppose the Pharaoh wants to divide $1652$ bushels of wheat to give to $75$ officials. How much wheat should each official receive?
+      The Egyptian multiplication method can also be used to solve division problems. Suppose the Pharaoh wants to divide <m>1652</m> bushels of wheat to give to <m>75</m> officials. How much wheat should each official receive?
     </p>
 
     <p>
-      First we double $75$ repeatedly until we find a multiple larger than $1652$
+      First we double <m>75</m> repeatedly until we find a multiple larger than <m>1652</m>
 
       <md>
         <mrow> \amp 1 \cdot 75 = 75</mrow>
@@ -68,12 +68,12 @@
         <mrow> \amp 32 \cdot 42 = 2400</mrow>
       </md>
 
-      Since $1200+300+150 = 1650$ which leaves <m>2</m> left over it follows that <m>\frac{1652}{75} = 22 + \frac{2}{75}</m>
+      Since <m>1200+300+150 = 1650</m> which leaves <m>2</m> left over it follows that <m>\frac{1652}{75} = 22 + \frac{2}{75}</m>
       
     </p>
 
     <p>
-      The Egyptians would then rewrite $\frac{2}{75}$ as a sum of unit fractions. In the next section, we will discuss unit fractions.
+      The Egyptians would then rewrite <m>\frac{2}{75}</m> as a sum of unit fractions. In the next section, we will discuss unit fractions.
     </p>
 
     <p>
@@ -86,11 +86,11 @@
     <title>Unit Fractions</title>
 
     <p>
-      One thing that is unique about Egyptian mathematics is their use of <term>unit fractions</term>. A unit fraction is a fraction whose numerator is <m>1</m> such as <m>\frac{1}{2}</m> or <m>\frac{1}{3}</m>. With the exception of $\frac{2}{3}$ all fractions were written as $\frac{1}{n}$. Other fractions can be written as a sum of unit fractions.
+      One thing that is unique about Egyptian mathematics is their use of <term>unit fractions</term>. A unit fraction is a fraction whose numerator is <m>1</m> such as <m>\frac{1}{2}</m> or <m>\frac{1}{3}</m>. With the exception of <m>\frac{2}{3}</m> all fractions were written as <m>\frac{1}{n}</m>. Other fractions can be written as a sum of unit fractions.
     </p>
 
     <p>
-      Special symbols were developed for the fractions $\frac{1}{2}$, $\frac{1}{4}$, $\frac{1}{8}$, $\frac{1}{16}$, $\frac{1}{32}$, and $\frac{1}{64}$. These are called Horus-eye fractions based on a theory that the symbols were based on parts of a symbol called the eye of Horus. 
+      Special symbols were developed for the fractions <m>\frac{1}{2}</m>, <m>\frac{1}{4}</m>, <m>\frac{1}{8}</m>, <m>\frac{1}{16}</m>, <m>\frac{1}{32}</m>, and <m>\frac{1}{64}</m>. These are called Horus-eye fractions based on a theory that the symbols were based on parts of a symbol called the eye of Horus. 
     </p>
 
     <p>
@@ -137,7 +137,7 @@
     </p>
 
     <p>
-      Example: Represent the number $\frac{3}{7}$ using unit fractions
+      Example: Represent the number <m>\frac{3}{7}</m> using unit fractions
     </p>
 
     <p>
@@ -205,7 +205,7 @@
       </p>
 
       <p>
-        Example: Problem 26 from the Rhind Papyrus asks for the solution of $x+ \frac{x}{4} = 15$. Solve this using the method of false position.
+        Example: Problem 26 from the Rhind Papyrus asks for the solution of <m>x+ \frac{x}{4} = 15</m>. Solve this using the method of false position.
       </p>
     
     
@@ -291,11 +291,11 @@
     </p>
 
     <p>
-      Example: Suppose that a frustum has a height of 9 ft, and the lengths of the square bases are $10$ ft and $3$ ft. What is the volume of the frustum?
+      Example: Suppose that a frustum has a height of 9 ft, and the lengths of the square bases are <m>10</m> ft and <m>3</m> ft. What is the volume of the frustum?
     </p>
 
     <p>
-      Problem 10 of the Moscow Papyrus deals with finding the area of a <em>nbet</em>. The word <em>nbet</em> appears in no other Egyptian manuscript so we aren't quite sure what type of an object it refers to. Based on the solution given, it seems to refer to either a hemisphere with diameter $4.5$ or a semicylinder whose height is half its diameter. The problem reads:
+      Problem 10 of the Moscow Papyrus deals with finding the area of a <em>nbet</em>. The word <em>nbet</em> appears in no other Egyptian manuscript so we aren't quite sure what type of an object it refers to. Based on the solution given, it seems to refer to either a hemisphere with diameter <m>4.5</m> or a semicylinder whose height is half its diameter. The problem reads:
     </p>
 
     <blockquote>
@@ -335,7 +335,7 @@
     </p>
 
     <p>
-      Find the surface area of a hemisphere with diameter of $5$m using both the Egyptian formula and the modern formula. 
+      Find the surface area of a hemisphere with diameter of <m>5</m>m using both the Egyptian formula and the modern formula. 
     </p>
     
   </subsection>
@@ -375,6 +375,287 @@
         <li>
           <p>
             Which argument do you find most convincing? Why?
+          </p>
+        </li>
+      </ol>
+    </p>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-Baylonian-Clay-Tablets">
+    <title>Baylonian Clay Tablets</title>
+
+    <p>
+      The empire of Babylonia was located in the southern part of Mesopotamia, in what is now modern day Iraq. It was established around 1895 B.C. and fell in 539 B.C.
+    </p>
+
+    <p>
+      The Babylonians were accomplished astronomers and architects. The modern zodiac was first described by the Babylonians and the Hanging Gardens of Babylon was one of the seven wonders of the ancient world.
+    </p>
+
+    <p>
+      Archaeologists in Mesopotamia have unearthed over 500,000 inscribed clay tablets. Some of these contain mathematical tables and formulas. However, it wasn't until we were able to translate the cuneiform text that we were able to understand what was written on them.
+    </p>
+
+    <p>
+      The Babylonians were familiar with the rules of measurements for common shapes. They knew the rules for areas of rectangles, triangles, and trapezoids, and the volumes of rectangluar prisms. They measured the circumference of a circle as 3 times the diameter and the area as <m>1/12</m> the square of circumference. Both are true if <m>\pi=3</m>. They were aware that this is an approximation because another tablet gives a better approximation of 3.125 
+    </p>
+
+    <p>
+      Babylonians used a base 60 positional numeral system. Remnants of this system survive in modern times. There are 60 minutes in an hour, 60 seconds in a minute, and a complete revolution is 360 degrees.
+    </p>
+
+    <p>
+      The early Babylonians had a unit of distance now called the Babylonian mile which is about 7 modern miles. Later this became a unit of time as well, defined as the time it takes to travel a Babylonian mile. Babylonian astronomers calculated that a complete day is 12 Babylonian miles. Thus a complete revolution of the sky is 12 Babylonian miles. For convenience the Babylonian mile was divided into 30 equal parts, so for the Babylonians there were <m>12\cdot 30 = 360</m> equal parts in a complete revolution, which is why a complete revolution is 360 degrees.
+    </p>
+
+    <p>
+      The Babylonians were familiar with the Pythagorean Theorem. A translation of one Babylonian tablet reads as follows.
+      <blockquote>
+        <p>
+          4 is the length and 5 is the diagonal. What is the breadth? Its size is not known. 4 times 4 is 16. 5 times 5 is 25. You take 16 from 25 and there remains 9. What times what shall I take in order to get 9? 3 times 3 is 9. 3 is the breadth.
+        </p>
+      </blockquote>
+    </p>
+
+    <p>
+      The tablet below is known as Plimpton 322. It was first believed to be a record of transactions until 1945, when mathematicians realized the patterns in the list.
+    </p>
+
+
+
+
+
+
+    <p>
+      Here is the tablet written with modern digits. The numbers are still base 60, so the 2nd and 3rd columns of the 1st row read 119 and 169 in base 10.
+    </p>
+
+
+
+
+
+
+
+<p>
+  119 and 169 may not seem to be special numbers, but if a right triangle has length 119 and hypotenuse 169, then the missing side is 120.
+</p>
+
+<p>
+  A set of 3 positive integers, like <m>(3,4,5)</m> which can be the sides of a right triangle is known as a Pythagorean triple.
+</p>
+
+<p>
+  For each row the 2nd and 3rd columns are a leg and hypotenuse of a integer sided right triangle, with 4 exceptions. These exceptions can be explained by typos. For example in row 9 column 2 should be <m>8,1</m> instead of <m>9,1</m>.
+</p>
+
+<p>
+  A Pythagorean triple is said to be primitive if the three numbers contain no common factors. For example <m>(3,4,5)</m> is primitive but <m>(6,8,10)</m> is not. In the tablet, all the triples except the ones in lines 11 and 15 are primitive.
+</p>
+
+<p>
+  A theorem in mathematics says that all primitive Pythagorean triples are given by the equations <m>a=2uv</m> <m>b= u^2-v^2</m> and <m>c=u^2+v^2</m>, where <m>u</m> and <m>v</m> have no common factors, are not both odd or both even, and <m>u &gt;v</m>.
+</p>
+
+<p>
+  Example: Suppose <m>u=2</m> and <m>v=1</m>. What primitive Pythagorean triple do we obtain?
+</p>
+
+<p>
+  Example: Find a Pythagorean triple for a triangle with a side that measures 20 m.
+</p>
+
+<p>
+  Example: Find a Pythagorean triple for a triangle with a side that measures 63 m.
+</p>
+
+<p>
+  The first column is found to be the value of <m>(\frac{c}{a})^2</m>. In order for this quotient to have a finite sexagesimal expansion (meaning that it terminates) <m>a</m> needs to have only 2, 3, and 5 as prime factors. Since <m>a = 2uv</m>, this means that <m>u</m> and <m>v</m> also need to have 2, 3, and 5 as prime factors.
+</p>
+
+<p>
+  The first column represents <m>\sec^2 B</m>, where <m>B</m> is the angle opposite side <m>b</m>. Moreover these secants decrease by almost exactly <m>\frac{1}{60}</m> as one passes from one line to the other. The corresponding angle decreases from 45 degrees to 31 degrees. Likely there were similar tables for 30 degrees to 16 degrees and for 15 degrees to 1 degree.
+</p>
+
+    
+  </subsection>
+
+  <subsection xml:id="subsec-Babylonian-Treatment-of-Quadratic-Equations">
+    <title>Babylonian Treatment of Quadratic Equations</title>
+
+    <p>
+      It is evident from the multitude of clay tablets that have been found that the Babylonians knew how to solve quadratic equations. These problem tablets contain no general formula, but solutions for a wide variety of problems that illustrate that a general technique was known. For example, Problem 2 on the tablet BM 13901 reads
+      <blockquote>
+        <p>
+          I took away my square-side from inside the area and it was <m>14,30</m>. You put down <m>1</m> the projection. You break off half of <m>1</m>. You combine <m>0;30</m> and <m>0;30</m>. You add <m>0;15</m> to <m>14,30</m>. <m>14,30;15</m> squares <m>29;30</m>. You add <m>0;30</m> which you combined to <m>29;30</m> so that the square-side is <m>30</m>. 
+        </p>
+      </blockquote>  
+    </p>
+
+    <p>
+      To understand the problem and its solution, let us substitute some variables into the problem. Let <m>x</m> be the unknown (the side of the square), <m>b</m> the coefficient <m>1</m> and <m>c</m> the number <m>14;30</m>. Then the problem can be written as
+      <md>
+        x^2-bx=c
+      </md>
+      so this problem is a quadratic equation.
+    </p>
+
+    <p>
+      The solution consists of the following steps
+      <ol>
+        <li>
+          <p>
+            put down <m>b</m> the coefficient, <m>1</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            break off half the coefficient to give <m>\frac{1}{2}b</m>, <m>0;30</m> 
+          </p>
+        </li>
+        <li>
+          <p>
+            combine it with itself to get <m>(\frac{1}{2}b)^2</m>, <m>0;15</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            Add this to the original number <m>c</m> to give <m>c+(\frac{1}{2}b)^2</m>, <m>14,30;15</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            find what it is the square of, to give <m>\sqrt{c+(\frac{1}{2}b)^2}</m>, <m>29;30</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            add this to the halved coefficient <m>\frac{1}{2}b</m> to get <m>\frac{1}{2}b + \sqrt{c+(\frac{1}{2}b)^2}</m>, <m>30</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            This is the answer.
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <p>
+      Notice how the above computation follows the same procedure that we would use to solve a quadratic equation by completing the square. This demonstrates that Babylonian scribes were familiar with this technique for solving quadratic equations. Also notice that the positive square root was the only one that was chosen and the answer given by taking the negative square root is not considered. This makes sense because we are dealing with the side of a square which must be positive, but it also illustrates that Babylonian mathematicians did not allow for negative number solutions.
+    </p>
+
+    <p>
+      Another typical Babylonian problem involves perimeters and areas of rectangles. Specifically given the semiperimeter <m>x+y=a</m> and the area <m>xy=b</m> of a rectangle, we are asked to find the length <m>x</m> and width <m>y</m>. This requires the solution of a system of two equations with two unknowns and can be solved by substitution.
+    </p>
+
+    <p>
+      However, the Babylonians used a different method to solve these types of problems, similar to the Egyptian method of false position. They began by assuming that <m>x</m> and <m>y</m> are equal; that is <m>x = y = \frac{a}{2}</m>, which solves the first equation but not the second. Since the sum of <m>x+y</m> is fixed, increasing <m>x</m> must decrease <m>y</m> by the same amount. Thus <m>x= \frac{a}{2}+z</m> and <m>y = \frac{a}{2}-z</m> must be the solutions for some value of <m>z</m>
+    </p>
+
+    <p>
+      Substituting these into the second equation gives
+      <md>
+        (\frac{a}{2}+z)(\frac{a}{2}-z) = b
+      </md>
+      which simplifies to 
+      <md>
+        (\frac{a}{2})^2 -z^2 = b.
+      </md>
+      Hence
+
+      <md>
+        z^2 = (\frac{a}{2})^2 - b
+      </md>
+       and so
+       <md>
+        z = \sqrt{(\frac{a}{2})^2 - b}
+       </md>
+       
+    </p>
+
+    <p>
+      As before the negative root was not considered. Thus the solution is found to be 
+      <md>
+        x = \frac{a}{2} + \sqrt{(\frac{a}{2})^2 - b}
+      </md>
+      and
+
+      <md>
+        y = \frac{a}{2} - \sqrt{(\frac{a}{2})^2 - b}
+      </md>
+      
+      
+    </p>
+
+    <p>
+      Example: Use the Babylonian method to determine the length and width of a rectangle whose semiperimeter is 29 meters and whose area is 208 square meters.
+    </p>
+
+
+
+    
+  </subsection>
+
+  <subsection xml:id="subsec-Babylonian-Method">
+    <title>Babylonian Method</title>
+
+    <p>
+      The following tablet gives an approximation of <m>\sqrt{2}</m> using base 60 digits. In base 10, this represents the decimal <m>1.41421296</m>
+    </p>
+
+
+
+
+
+
+    <p>
+      The actual value of <m>\sqrt{2}</m> is about <m>1.41421356</m>, so the Babylonian approximation has an error of <m>0.000000597</m>. The Babylonian approximation is the most accurate approximation with 3 decimal places in base 60.
+    </p>
+
+    <p>
+      No one knows for sure how the Babylonians computed <m>\sqrt{2}</m> so accurately, but many people believe that they used a form of what's now called the Babylonian method (also called Heron's method), which was first written down by the Greek Mathematician Hero of Alexandria in 60 A.D.
+    </p>
+
+    <p>
+      The Babylonian method is used to approximate <m>\sqrt{S}</m> where <m>S</m> is a positive number.
+    </p>
+
+    <p>
+      <ol>
+        <li>
+          <p>
+            Choose a guess <m>x_0</m> (The closer to <m>\sqrt{S}</m> the better)
+          </p>
+        </li>
+        <li>
+          <p>
+            Let <m>x_{n+1} = \dfrac{1}{2}\left(x_n + \dfrac{S}{x_n} \right)</m>. This is the average of <m>x_n</m> and <m>\dfrac{S}{x_n}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Repeat until desired accuracy is obtained.
+          </p>
+        </li>
+        <li>
+          <p>
+            In the Babylonian Method, if <m>x_n= \sqrt{S}</m> then <m>x_n = \dfrac{S}{x_n} </m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Now suppose that <m>x_n &lt; \sqrt{S}</m>. Then <m>\dfrac{S}{x_n} &gt; \sqrt{S}</m>. By averaging these 2 values, you get something closer to square root of <m>x_n</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Likewise if <m>x_n &gt; \sqrt{S}</m>. Then <m>\dfrac{S}{x_n} &lt; \sqrt{S}</m> and by averaging these 2 values, you get something closer to square root of <m>x_n</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Example: Use the Babylonian Method to approximate <m>\sqrt{2}</m> accurately to 3 decimal places.
           </p>
         </li>
       </ol>
