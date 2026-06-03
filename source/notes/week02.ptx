@@ -93,6 +93,14 @@
       Special symbols were developed for the fractions <m>\frac{1}{2}</m>, <m>\frac{1}{4}</m>, <m>\frac{1}{8}</m>, <m>\frac{1}{16}</m>, <m>\frac{1}{32}</m>, and <m>\frac{1}{64}</m>. These are called Horus-eye fractions based on a theory that the symbols were based on parts of a symbol called the eye of Horus. 
     </p>
 
+     <figure>
+      <caption>The symbols for Horus-eye fractions.</caption>
+      <image source="eye.png" width="50%">
+        <description>Diagram on a black background showing three colored curve segments with labeled fractions. At the top, a red shallow arc has a short horizontal segment on the left labeled “1/8” and the curved portion labeled “1/4” in light gray. Below on the left, a blue spiral curves outward and transitions into a long, gently rising blue curve labeled “1/32.” On the right, a short green curved segment is labeled “1/64.” The pieces appear to be stylized arcs with different lengths or proportions indicated by the fraction labels.
+</description>
+      </image>
+    </figure>
+
     <p>
       The Egyptians would try to represent fractions using Horus-eye fractions. If there was a remainder left over, it would be represented using other unit fractions.
     </p>
@@ -273,7 +281,7 @@
     </p>
 
     <p>
-      Problem 14 of the Moscow Papyrus involves the volumes of a truncated pyramid, also called a frustrum. It reads
+      Problem 14 of the Moscow Papyrus involves the volumes of a truncated pyramid, also called a frustum. It reads
     </p>
 
     <blockquote>
@@ -281,6 +289,14 @@
         Example of calculating a truncated pyramid. If you are told: a truncated pyramid of 6 for the vertical height by 4 on the base by 2 on the top: You are to square this 4; result 16. You are to double 4; result 8. You are to square this 2; result 4. You are to add the 16 and the 8 and the 4; result 28. You are to take <m>\frac{1}{3}</m> of 6; result 2. You are to take 28 twice; result 56. See, it is of 56. You will find it right.
       </p>
     </blockquote>
+
+    <figure>
+      <caption>A picture of a frustum.</caption>
+      <image source="frustum.png" width="50%">
+        <description>3D-style diagram on a black background showing two parallel, skewed quadrilateral shapes. The lower shape is a large orange surface with slightly curved edges, resembling a slanted base. A thin black vertical line rises from a point near the center of the orange shape. Above it, a smaller pink quadrilateral is positioned roughly parallel and offset, suggesting a top face. A dashed vertical line drops from the center of the pink shape toward the orange base, indicating alignment between the two planes. The figure resembles a frustum or a sliced solid with top and bottom faces separated in space.
+</description>
+      </image>
+    </figure>
 
     <p>
       This example illustrates that the Egyptians were familiar with the formula to find the volume of a truncated pyramid with vertical height <m>h</m> whose top and bottom are squares of length <m>a</m> and <m>b</m>:
@@ -422,7 +438,13 @@
       The tablet below is known as Plimpton 322. It was first believed to be a record of transactions until 1945, when mathematicians realized the patterns in the list.
     </p>
 
-
+<figure>
+      <caption>The Plimpton 22 clay tablet.</caption>
+      <image source="tablet.jpeg" width="50%">
+        <description>Black-and-white photograph of a rectangular clay tablet covered in dense rows of wedge-shaped cuneiform inscriptions. The tablet surface is divided into vertical sections, with tightly packed symbols arranged in horizontal lines across each section. The edges of the tablet are slightly uneven, and the surface appears worn and textured, with shadows emphasizing the raised impressions of the writing. The overall appearance suggests an ancient inscribed document used for record-keeping or communication.
+</description>
+      </image>
+    </figure>
 
 
 
@@ -432,7 +454,13 @@
     </p>
 
 
-
+<figure>
+      <caption>The Plimpton 22 clay tablet with modern digits.</caption>
+      <image source="tablet2.jpg" width="50%">
+        <description>Black-and-white table of numerical data arranged in rows and columns, resembling a transcription of a mathematical tablet. Each row begins with bracketed numbers (such as “[1 59 *]” or “[1 56 56]”), followed by additional sequences of numbers separated into multiple columns. Some entries include symbols like asterisks inside brackets. The rightmost column lists consecutive integers from 1 through 15, one per row, acting as row labels or indices. The numbers appear in grouped clusters—often pairs such as “56 7,” “3 12 1,” or “48 49”—suggesting structured numerical relationships or calculations. The layout is grid-like, with horizontal and vertical lines separating entries clearly.
+          </description>
+      </image>
+    </figure>
 
 
 
@@ -604,6 +632,13 @@
       The following tablet gives an approximation of <m>\sqrt{2}</m> using base 60 digits. In base 10, this represents the decimal <m>1.41421296</m>
     </p>
 
+    <figure>
+      <caption> A clay tablet with an approximation of the square root of two using base 60 digits.</caption>
+      <image source="tablet3.jpg" width="50%">
+        <description>Black-and-white photograph of a broken, roughly circular clay tablet with a jagged outer edge and a textured, worn surface. Several straight lines are engraved across the surface, forming a geometric diagram with intersecting segments radiating from near the center toward the edges, dividing the tablet into triangular and irregular regions. Numerical labels are placed within these regions, including “30” in the upper left area, “10” near the upper right, “35” to the right of center, “25” below center, and “42” in the lower left area. Along one horizontal segment near the center, smaller numbers “1,” “24,” and “51” appear spaced along the line. The carved lines and numbers suggest a mathematical or geometrical construction inscribed on the tablet.
+          </description>
+      </image>
+    </figure>
 
 
 
