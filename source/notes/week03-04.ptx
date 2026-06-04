@@ -3,4 +3,171 @@
 <section xml:id="notes-week-03">
   <title>Greek Mathematics (3.1-5.2)</title>
 
+<subsection xml:id="subsec-Euclid">
+  <title>Euclid and The Elements</title>
+  
+</subsection>
+
+<p>
+  Western mathematics is heavily influenced by Ancient Greek mathematics. In fact the word mathematics comes from a Greek word mathema, meaning <q>that which is learned</q>
+</p>
+
+<p>
+  Unlike Babylon and Egypt, which were empires, the Ancient Greek civilization was a collection of city states in the Eastern Mediterranean that shared a common language and culture. When we talk about Greek Mathematics we mean mathematicians who were part of this shared culture and not just mathematicians living in the borders of modern day Greece. As an example, an important center of Greek mathematics was Alexandria in Egypt, which was home to the famous Library of Alexandria and its associated school, called the Musaeum, which brought together scholars throughout the world.
+</p>
+
+<p>
+  Famous mathematicians who studied at the Musaeum were Archimedes, Eratosthenes, Hero, and Euclid.
+</p>
+
+<p>
+  Despite being one of the most influential mathematicians of all time, very little is known about Euclid. This has led some historians to hypothesize that the works of Euclid were written by a team of mathematicians who took the name Euclid from Euclid of Megara, a philosopher who lived 100 years earlier. 
+</p>
+
+<p>
+  Around 300 B.C. Euclid wrote The Elements, a mathematical textbook that covered geometry, number theory, and algebra.
+</p>
+
+<p>
+  Euclid most likely didn't come up with a single proposition in The Elements. Instead he collected theorems, postulates, and demonstrations of other mathematicians.
+</p>
+
+<p>
+  The Elements is one of the most influential mathematics textbooks ever written. For many years it was the standard textbook for anyone studying geometry. Over 1,000 editions of The Elements have been published, the most of any book except for The Bible.
+</p>
+
+<p>
+  Ancient Greek mathematics was deductive, meaning that propositions are proved by showing that they are logical consequences of previously accepted statements. Suppose that we show that proposition A follows by assuming proposition B. Then we need to prove B. If we prove B using proposition A, then we fall into the trap of circular reasoning, so we must prove B using another proposition, C. But then we need to prove C without using A or B. Since this chain of reasoning can't be carried back forever, we must assume at the start some truths that we accept as obvious. These are known as axioms or postulates. You might think of these as the rules of the game of mathematics, and everything else comes from following the rules.
+</p>
+
+<p>
+  Euclid began The Elements by accepting 5 axioms and 5 postulates.
+</p>
+
+<p>
+  The 5 axioms are
+  <ol>
+    <li>
+      <p>
+        Things that are equal to the same thing are also equal to one another.
+      </p>
+    </li>
+    <li>
+      <p>
+        If equals be added to equals, the wholes are equal.
+      </p>
+    </li>
+    <li>
+      <p>
+        If equals be subtracted from equals, the remainders are equal.
+      </p>
+    </li>
+    <li>
+      <p>
+        Things that coincide with one another are equal to one another.
+      </p>
+    </li>
+    <li>
+      <p>
+        The whole is greater than the part.
+      </p>
+    </li>
+  </ol>
+</p>
+
+<p>
+  The 5 postulates are
+  <ol>
+    <li>
+      <p>
+        It is possible to draw a straight line from any point to any other point.
+      </p>
+    </li>
+    <li>
+      <p>
+        It is possible to produce a finite straight line indefinitely in that straight line.
+      </p>
+    </li>
+    <li>
+      <p>
+        It is possible to describe a circle with any point as center and with a radius equal to any straight line drawn from the center.
+      </p>
+    </li>
+    <li>
+      <p>
+        All right angles are equal to one another.
+      </p>
+    </li>
+    <li>
+      <p>
+        If a straight line intersects two straight lines so as to make the interior angles on one side of it together less than two right angles, these straight lines will intersect, if indefinitely produced, on the side on which are the angles which are together less than two right angles.
+      </p>
+    </li>
+  </ol>
+</p>
+
+<p>
+  Postulate 5 is also known as the parallel postulate because it involves parallel lines. Because it is much wordier than the other 4 postulates, and because it is not self-evident, for thousands of years many attempts were made to prove the it using the other axioms and postulates. There is even evidence that Euclid himself only included it as a postulate when he realized that he could neither prove it nor proceed without it. We will return to this problem near the end of the course when we discuss non-Euclidean geometry. There we will see how this difficulty was resolved.
+</p>
+
+<p>
+  To get a feel for how Euclid approached geometry, let us consider Proposition 1 from Book 1 of the Elements.
+</p>
+
+<blockquote>
+  <p>
+    <em>To construct an equilateral triangle on a given finite straight line</em>
+  </p>
+
+  <p>
+    Let <m>AB</m> be the given finite straight line.
+  </p>
+
+  <p>
+    It is required to construct an equilateral triangle on the straight line <m>AB</m>
+  </p>
+
+  <p>
+    Describe the circle <m>BCD</m> with center <m>A</m> and radius <m>AB</m>. Again describe the circle <m>ACE</m> with center <m>B</m> and radius <m>BA</m>. Join the straight lines <m>CA</m> and <m>CB</m> from the point <m>C</m> at which the circles cut one another to the points <m>A</m> and <m>B</m>
+  </p>
+
+  <p>
+    Now, since the point <m>A</m> is the center of the circle <m>CDB</m>, therefore <m>AC</m> equals <m>AB</m>. Again, since the point <m>B</m> is the center of the circle <m>CAE</m>, therefore <m>BC</m> equals <m>BA</m>. 
+  </p>
+
+  <p>
+    But <m>AC</m> was proved equal to <m>AB</m>, therefore each of the straight lines <m>AC</m> and <m>BC</m> equals <m>AB</m>.
+  </p>
+
+  <p>
+    And things which equal the same thing also equal one another, therefore <m>AC</m> also equals <m>BC</m>.
+  </p>
+
+  <p>
+    Therefore the three straight lines <m>AC</m>, <m>AB</m>, and <m>BC</m> equal one another.
+  </p>
+
+  <p>
+    Therefore the triangle <m>ABC</m> is equilateral and it has been constructed on the given finite straight line <m>AB</m>.
+  </p>
+
+  <p>
+    Q.E.F.
+  </p>
+
+
+</blockquote>
+
+<p>
+  Q.E.F. at the end of Proposition 1 stands for <term>Quod Erat Faciendum</term>, Latin for <q>which had to be done</q>. Euclid used this expression as the close of constructions in the Elements. The similar Q.E.D. which stands for <term>Quod Erat Demonstrandum</term>, Latin for <q>what was to be shown</q> is used at the end of theorems.
+</p>
+
+<p>
+  Note that Euclid does not only give the procedure for constructing the equilateral triangle, but he also proves that the resulting construction is an equilateral triangle. In contrast, Egyptian and Babylonian mathematics did not emphasize proofs and did not include them.
+</p>
+
+<p>
+  Despite the thoroughness of Euclid's construction and proof, several objections have been raised concerning Proposition 1. As it turns out there are several gaps in the proof where Euclid assumes something to be true without sufficient justification.
+</p>
+
   </section>
