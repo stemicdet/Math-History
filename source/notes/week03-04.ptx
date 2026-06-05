@@ -170,4 +170,117 @@
   Despite the thoroughness of Euclid's construction and proof, several objections have been raised concerning Proposition 1. As it turns out there are several gaps in the proof where Euclid assumes something to be true without sufficient justification.
 </p>
 
+<p>
+  One critique of Euclid's proof is the question of why the point <m>C</m> exists. The point <m>C</m> is mentioned as the point where the circles intersect, but no justification is given for why the circles have to intersect or why they can only intersect at a single point. Some postulate is needed such as <q>If the sum of the radii of two circles is greater than the line joining their centers then the two circles intersect.</q> 
+</p>
+
+<p>
+  Another criticism was given by Zeno of Sidon, an Epicurean philosopher in the early first century B.C. who sought to show that deductions from the fundamental principals of geometry cannot be proved. He questioned why <m>ABC</m> contains an equilateral triangle and argued that was not shown that the sides do not meet before they reach the vertices. If <m>AB</m> and <m>BC</m> meet at <m>E</m> before they reach <m>C</m> then the straight lines <m>AEC</m> and <m>BEC</m> have a common segment <m>EC</m>. They would contain a triangle <m>ABE</m> which is not equilateral but isosceles. 
+</p>
+
+<p>
+  Many of the problems in the Elements concern the construction of various geometric shapes using a straightedge and a compass. The straightedge and compass are generalizations of real world rulers and compasses.
+</p>
+
+<p>
+  The straightedge is infinitely long, but has no markings on it, unlike ordinary rulers. It can only be used to draw a line segment between 2 points or to extend an existing line segment.
+</p>
+
+<p>
+  The compass can be opened infinitely wide, but has no markings on it. Circles can be drawn starting from 2 different points: the center, and a point on the circle.
+</p>
+
+<p>
+  Each construction must be exact; looking at the construction and guessing at its accuracy or using a ruler to measure it and getting close doesn't count as a solution.
+</p>
+
+<p>
+  Each construction must terminate. It must have a finite number of steps and not be the limit of ever closer approximations.
+</p>
+
+<p>
+  As an example, the following steps show how to find the midpoint of a line segment.
+  <ol>
+    <li>
+      <p>
+        Open the compass a distance that is between half the length of the line segment and the entire line segment.
+      </p>
+    </li>
+    <li>
+      <p>
+        Draw a circle centered at one endpoint; then draw a second circle centered at the other endpoint.
+      </p>
+    </li>
+    <li>
+      <p>
+        These circles intersect at 2 points. Draw a line between the 2 points. The place where the line intersects the line segment is the midpoint of the line segment.
+      </p>
+    </li>
+  </ol>
+</p>
+
+<p>
+  Many geometric figures are constructible using only a straightedge and compass. These include finding a perpendicular bisector to a line segment, finding the midpoint of a line segment, bisecting an angle, constructing a line through a point tangent to a circle, and drawing a line through a given point parallel to a given line.
+</p>
+
+<p>
+  These constructions were known to the Ancient Greeks and many appear in Euclid's Elements. For example, Proposition 9 gives the construction of a bisector of a given angle.
+</p>
+
+<p>
+  The elements consists of thirteen books. Contrary to popular belief the Elements discusses more than just geometry. Books I-VI discuss plane geometry, books VII-X discuss number theory, and books XI - XIII discuss solid geometry. 
+</p>
+
+<p>
+  Book I begins with a list of axioms, postulates, and definitions. It also includes 48 propositions including a proof that the base angles of an isosceles triangle are equal (Proposition 5) and the Pythagorean Theorem (Proposition 48)
+</p>
+
+<p>
+  Book II focuses on area and quadrature, meaning the construction of a square of equal area to a given figure. Proposition 11 features a division of a line segment into a proportion called the golden ratio.
+</p>
+
+<p>
+  Book III deals with the properties of circles. 
+</p>
+
+<p>
+  Book IV deals with the problem of inscribing a polygon within a circle and circumscribing a polygon about a circle.
+</p>
+
+<p>
+  Book V deals with ratios and proportions.
+</p>
+
+<p>
+  Book VI applies the theory of ratios from Book V and applies it to plane geometry. Proposition 25 constructs from 2 given polygons, a third polygon that is similar to the first and has the same area as the second. The Greek historian Plutarch called it <q>more subtle and more scientific</q> than the Pythagorean theorem.
+</p>
+
+<p>
+  Book VII deals with number theory and includes propositions for finding the greatest common divisor and least common multiple.
+</p>
+
+<p>
+  Book VIII deals with geometric sequences, square numbers, and cube numbers.
+</p>
+
+<p>
+  Book IX includes a proof that there are infinitely many prime numbers (proposition 20), the formula for the sum of a finite geometric series (proposition 35) and a construction using this sum for even perfect numbers. A number is perfect if it equals the sum of its proper divisors. For example the proper divisors of <m>6</m> are <m>1,2</m> and <m>3</m> and <m>1+2+3=6</m> so <m>6</m> is a perfect number. In the 18th century Leonhard Euler proved that this construction generates all even perfect numbers. 
+</p>
+
+<p>
+  Book X deals with irrational numbers. Proposition 9 proves that square roots of non-square integers such as <m>\sqrt{2}</m> are irrational.
+</p>
+
+<p>
+  Book XI discusses parallelpipeds, solids with three pairs of parallel faces.
+</p>
+
+<p>
+  Book XII discusses the volumes of cones, pyramids, and cylinders using the method of exhaustion. It includes a proof that the volume of a cone is one third the volume of the corresponding cylinder.
+</p>
+
+<p>
+  Book XIII discusses the five regular polyhedron: the tetrahedron, cube, octahedron, dodecahedron, and icosahedron. A regular polyhedron is a solid whose faces are regular polygons that are equal in shape and size and the same number of faces meet at each vertex. It concludes by showing that these are the only regular polyhedron.
+</p>
+
   </section>
