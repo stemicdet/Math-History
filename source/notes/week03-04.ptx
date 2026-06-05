@@ -6,7 +6,7 @@
 <subsection xml:id="subsec-Euclid">
   <title>Euclid and The Elements</title>
   
-</subsection>
+
 
 <p>
   Western mathematics is heavily influenced by Ancient Greek mathematics. In fact the word mathematics comes from a Greek word mathema, meaning <q>that which is learned</q>
@@ -264,8 +264,56 @@
 </p>
 
 <p>
-  Book IX includes a proof that there are infinitely many prime numbers (proposition 20), the formula for the sum of a finite geometric series (proposition 35) and a construction using this sum for even perfect numbers. A number is perfect if it equals the sum of its proper divisors. For example the proper divisors of <m>6</m> are <m>1,2</m> and <m>3</m> and <m>1+2+3=6</m> so <m>6</m> is a perfect number. In the 18th century Leonhard Euler proved that this construction generates all even perfect numbers. 
+  Book IX includes a proof that there are infinitely many prime numbers (Proposition 20), the formula for the sum of a finite geometric series (Proposition 35) and a construction using this sum for even perfect numbers. A number is perfect if it equals the sum of its proper divisors. For example the proper divisors of <m>6</m> are <m>1,2</m> and <m>3</m> and <m>1+2+3=6</m> so <m>6</m> is a perfect number. In the 18th century Leonhard Euler proved that this construction generates all even perfect numbers. 
 </p>
+
+<theorem xml:id="thm-prop-36">
+  <title>Book IX Proposition 36</title>
+  
+  
+  <statement>
+    <p>
+      An even number is perfect if it has the form <m>2^{p-1}(2^p-1)</m> where <m>2^p-1</m> is a prime number.
+    </p>
+  </statement>
+</theorem>
+
+<p>
+  Example: If <m>p=2</m> then <m>2^p-1 = 3</m> which is prime and <m>2^{p-1} = 2</m>. Hence <m>6</m> is a perfect number.
+</p>
+
+<proof>
+  <p>
+    Let <m>\sigma(p)</m> denote the sum of the divisors of <m>p</m> including <m>p</m> itself. Thus <m>p</m> is a perfect number if <m>\sigma(p) = 2p</m>. Note that if <m>a</m> and <m>b</m> have no divisors in common then <m>\sigma(ab) = \sigma(a)\cdot \sigma(b)</m>. For example, <m>\sigma(36) = 1+2+3+4+6+9+12+18+36 = 91</m>, <m>\sigma(9) = 1+3+9 = 13</m> and <m>\sigma(4) = 1+2+4=7</m>
+  </p>
+
+  <p>
+    By the multiplicative property of <m>\sigma</m>, when <m>2^p-1</m> is prime,
+    <md>
+      \sigma(2^{p-1}(2^p-1)) = \sigma(2^{p-1}) \sigma(2^p-1)
+    </md>
+    
+  </p>
+
+  <p>
+    The divisors of <m>2^{p-1}</m> are <m>1,2,4,8, \ldots 2^{p-1}</m> whose sum is a geometric series whose sum is <m>2^p-1</m>.
+  </p>
+
+  <p>
+    Since <m>2^p-1</m> is prime, its divisors are <m>1</m> and <m>2^p-1</m> so the sum of its divisors is <m>2^p</m>
+  </p>
+
+  <p>
+    Thus
+    <md>
+      <mrow>  \sigma(2^{p-1}(2^p-1)) \amp = \sigma(2^{p-1}) \sigma(2^p-1) </mrow>
+      <mrow> \amp =(2^p-1)(2^p)</mrow>
+      <mrow> \amp =2(2^{p-1})(2^p-1)</mrow>
+    </md>
+    and thus <m>2^{p-1}(2^p-1)</m> is perfect.
+  </p>
+
+</proof>
 
 <p>
   Book X deals with irrational numbers. Proposition 9 proves that square roots of non-square integers such as <m>\sqrt{2}</m> are irrational.
@@ -282,5 +330,66 @@
 <p>
   Book XIII discusses the five regular polyhedron: the tetrahedron, cube, octahedron, dodecahedron, and icosahedron. A regular polyhedron is a solid whose faces are regular polygons that are equal in shape and size and the same number of faces meet at each vertex. It concludes by showing that these are the only regular polyhedron.
 </p>
+
+</subsection>
+
+<subsection xml:id="subsec-Three-Famous-Problems">
+  <title>Three Famous Problems</title>
+
+
+  <p>
+    Three famous construction problems posed by the Greeks went unsolved until modern times. The problems are
+    <ol>
+      <li>
+        <p>
+          Doubling the cube 
+        </p>
+      </li>
+      <li>
+        <p>
+          Trisecting the angle
+        </p>
+      </li>
+      <li>
+        <p>
+          Squaring the circle
+        </p>
+      </li>
+    </ol>
+  </p>
+
+  <p>
+    Though unsolved by the Greeks, the search for solutions to these problems heavily influenced Greek geometry and led to many new discoveries.
+  </p>
+
+  <p>
+    The first of these problems is the problem of doubling the cube. Legend has it that citizens of Delos were told by the Oracle that in order to stop a plague sent by Apollo, they needed to double the size of Apollo's altar, which was a perfect cube. Supposedly when they asked Plato about it, he replied that the Oracle meant, not that the god wanted an altar of double the size, but that he wished in setting them the task to shame the Greeks for their neglect of mathematics and their contempt of geometry.  
+  </p>
+
+  <p>
+    The problem of doubling the cube is as follows: Given the edge of a cube, construct the edge of a second cube whose volume is double that of the first.
+  </p>
+
+  <p>
+    Before we delve into the solution of this problem, let us first consider a construction that the Greeks knew how to perform: doubling the square.
+  </p>
+
+  <p>
+    The Dialogue <term>Meno</term> written by Plato is an account of a conversation between the philosopher Socrates and Meno concerning the nature of virtue. In it, Socrates argues that knowledge is not learned but rather is recollected. At one point, to illustrate his ideas, he interrogates one of Meno's slaves who is ignorant of geometry. Socrates draws a square with side lengths 2 feet on the ground and asks the slave how much the length of the side must be in order to double the length of the original square. At first the slave guesses that the original length must be doubled (4ft) but Socrates shows that this leads to a square that is four times as large. Next the slave guesses three feet, but Socrates shows that this is still too large and the slave admits that he does not know the answer. 
+  </p>
+
+  <p>
+    Socrates draws three more squares to the original square to form a square that is four times as large. Then he draws four diagonal lines through each of the four squares and by only asking questions leads the slave to see that the square made by these diagonals has an area of eight square feet, twice the area of the original. He claims that the slave made the discovery without ever being taught anything about geometry and thus has recollected the knowledge that he had before he was born. 
+  </p>
+
+  <p>
+    The example from <term>Meno</term> shows that the Greeks knew how to construct a square with double the area of a given square.
+  </p>
+
+  <p>
+    Using algebra we can calculate the length of the second square. Suppose the first square has length <m>1</m> and the second square has length <m>x</m>. If the second square has double the area of the first square than <m>x^2 = 2</m>. Thus <m>x = \sqrt{2}</m>, which is why constructing the sides of the second square from the diagonal of the first square produces a square with double the area.
+  </p>
+  
+</subsection>
 
   </section>
