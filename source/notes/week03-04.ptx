@@ -389,6 +389,132 @@
   <p>
     Using algebra we can calculate the length of the second square. Suppose the first square has length <m>1</m> and the second square has length <m>x</m>. If the second square has double the area of the first square than <m>x^2 = 2</m>. Thus <m>x = \sqrt{2}</m>, which is why constructing the sides of the second square from the diagonal of the first square produces a square with double the area.
   </p>
+
+  <p>
+    Now let's use algebra to find the edge length of a cube with double the volume. Suppose a cube has edge length <m>1</m> so that its volume is <m>1 \cdot 1 \cdot 1 = 1</m> and that a second cube has double the volume of the first cube. We can calculate the length of the second edge using algebra. Let <m>x</m> be the length of the second edge. Then <m>x^3 = 2</m>, so <m>x = \sqrt[3]{2}</m>. 
+  </p>
+
+  <p>
+    The problem is that it is impossible to construct an edge with measure <m>\sqrt[3]{2}</m> from an edge with measure <m>1</m> using only a straightedge and compass. This remarkable fact was proved in 1837 by Pierre Wantzel. There are ways to double the cube, but none involving only a straightedge and compass.
+  </p>
+
+  <p>
+    The next famous unsolved problem of Greek mathematics is the problem of trisecting the angle. Similar to the first problem, we'll start by considering a construction that the Greeks knew how to do: bisecting an angle.
+  </p>
+
+  <p>
+    The problem of bisecting the angle is as follows: Given an arbitrary angle, construct an angle with measure <m>1/2</m> of that of the original angle.
+  </p>
+
+  <p>
+    Book I Proposition 9 of Euclid's elements gives the construction of an angle with half the measure as a given angle.
+  </p>
+
+  <blockquote>
+    <p>
+      <em>To bisect a given rectilinear angle</em>
+    </p>
+
+    <p>
+      Let the angle <m>BAC</m> be the given rectilinear angle. It is required to bisect it.
+    </p>
+
+    <p>
+      Take an arbitrary point <m>D</m> on <m>AB</m>. Cut off <m>AE</m> from <m>AC</m> and join <m>DE</m>. Construct the equilateral triangle <m>DEF</m> on <m>DE</m> and join <m>AF</m>
+    </p>
+
+    <p>
+      I say that the angle <m>BAC</m> is bisected by the straight line <m>AF</m>. 
+    </p>
+
+    <p>
+      Since <m>AD = AE</m> and <m>AF</m> is common, therefore the two sides <m>AD</m> and <m>AF</m> equal the two sides <m>EA</m> and <m>AF</m> respectively.
+    </p>
+
+    <p>
+      And the base <m>DF</m> equals the base <m>EF</m>, therefore the angle <m>DAF</m> equals the angle <m>EAF</m>. 
+    </p>
+
+    <p>
+      Therefore the given rectilinear angle <m>BAC</m> is bisected by the straight line <m>AF</m>. Q.E.F.
+    </p>
+
+  </blockquote>
+
+  <p>
+    It is possible to trisect certain angles. The following procedure can be used to trisect a right angle.
+    <ol>
+      <li>
+        <p>
+          Draw a circle centered at the vertex of the angle.
+        </p>
+      </li>
+      <li>
+        <p>
+          Choose a point on a leg where the circle passes through. Draw a 2nd circle centered at this point with the same radius.
+        </p>
+      </li>
+      <li>
+        <p>
+          The circles intersect at a 3rd point. Connect the 3rd point with the other 2 points to create an equilateral triangle. Since the angles of an equilateral triangle measure 60 degrees, The remaining part of the right angle measures 30 degrees. Thus the angle is trisected.
+        </p>
+      </li>
+    </ol>
+  </p>
+
+  <p>
+    The <term>Book of Lemmas</term>, a work introduced by the Arabic scholar Thabit ibn-Qurra in the 9th century AD but attributed to Archimedes contains a construction of a trisection of an arbitrary angle; however, it makes use of a technique called <term>neusis</term> which is not allowed by Euclid's rules for constructions with straightedge and compass.
+  </p>
+
+  <p>
+    In a <term>neusis</term> construction, the straightedge is marked at two points and used to fit a line between the points into a diagram.
+  </p>
+
+  <p>
+    The following procedure uses neusis to trisect an angle.
+
+    <ol>
+      <li>
+        <p>
+          Suppose the angle <m>ABC</m> is to be trisected. Draw a circle <m>DEF</m> with center <m>B</m> and any radius.
+        </p>
+      </li>
+      <li>
+        <p>
+          Extend <m>CB</m> through <m>D</m> and beyond.
+        </p>
+      </li>
+      <li>
+        <p>
+          Fit in a line <m>GHE</m> passing through <m>E</m> and a point <m>G</m> on the line <m>CB</m> so that a segment equal to the radius <m>BD</m> of the circle starts at <m>G</m> and ends at a point <m>H</m> on the circle. To do this you have to move <m>G</m> around until <m>H</m> lands on the circle. Draw <m>BH</m>
+        </p>
+      </li>
+    </ol>
+
+  </p>
+
+  <p>
+    Using results from Euclid's Elements we can show that the angle <m>EGC</m> is one-third of angle <m>ABC</m>. 
+  </p>
+
+  <proof>
+    <p>
+      Since the lines <m>GH</m>, <m>HB</m> and <m>BE</m> are equal, the triangles <m>GHB</m> and <m>HBE</m> are isosceles. By Proposition 5 of Book I, isosceles triangles have equal base angles and thus angle <m>HGB</m> equals <m>HBG</m> and <m>BHE</m> equals <m>BEH</m>. 
+    </p>
+
+    <p>
+      Book I Proposition 32 states that the exterior angle of a triangle equals the sum of the opposite interior angles. Thus the exterior angle <m>BHE</m> of triangle <m>GHB</m> equals the sum of the equal angles <m>HGB</m> and <m>HBG</m>. Thus <m>BHE</m> is double <m>HGB</m>. Also <m>BEH</m> equals <m>BHE</m> so it also is double <m>HGB</m>.
+    </p>
+
+    <p>
+      Again by this proposition, the exterior angle <m>ABC</m> of triangle <m>BEG</m> equals the sum of the equal angles <m>HGB</m> and <m>BEH</m>. But <m>BEH</m> is double <m>HGB</m> and thus <m>ABC</m> is triple <m>HGB</m>.
+    </p>
+
+    <p>
+      Therefore, angle <m>GHB</m> is one third of angle <m>ABC</m>.
+    </p>
+
+  </proof>
   
 </subsection>
 
