@@ -515,6 +515,66 @@
     </p>
 
   </proof>
+
+  <p>
+    Although some angles can be trisected with only a straightedge and compass; others cannot, so it is not possible to trisect an arbitrary angle. This fact was also proven by Pierre Wantzel in 1837.
+  </p>
+
+  <p>
+    It is known which angles can be trisected. For a positive integer N, an angle of measure <m>\dfrac{2\pi}{N}</m> radians is trisectable if and only if <m>N</m> is not divisible by 3. 
+  </p>
+
+  <p>
+    Since 90 degrees is <m>\dfrac{2\pi}{4}</m> radians, a 90 degree angle is trisectable. However, a 60 degree angle is not trisectable, because 60 degrees is <m>\dfrac{2\pi}{6}</m> radians.
+  </p>
+
+  <p>
+    The last Ancient Greek construction problem is squaring the circle: Given a circle, construct a square with the same area.
+  </p>
+
+  <p>
+    The first Greek to consider this problem was Anaxogoras around 450 B.C. who considered the problem while imprisoned for claiming that the sun was not a god and that the moon reflects the sun's light.
+  </p>
+
+  <p>
+    This problem goes back further than the Greeks. The Rhind Papyrus shows that the Egyptians knew that an approximate solution is to this problem is to remove 1/9 from the diameter of the circle and then make a square out of that.
+  </p>
+
+  <p>
+    The Ancient Greeks and Ancient Egyptians were not the only ones interested in solving this problem. Mathematicians in China, India, and the Islamic world also attempted to square the circle.
+  </p>
+
+  <p>
+    Suppose that the circle has radius measuring <m>1</m> unit. Then the area of the circle is <m>\pi \cdot 1^2 = \pi</m>. Thus the side length of the square with the same area must be <m>\sqrt{\pi}</m>. If such a length were constructible, then it would be possible to construct a length of <m>\pi</m>. 
+  </p>
+
+  <p>
+    Thus to show that it's impossible to square the circle, we must show that <m>\pi</m> is not constructible. 
+  </p>
+
+  <p>
+    The problem of squaring the circle was finally solved in 1880 when Ferndinand Von Lindemann proved that <m>\pi</m> is transcendental, meaning that it is not the root of a polynomial with integer coefficients. It was known that transcendental numbers are not constructible.
+  </p>
+
+  <p>
+    The popularity of the problem of squaring the circle has led to many amateur mathematicians presenting false proofs asserting that the construction was possible, despite the fact that it is known to be impossible. Typically these proofs would work by first <q>proving</q> that <m>\pi</m> is a rational number.
+  </p>
+
+  <p>
+    One example is a book by Carl Heisel in 1931, <em>Behold! The Grand Problem No Longer Unsolved: The Circle Squared Beyond Refutation</em>
+  </p>
+
+  <p>
+    The title page is even longer: <em>Behold! The Grand Problem No Longer Unsolved: The Circle Squared Beyond Refutation. Mathematical and Geometrical Demonstrations by Carl Theodore Heisel: Disproving Numerous Theorems, Problems, Postulates, Corollaries, Axioms, and Propositions with Ratios, Laws, and Rules Hitherto Unknown in the Mathematical and Geometric Science Naturally Growing Out of the Extraordinary and Significant Discoveries of a Lacking Link by Carl Theodore Faber, in the Demonstration of the World Renowned Pythagorean Problem Utterly Disproving its Absolute Truth, Although Demonstrated as such for 24 Centuries; and by This Discovery Establishing the Fact of the Existence of Perfect Harmony Between Arithmetic and Geometry as a Law of Nature, and Calculating to Settle Forever the Famous Dispute Between the Two Great Philosophical Schools</em>
+  </p>
+
+  <p>
+    In the book he shows that <m>\pi = 3 \frac{13}{81}</m>. He also claims that irrational numbers don't exist, the Pythagorean Theorem is only true in special cases, and all right triangles have integer ratios.
+  </p>
+
+  <p>
+    His arguments rely on faulty and misleading pictures, and incorrect reasoning. For instance, his <q>proof</q> that <m>\pi = 3 \frac{13}{81}</m> works for other values for <m>\pi</m> as well.
+  </p>
   
 </subsection>
 
