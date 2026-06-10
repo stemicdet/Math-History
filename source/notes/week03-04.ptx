@@ -590,7 +590,7 @@
   </p>
 
   <p>
-    On of Archimedes' most important works is <term>The Measurement of a Circle</term> despite its short length. (It only contains three propositions.)
+    On of Archimedes' most important works is <em>The Measurement of a Circle</em> despite its short length. (It only contains three propositions.)
   </p>
 
   <p>
@@ -631,6 +631,146 @@
       3.1415926 \leq \pi \leq 3.1415927
     </md>
   which is accurate to six decimal places. (Note that he did not actually draw such a polygon, but made use of an algorithm for determining the areas of such polygons developed by Liu Hui.)
+  </p>
+
+
+  <p>
+    Another accomplishment of Archimedes is his work <em>The Sand-Reckoner</em> in which he set out to estimate the number of grains of sand in the universe. He explains his reasons for this in his address to King Gelon of Syracuse.
+  </p>
+
+  <blockquote>
+    <p>
+      There are some, king Gelon, who think that the number of the sand is infinite in multitude; and I mean by the sand not only that which exists about Syracuse and the rest of Sicily but also that which is found in every region whether inhabited or uninhabited. Again there are some who, without regarding it as infinite, yet think that no number has been named which is great enough to exceed its magnitude. And it is clear that they who hold this view, if they imagined a mass made up of sand in other respects as large as the mass of the Earth, including in it all the seas and the hollows of the Earth filled up to a height equal to that of the highest of the mountains, would be many times further still from recognizing that any number could be expressed which exceeded the multitude of the sand so taken.
+    </p>
+
+    <p>
+      But I will try to show you by means of geometrical proofs, which you will be able to follow, that, of the numbers named by me and given in the work which I sent to Zeuxippus, some exceed not only the number of the mass of sand equal in magnitude to the Earth filled up in the way described, but also that of the mass equal in magnitude to the universe.
+    </p>
+  </blockquote>
+
+  <p>
+    As mentioned in his address to King Gelon, Archimedes had come up with a method for expressing very large numbers. Recall that Greek numerals did not allow for arbitrarily large numbers to be expressed like our modern place value system. In the Greek system putting <m>M</m> (for myriad) in front of a number multiplied it by <m>10,000</m>. Thus <m>M\beta = 10,000*2 = 20,000</m>. The largest number that can be written in this system is a myriad-myriad <m>MM = 10^8</m>.
+  </p>
+
+  <p>
+    Archimedes called numbers up to <m>10^8</m> <term>first order numbers</term> and called <m>10^8</m> the <term>unit of the second order</term>. Multiplying this number by first order numbers gave <term>second order numbers</term> up to <m>10^8 \cdot 10^8 = 10^{16}</m> which he called the <term>unit of the third order</term>. Multiplication of number of lower order by the unit of the third order gave <term>third order numbers</term> and this process could be repeated indefinitely.
+  </p>
+
+  <p>
+    Archimedes continued to name numbers in this way until he reached <m>(10^8)^{10^8}</m>. He called the orders that he had defined to be <term>orders of the first period</term> and called <m>(10^8)^{10^8}</m> the <term>unit of the second period</term>. He then constructed the <term>orders of the second period</term> by multiplying orders of the first period by the unit of the second period until he reached <m>(10^8)^{10^8} \cdot (10^8)^{10^8}</m> which is the <term>unit of the third order</term>. Archimedes continued this process until he reached orders of the myriad-myriath period. The largest number he named is the last number of this period which is
+    <md>
+      ((10^8)^{10^8})^{10^8} = 10^{8\cdot 10^{16}}.
+    </md>
+    In our notation this number is written as <m>1</m> followed by <m>80,000,000,000,000,000</m> zeros.
+  </p>
+  
+  <p>
+    Archimedes like most astronomers of the time believed that the universe was a sphere whose center was the Earth and whose radius was the distance from the earth to the sun. He assumed that the diameter of the Earth was greater than that of the moon but less than that of the sun and that the diameter of the sun was 30 times that of the moon. Thus
+    <md>
+      D_{sun} = 30 D_{moon} &lt; D_{earth}
+    </md>
+    
+  </p>
+
+  <p>
+    In <em>The Sand Reckoner</em> Archimedes proved that the perimeter of a regular polygon of <m>1000</m> sides inscribed in a circle with the diameter of the universe was greater than <m>3</m> times the diameter of the universe but less than <m>1000</m> times the diameter of the sun. Hence
+    <md>
+      3D_{univ} &lt; 1000 D_{sun} &lt; 30,000 D_{earth}
+    </md>
+    
+  </p>
+
+  <p>
+    The circumference of the earth was believed to be <m>300,000</m> stadia (<m>55,470</m>km) but to be sure he multiplied this by a factor of ten, thus assuming that
+    <md>
+      D_{earth} &lt; 1,000,000 \text{ stadia }.
+    </md>
+    
+  </p>
+
+  <p>
+    From these assumptions, Archimedes concluded that the diameter of the universe was less than <m>10^{10}</m> stadia. Next, he supposed that a grain of sand had small but definite size. He estimated that <m>10,000</m> grains  of sand would fit in a poppy seed and that <m>40</m> poppy seeds lined in a row would exceed a finger-breath. Using <m>V = \frac{\pi}{6}D^3 &lt; D^3</m>, he calculated that a sphere of diameter one finger-breath would contain at most <m>64,000</m> poppy seeds or at most <m>640,000,000</m> grains of sand which is far less than one billion or <m>10^9</m>. Since one stadium is less than <m>1,000 = 10^4</m> finger-breaths the number of grains in a sphere of sand of diameter one stadium is less than <m>10^9</m>. Thus an upper bound for the number of grains of sand in a sphere with diameter one stadium is
+    <md>
+      10^9(10^4)^3 = 10^{21}.
+    </md>
+    
+  </p>
+
+  <p>
+    Therefore a universe of diameter <m>10^10</m> stadia would contain less than
+    <md>
+      10^{21}(10^{10})^3 = 10^{51} \text{ grains of sand}
+    </md>
+    or in Archimedes' notation <term>one thousand units of the seventh order of numbers</term>
+  </p>
+
+  <p>
+    Archimedes also applied his method to the <term>universe given by the hypothesis of Aristarchus</term>. Aristarchus' original works have been lost to history but we know about them from <em>The Sand Reckoner</em>. In another section addressed to King Gelon, Archimedes writes
+  </p>
+
+  <blockquote>
+    <p>
+      You are aware that <q>universe</q> is the name given by most astronomers to the sphere, the center of which is the center of the earth, while its radius is equal to the straight line between the center of the sun and the center of the Earth. This is the common account as you have heard from astronomers. But Aristarchus brought out a book consisting of certain hypotheses, wherein it appears, as a consequence of the assumptions made, that the universe is many times greater than the <q>universe</q> just mentioned. His hypotheses are that the fixed starts and the sun remain unmoved, that the earth revolves about the sun in the circumference of a circle, the sun lying in the middle of the orbit, and that the sphere of fixed stars, situated about the same center as the sun, is so great that the circle in which supposes the earth to revolve bears such a proportion to the distance of the fixed stars as the center of the sphere bears to its surface.
+    </p>
+  </blockquote>
+
+  <p>
+    With these assumptions Archimedes calculated that the universe proposed by Aristarchus was no more than <m>10^{14}</m> stadia and that it would contain
+    <md>
+      10^{21}(10^{14})^3 = 10^{63} \text{ grains of sand}
+    </md>
+    so that even the number of grains of sand in Aristarchus' larger universe could be counted by Archimedes system.
+  </p>
+
+  <p>
+    Another problem that illustrates Archimedes' fondness for large numbers is Archimedes' cattle problem. The problem was rediscovered in 1773 by Gotthold Ephraim Lessing who found it in a collection of Ancient Greek manuscripts. It consists of a poem of 44 lines containing a problem asking the reader to find the number of cattle in the herd of the sun god Helios. The heading states that it is <q>the problem which Archimedes discovered and sent in an epigram ... in a letter to Eratosthenes</q>
+  </p>
+
+  <p>
+    The problem as translated states:
+  </p>
+
+  <blockquote>
+    <p>
+      If thou art diligent and wise, O stranger, compute the number of cattle of the Sun, who once upon a time grazed on the fields of the Thrinacian isle of Sicily, divided into four herds of different colours, one milk white, another a glossy black, a third yellow and the last dappled. In each herd were bulls, mighty in number according to these proportions: Understand, stranger, that the white bulls were equal to a half and a third of the black together with the whole of the yellow, while the black were equal to the fourth part of the dappled and a fifth, together with, once more, the whole of the yellow. Observe further that the remaining bulls, the dappled, were equal to a sixth part of the white and a seventh, together with all of the yellow. These were the proportions of the cows: The white were precisely equal to the third part and a fourth of the whole herd of the black; while the black were equal to the fourth part once more of the dappled and with it a fifth part, when all, including the bulls, went to pasture together. Now the dappled in four parts were equal in number to a fifth part and a sixth of the yellow herd. Finally the yellow were in number equal to a sixth part and a seventh of the white herd. If thou canst accurately tell, O stranger, the number of cattle of the Sun, giving separately the number of well-fed bulls and again the number of females according to each colour, thou wouldst not be called unskilled or ignorant of numbers, but not yet shalt thou be numbered among the wise.
+    </p>
+
+    <p>
+      But come, understand also all these conditions regarding the cattle of the Sun. When the white bulls mingled their number with the black, they stood firm, equal in depth and breadth, and the plains of Thrinacia, stretching far in all ways, were filled with their multitude. Again, when the yellow and the dappled bulls were gathered into one herd they stood in such a manner that their number, beginning from one, grew slowly greater till it completed a triangular figure, there being no bulls of other colours in their midst nor none of them lacking. If thou art able, O stranger, to find out all these things and gather them together in your mind, giving all the relations, thou shalt depart crowned with glory and knowing that thou hast been adjudged perfect in this species of wisdom.
+    </p>
+  </blockquote>
+
+  <p>
+    The first part of the problem can be solved by setting up a system of equations. Let <m>W,B,D,</m> and <m>Y</m> denote the white, black, dappled and yellow bulls and let <m>w,b,d,</m> and <m>y</m> denote the number of white, black, dappled, and yellow cows. Then the problem is to solve the system of equations
+    <md>
+      <mrow> W \amp = \frac{5}{6}B + Y</mrow>
+      <mrow> B \amp = \frac{9}{20}D + Y</mrow>
+      <mrow> D \amp = \frac{13}{42}W + Y</mrow>
+      <mrow> w \amp = \frac{7}{12}(B+b) </mrow>
+      <mrow> b \amp = \frac{9}{20}(D+d) </mrow>
+      <mrow> d \amp = \frac{11}{30}(Y+y) </mrow>
+      <mrow> y \amp = \frac{13}{42}(W+w)</mrow>
+    </md>
+    
+  </p>
+
+  <p>
+    This is a system of seven equations and eight unknowns meaning that it is indeterminate and has infinitely many solutions. The smallest positive integer solution is
+    <md>
+      <mrow> B \amp = 7,460,514</mrow>
+      <mrow> W \amp = 10,366,482</mrow>
+      <mrow> D \amp = 7,358,060</mrow>
+      <mrow> Y \amp = 4,149,387</mrow>
+      <mrow> b \amp = 4,893,246</mrow>
+      <mrow> w \amp = 7,206,360</mrow>
+      <mrow> d \amp = 3,515,820</mrow>
+      <mrow> y \amp = 5,439,213</mrow>
+    </md>
+    for a total of <m>50,389,082</m> cattle.
+  </p>
+
+  <p>
+    The second part of this problem states that <m>W+B</m> is a perfect square and <m>Y+D</m> is a <term>triangular number</term>, a number that can be represented as lattice points arranged in a equilateral triangle. (The first few triangular numbers are <m>1, 3, 6, 10, 15</m>.) The solution to the second part of the problem was found by Carl Amthor in 1880 and is about <m>7.76 \times 10^{206,544}</m>. For comparison there are about <m>10^{80}</m> atoms in the observable universe.  
   </p>
   
 </subsection>
