@@ -578,4 +578,61 @@
   
 </subsection>
 
+<subsection xml:id="subsec-Archimedes">
+  <title>Archimedes</title>
+
+  <p>
+    Archimedes (about 287-212 B.C.) is considered by many to be the ancient world's greatest genius. Despite this, not much is known of his life. He was born in the city of Syracuse, a Greek colony on the island of Syracuse, about a generation after Euclid and most likely studied in Alexandria, which was the seat of Greek mathematics and where he would have encountered other leading mathematicians of the time. However, he spent most of his life in Syracuse and died there when the city was sacked by the Romans during the Second Punic War. Archimedes contributed to the defense of the city and is reported to have used created a weapon by using mirrors to reflect the sun's light to set enemy ships on fire.
+  </p>
+
+  <p>
+    Archimedes is remembered for his inventions such as the screw pump and the compound pulley, but his mathematical achievements are just as impressive if not moreso.
+  </p>
+
+  <p>
+    On of Archimedes' most important works is <term>The Measurement of a Circle</term> despite its short length. (It only contains three propositions.)
+  </p>
+
+  <p>
+    Proposition I states that the area of a circle with circumference <m>C</m> and radius <m>r</m> is equal in area to a right triangle whose two legs measure <m>C</m> and <m>r</m>. In other words the area of a circle with radius <m>r</m> is <m>A = \pi r^2</m>.
+  </p>
+
+  <p>
+    Proposition III gives an estimate of <m>\pi</m> as being greater than <m>3 \frac{10}{71}</m> but less than <m>3 \frac{1}{7}</m>. This gives an approximation of <m>3.14</m> which was the most accurate at the time.
+  </p>
+
+  <p>
+    To determine this estimate Archimedes made use of a technique called the <term>method of exhaustion</term> which can be viewed as a forerunner to integral calculus.
+  </p>
+
+  <p>
+    The idea behind the method of exhaustion is to inscribe and circumscribe a circle with two similar polygons. Then the area of the circle must lie between the areas of the two polygons. By increasing the number of angles in the polygons, the areas of the polygons get closer to the area of the circle and the approximation becomes more exact.
+  </p>
+
+  <p>
+    Archimedes began by inscribing and circumscribing the circle with hexagons. The area of the hexagons can be found by dividing it into triangles and adding up the areas of the triangles. 
+  </p>
+
+  <p>
+    Next he bisected each angle in both hexagons to create 12-sided polygons that inscribed and circumscribed the circle. He further repeated this process to obtain polygons with 24, 48, and 96 sides. It was by calculating the areas of the 96-sided polygons that he found the upper and lower bounds for <m>\pi</m>.
+  </p>
+
+  <p>
+    Had he been able to continue this process to infinity, the areas of both polygons would have converged to the area of the circle, similar to how one uses an infinite number of rectangles to find the area underneath a curve in calculus. In this way the method of exhaustion can be viewed as a precursor to integral calculus. However, there is no evidence that Archimedes ever considered something like a limiting process to find the exact area; he only viewed the process as useful for finding approximations.
+  </p>
+
+  <p>
+    The method of exhaustion was later reinvented by Chinese mathematicians who used it to determine more accurate estimates for <m>\pi</m>. The 3rd century A.D. mathematician Liu Hui used polygons with 384 sides to determine that
+    <md>
+      3.1410204 \leq \pi \leq 3.132904
+    </md>
+    and the 5th century A.D. mathematician Zu Chongzhi used polygons of 12,288 sides to estimate that
+    <md>
+      3.1415926 \leq \pi \leq 3.1415927
+    </md>
+  which is accurate to six decimal places. (Note that he did not actually draw such a polygon, but made use of an algorithm for determining the areas of such polygons developed by Liu Hui.)
+  </p>
+  
+</subsection>
+
   </section>
