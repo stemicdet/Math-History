@@ -803,8 +803,102 @@
   </p>
 
   <p>
-    Diophantus used the symbol <m>\iota\sigma</m> to represent equality between the sides of the equation, like our equal sign, and used the symbol 
+    Diophantus used the symbol <m>\iota\sigma</m> to represent equality between the sides of the equation, like our equal sign, and used an upside down Greek letter phi <m>\phi</m> to represent subtraction. There was no symbol for addition but putting terms side by side represented adding them together. Also he used the Greek numeral symbols to represent coefficients. Thus the expression
+    <md>
+      K^\tau \beta \Delta^\tau \epsilon \zeta \delta \iota \sigma \pi
+    </md>
+    represents the equation
+
+    <md>
+      2x^3 + 5x^2 + 4x = 80
+    </md>
+    
   </p>
+
+  <p>
+    Example: Express the equation 
+    <md>
+      3x^3-10x = 100
+    </md>
+    using Diophantus' notation.
+  </p>
+
+  <p>
+    The problems in <em>Arithmetica</em> require positive rational solutions and only one solution was ever found, even if a problem admitted multiple solutions. There doesn't seem to be any pattern with how the problems are grouped and the problems do not build on each other as in <em>The Elements</em>. No general solution or proofs are given, just the particular solution. 
+  </p>
+
+  <p>
+    Book I Problem 17 states
+  </p>
+
+  <blockquote>
+    <p>
+      Find four numbers such that when any three of them are added together, their sum is one of four given numbers. Say the given numbers are <m>20</m>, <m>22</m>, <m>24</m>, and <m>27</m>.
+    </p>
+
+   
+
+  </blockquote>
+
+   <p>
+      Let <m>x</m> be the sum of all four numbers. Then the numbers are just <m>x-20</m>, <m>x-22</m>, <m>x-24</m>, and <m>x-27</m>. (For example if <m>(1)+(2)+(3) = 20</m> then adding <m>x-20</m> to both sides gives <m>(1)+(2)+(3)+x-20 = x</m> so <m>(4)=x-20</m>). Thus
+      <md>
+        x = (x-20)+(x-22)+(x-24)+(x-27)
+      </md>
+       which simplfies to <m>3x=93</m> or <m>x=31</m>. The required numbers are thus <m>11</m>, <m>9</m>, <m>7</m>, and <m>4</m>.
+    </p>
+
+  <p>
+    Book II Problem 13 states
+  </p>
+
+  <blockquote>
+    <p>
+      Find a number such that if two given numbers, say <m>6</m> and <m>7</m> are subtracted from it, both remainders are squares.
+    </p>
+
+  </blockquote>
+
+  <p>
+      Let <m>x</m> be the number, so that the problem is one of making <m>x-6</m> and <m>x-7</m> perfect squares. Let
+      <md>
+        x-6 = a^2
+      </md>
+
+      and
+
+      <md>
+        x-7 = b^2
+      </md>
+      
+      
+    </p>
+
+    <p>
+      Recall the algebraic identity
+
+      <md>
+        a^2-b^2 = (a+b)(a-b)
+      </md>
+      
+    </p>
+
+    <p>
+      Since <m>a^2-b^2 = (x-6)-(x-7) = 1</m> we can solve for <m>a</m> and <m>b</m> by solving
+
+      <md>
+        (a+b)(a-b)=1
+      </md>
+      
+    </p>
+
+    <p>
+      One solution is for <m>a+b=2</m> and <m>a-b=\frac{1}{2}</m>. Adding these equations together gives <m>2a = \frac{5}{2}</m>, so <m>a = \frac{5}{4}</m>. Since <m>b=2-a</m>, <m>b = \frac{3}{4}</m>. 
+    </p>
+
+    <p>
+      Thus <m>x-6 = \frac{25}{16}</m> and <m>x-7 = \frac{9}{16}</m> which both gives <m>x = \frac{121}{16}</m> as the number sought.
+    </p>
   
 </subsection>
 
