@@ -899,6 +899,63 @@
     <p>
       Thus <m>x-6 = \frac{25}{16}</m> and <m>x-7 = \frac{9}{16}</m> which both gives <m>x = \frac{121}{16}</m> as the number sought.
     </p>
+
+    <p>
+      Book II Problem 8 states
+    </p>
+
+    <blockquote>
+      <p>
+        To divide a given square into a sum of two squares.
+      </p>
+
+      <p>
+        To divide <m>16</m> into a sum of two squares
+      </p>
+
+      <p>
+        Let the first summand be <m>x^2</m> and thus the second <m>16-x^2</m>. The latter is to be a square. I form the square of the difference of an arbitrary multiple of <m>x</m> diminished by the root [of] 16, that is, diminished by <m>4</m>. I form, for example, the square of <m>2x-4</m>. It is <m>4x^2+16-16x</m>. I put this expression equal to <m>16-x^2</m>. I add to both sides <m>x^2+16x</m> and subtract <m>16</m>. In this way I obtain <m>5x^2=16x</m>, hence <m>x=\frac{16}{5}</m>.
+      </p>
+
+      <p>
+        Thus one number is <m>\frac{256}{25}</m> and the other <m>\frac{144}{25}</m>. The sum of these numbers is <m>16</m> and each summand is a square.
+      </p>
+
+  
+
+    </blockquote>
+
+    <p>
+      <em>Arithmetica</em> was translated into Latin in 1621. The French lawyer and mathematician Pierre de Fermat wrote the following note in the margins of his copy immediately following this problem:
+    </p>
+
+    <blockquote>
+      <p>
+        If an integer <m>n</m> is greater than <m>2</m>, then <m>a^n+b^n = c^n</m> has no solutions in non-zero-integers <m>a, b,</m> and <m>c</m>. I have a truly marvelous proof of this proposition which this margin is too narrow to contain.
+      </p>
+    </blockquote>
+
+    <p>
+      Fermat's proof was never found and his proposition is known as <term>Fermat's Last Theorem</term>. The problem of finding a proof to this proposition went unsolved for centuries. Fermat's Last Theorem was finally proven by Andrew Wiles in 1994. Due to the complexity of this proof and its reliance on modern techniques that were not known during Fermat's time, it is unlikely that Fermat had a proof of his proposition. Most likely he mistakenly thought that he had found a proof.
+    </p>
+
+    <p>
+      Fermat was not the only mathematician to write in the margin's of <em>Arithmetica</em>. The Byzantine scholar John Chortasmenos (1370-1437) wrote the following immediately after the much harder Book II Problem 7
+    </p>
+
+    <blockquote>
+      <p>
+        Thy soul, Diophantus, be with Satan because of the difficulty of your other theorems and particularly of the present theorem.
+      </p>
+    </blockquote>
+
+    <p>
+      Diophantus' legacy lives on in the name <term>Diophantine equation</term> which refers to an algebraic equation with integer coefficients in which integer solutions are sought. Archimedes' cattle of the sun problem is an example of a problem involving Diophantine equations.
+    </p>
+
+    <p>
+      To consider: Should Diophantus be considered the first algebraist? Why or why not?
+    </p>
   
 </subsection>
 
