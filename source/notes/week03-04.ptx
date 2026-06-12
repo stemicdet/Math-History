@@ -775,4 +775,37 @@
   
 </subsection>
 
+<subsection xml:id="subsec-Diophantus">
+  <title>Diophantus</title>
+
+  <p>
+    We close this section by looking at a mathematician from the later Greek era of mathematics. Diophantus is unique in the history of Greek Mathematicians because unlike the other Greek mathematicians who approached mathematics from a geometrical viewpoint, Diophantus approached things algebraically. The French-Italian Mathematician Joseph-Louis Lagrange called Diophantus <q>the inventor of algebra</q>.
+  </p>
+
+  <p>
+    Very little is known about Diophantus' life and even the details of his birth is obscure, but he probably lived in the 3rd century A.D. 
+  </p>
+
+  <p>
+    Diophantus' fame rests on his book <em>Arithmetica</em> which is a collection of algebra problems. <em>Arithmetica</em> consisted of thirteen volumes, but only six have survived to modern times. The rest are lost to history. Like the Egyptian Rhind Papyrus, <em>Arithmetica</em> consists of a number of algebra problems and their solutions.
+  </p>
+
+  <p>
+    One of the major contributions of <em>Arithmetica</em> is the notation that Diophantus used. The symbols that we use in mathematics such as <m>=, +, -, x^2</m> are all modern inventions. The plus sign may have been first used in the 14th century, the minus sign in the 15th century and the equals sign was created by Robert Recorde in 1557. Prior to this mathematical equations and formulas were written out in words. In <em>Arithmetica</em> Diophantus used syncopated algebra as a shorthand for expressing certain quantities and operations.
+  </p>
+
+  <p>
+    Diophantus used <m>\zeta</m> to stand for the unknown variable, much like how we today would use <m>x</m>. However instead of <m>x^2</m> he wrote <m>\Delta^\tau</m> which were the first two letters in the Greek word for <q>power</q>. Similarly he used <m>K^\tau</m> to represent the cube of the unknown variable, from the Greek word for cube, <term>kubos</term>. For higher powers he used <m>\Delta^\tau \Delta</m> for <m>x^4</m>, <m>\Delta K^\tau</m> for <m>x^5</m> and <m>KK^\tau</m> for <m>x^6</m>.
+  </p>
+
+  <p>
+    Note that he had no way to represent a second unknown in his notation, which hindered his work. As a result every problem in <em>Arithmetica</em> is solved by reducing it to a single variable equation, not matter how complicated, before expressing the single variable equation with his notation and solving it.
+  </p>
+
+  <p>
+    Diophantus used the symbol <m>\iota\sigma</m> to represent equality between the sides of the equation, like our equal sign, and used the symbol 
+  </p>
+  
+</subsection>
+
   </section>
