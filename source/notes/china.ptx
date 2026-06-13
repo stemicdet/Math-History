@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-china">
+  <title>Ancient Chinese Mathematics (5.3, 5.5)</title>
+
+  <subsection xml:id="subsec-The-Nine-Chapters">
+    <title>The Nine Chapters</title>
+
+    <p>
+        With thousands of years of continuous civilization, China is one of the world's oldest cultures. Chinese history can be divided into 3 broad periods: Ancient (8500 - 221 B.C.), Imperial (221 B.C. - 1912 A.D) and modern (1912- ). Many different dynasties have rule over parts of China over the years. Some of the most important ones are the Shang (1600-1046 B.C.), Han (202 B.C. - 220 A.D.), Tang (618 - 906 A.D.), Song (960 - 1279 A.D.), and Yuan (1279-1368 A.D.).
+    </p>
+
+    <p>
+        Chinese culture and thought was hugely influential in East Asia, much the same way that Greek culture influenced Europe. Mathematics was one of the six arts of Ancient China. Mastery of all six was required to be a <term>Junzi</term> or respectable person. Because of vast geographical distances, Chinese mathematics developed independently from Babylonian, Egyptian, and Greek mathematics. Certain results, like the Pythagorean Theorem were developed independently in both cultures.
+    </p>
+
+    <p>
+       The most influential work of Ancient Chinese Mathematics is <em>The Nine Chapters on the Mathematical Art</em> or <em>The Nine Chapters</em> for short, which can be compared with Euclid's <em>Elements</em>. Unlike <em>The Elements</em> we do not know who wrote <em>The Nine Chapters</em> and likely it was compiled by multiple scholars over several generations from the 10th century to 2nd century BC. Because it is referenced by other Chinese sources, we know that it had to been written prior to 93 A.D.   
+    </p>
+
+    <p>
+      Much like <em>The Elements</em>,  <em>The Nine Chapters</em> consists of a series of problems, followed by the solution and an explanation of the procedure that led to the solution. In all there are 246 problems in <em>The Nine Chapters</em>
+    </p>
+    
+<p>
+    Liu Hui, who used the method of exhaustion to determine the most accurate estimate of <m>\pi</m> at the time wrote a commentary on <em>The Nine Chapters</em> in 263, explaining the procedures in more detail as well as providing explanations for why the procedure yields the correct solution.  
+</p>
+    
+  </subsection>
+
+  </section>

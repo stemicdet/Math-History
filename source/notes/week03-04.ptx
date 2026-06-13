@@ -159,9 +159,11 @@
 </blockquote>
 
 <figure>
-      <caption>The Plimpton 22 clay tablet.</caption>
-      <image source="tablet.jpeg" width="50%">
-        <description>Black-and-white photograph of a rectangular clay tablet covered in dense rows of wedge-shaped cuneiform inscriptions. The tablet surface is divided into vertical sections, with tightly packed symbols arranged in horizontal lines across each section. The edges of the tablet are slightly uneven, and the surface appears worn and textured, with shadows emphasizing the raised impressions of the writing. The overall appearance suggests an ancient inscribed document used for record-keeping or communication.
+      <caption>A diagram illustrating Book I Proposition 1.</caption>
+      <image source="prop1 (1).png" width="50%">
+        <description>A geometric diagram shows two large overlapping circles side by side, forming a shaded lens-shaped intersection in the middle. The left circle has a point labeled D on its outer left side, and the right circle has a point labeled E on its outer right side. The circles intersect at two points, with the upper intersection labeled C.
+Inside the overlapping region, a triangle ABC is drawn. Points A and B lie horizontally across the middle of the overlap, with A on the left circle's boundary and B on the right circle's boundary. Point C is at the top intersection of the two circles. The triangle is filled in red, with its base AB horizontal and its vertex C above the midpoint of AB.
+The overlapping region of the circles is lightly shaded, while the triangle stands out in a solid red color, centered within the intersection.
 </description>
       </image>
     </figure>
@@ -185,6 +187,16 @@
 <p>
   Another criticism was given by Zeno of Sidon, an Epicurean philosopher in the early first century B.C. who sought to show that deductions from the fundamental principals of geometry cannot be proved. He questioned why <m>ABC</m> contains an equilateral triangle and argued that was not shown that the sides do not meet before they reach the vertices. If <m>AB</m> and <m>BC</m> meet at <m>E</m> before they reach <m>C</m> then the straight lines <m>AEC</m> and <m>BEC</m> have a common segment <m>EC</m>. They would contain a triangle <m>ABE</m> which is not equilateral but isosceles. 
 </p>
+
+<figure>
+      <caption>Zeno of Sidon argued that it could be possible that the triangle constructed in Book I Proposition I is not equilateral</caption>
+      <image source="prop1a.png" width="50%">
+        <description>A geometric diagram shows two large overlapping circles arranged side by side, with a shaded lens-shaped region where they intersect. The left circle contains a point labeled A on the left side of the overlap, and the right circle contains a point labeled B on the right side of the overlap. The two circles intersect at a top point labeled C and a bottom point (unlabeled).
+Inside the overlapping region, a smaller triangle ABC is drawn with a horizontal base from A to B and a top vertex at C. The triangle is filled with a light purple color.
+A point labeled E lies inside the triangle, slightly above the midpoint of the base AB and below the point C, centered within the triangle. The overlapping region of the circles is lightly shaded gray, while the triangle stands out in purple against the background.
+</description>
+      </image>
+    </figure>
 
 <p>
   Many of the problems in the Elements concern the construction of various geometric shapes using a straightedge and a compass. The straightedge and compass are generalizations of real world rulers and compasses.
@@ -449,6 +461,18 @@
 
   </blockquote>
 
+  <figure>
+      <caption>A diagram illustrating Book I Proposition 9 </caption>
+      <image source="prop9a (1).png" width="50%">
+        <description>A geometric diagram shows two large overlapping circles placed side by side, creating a vertically oriented lens-shaped intersection. The circles are filled with a light gray shading against a beige background.
+A vertical blue line passes through the center of the overlap, connecting a top point labeled A to a bottom point labeled F, both marked in green or red to highlight them. Point A lies above both circles, and point F lies below the intersection at the bottom of the circles.
+Inside the overlapping region, two points are marked on the circle boundaries: D on the left side and E on the right side. A curved arc passes through D and E, forming part of a circle centered on the vertical line.
+From point A, two straight line segments extend downward symmetrically: one to point B on the lower left circle, and one to point C on the lower right circle. These lines form a triangular shape ABC with vertex at A and base running between B and C.
+Point B lies on the circumference of the left circle, and point C lies on the circumference of the right circle. The lines and arcs intersect within the overlapping region, creating a central shape bounded by the vertical line, the arc through D and E, and the sides of triangle ABC.
+</description>
+      </image>
+    </figure>
+
   <p>
     It is possible to trisect certain angles. The following procedure can be used to trisect a right angle.
     <ol>
@@ -500,6 +524,17 @@
     </ol>
 
   </p>
+
+  <figure>
+      <caption>A diagram illustrating angle trisection using neusis </caption>
+      <image source="post2a (1).png" width="50%">
+        <description>A geometric diagram shows a semicircle shaded in light red positioned above a horizontal baseline. The diameter of the semicircle runs from point D on the left to point F on the right, with point B marked between them along the same horizontal line. The baseline extends further left to a point G and further right to a point C.
+From point B, a straight line segment extends upward to a point E on the arc of the semicircle. From E, another line continues upward and to the right to a point labeled A, which lies outside the semicircle.
+A second slanted line runs from point G up through the semicircle, intersecting the interior at a point labeled H, and then continuing to meet point E on the arc.
+Points D, B, F, and C are collinear on the horizontal line. The points H and E lie along the slanted segment from G to A, with H inside the semicircle and E on its boundary. The diagram highlights relationships between the semicircle, the baseline, and the intersecting line segments.
+</description>
+      </image>
+    </figure>
 
   <p>
     Using results from Euclid's Elements we can show that the angle <m>EGC</m> is one-third of angle <m>ABC</m>. 
@@ -571,6 +606,21 @@
   <p>
     One example is a book by Carl Heisel in 1931, <em>Behold! The Grand Problem No Longer Unsolved: The Circle Squared Beyond Refutation</em>
   </p>
+
+  <figure>
+      <caption>The cover of Carl Heisel's book on squaring the circle </caption>
+      <image source="circle.jpg" width="50%">
+        <description>A scanned, aged book page with a light beige background and faint smudges and handwritten markings near the top. Centered near the top in large bold text is the word “BEHOLD!” Below it, curved text reads “THE GRAND PROBLEM.”
+In the middle of the page is a simple geometric illustration: a square with a circle drawn so that the circle overlaps and extends beyond the square's sides. Inside the square, stacked centered text reads:
+“THE
+CIRCLE
+SQUARED
+BEYOND
+REFUTATION.”
+Below the diagram, curved text reads “NO LONGER UNSOLVED.”
+</description>
+      </image>
+    </figure>
 
   <p>
     The title page is even longer: <em>Behold! The Grand Problem No Longer Unsolved: The Circle Squared Beyond Refutation. Mathematical and Geometrical Demonstrations by Carl Theodore Heisel: Disproving Numerous Theorems, Problems, Postulates, Corollaries, Axioms, and Propositions with Ratios, Laws, and Rules Hitherto Unknown in the Mathematical and Geometric Science Naturally Growing Out of the Extraordinary and Significant Discoveries of a Lacking Link by Carl Theodore Faber, in the Demonstration of the World Renowned Pythagorean Problem Utterly Disproving its Absolute Truth, Although Demonstrated as such for 24 Centuries; and by This Discovery Establishing the Fact of the Existence of Perfect Harmony Between Arithmetic and Geometry as a Law of Nature, and Calculating to Settle Forever the Famous Dispute Between the Two Great Philosophical Schools</em>
@@ -705,7 +755,7 @@
   </p>
 
   <p>
-    Therefore a universe of diameter <m>10^10</m> stadia would contain less than
+    Therefore a universe of diameter <m>10^{10}</m> stadia would contain less than
     <md>
       10^{21}(10^{10})^3 = 10^{51} \text{ grains of sand}
     </md>
@@ -718,7 +768,7 @@
 
   <blockquote>
     <p>
-      You are aware that <q>universe</q> is the name given by most astronomers to the sphere, the center of which is the center of the earth, while its radius is equal to the straight line between the center of the sun and the center of the Earth. This is the common account as you have heard from astronomers. But Aristarchus brought out a book consisting of certain hypotheses, wherein it appears, as a consequence of the assumptions made, that the universe is many times greater than the <q>universe</q> just mentioned. His hypotheses are that the fixed starts and the sun remain unmoved, that the earth revolves about the sun in the circumference of a circle, the sun lying in the middle of the orbit, and that the sphere of fixed stars, situated about the same center as the sun, is so great that the circle in which supposes the earth to revolve bears such a proportion to the distance of the fixed stars as the center of the sphere bears to its surface.
+      You are aware that <q>universe</q> is the name given by most astronomers to the sphere, the center of which is the center of the earth, while its radius is equal to the straight line between the center of the sun and the center of the Earth. This is the common account as you have heard from astronomers. But Aristarchus brought out a book consisting of certain hypotheses, wherein it appears, as a consequence of the assumptions made, that the universe is many times greater than the <q>universe</q> just mentioned. His hypotheses are that the fixed stars and the sun remain unmoved, that the earth revolves about the sun in the circumference of a circle, the sun lying in the middle of the orbit, and that the sphere of fixed stars, situated about the same center as the sun, is so great that the circle in which supposes the earth to revolve bears such a proportion to the distance of the fixed stars as the center of the sphere bears to its surface.
     </p>
   </blockquote>
 
@@ -962,7 +1012,7 @@
     </p>
 
     <p>
-      To consider: Should Diophantus be considered the first algebraist? Why or why not?
+      Question: Should Diophantus be considered the first algebraist? Why or why not?
     </p>
   
 </subsection>

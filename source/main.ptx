@@ -34,6 +34,7 @@
       <xi:include href="./notes/week01.ptx"/>
       <xi:include href="./notes/week02.ptx"/>
       <xi:include href="./notes/week03-04.ptx"/>
+      <xi:include href="./notes/china.ptx"/>
       <!-- etc. -->
 
     </chapter>
