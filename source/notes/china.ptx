@@ -25,6 +25,50 @@
 <p>
     Liu Hui, who used the method of exhaustion to determine the most accurate estimate of <m>\pi</m> at the time wrote a commentary on <em>The Nine Chapters</em> in 263, explaining the procedures in more detail as well as providing explanations for why the procedure yields the correct solution.  
 </p>
+
+<p>
+  <em>The Nine Chapters</em> is divided into nine chapters that cover a variety of mathematical topics.
+</p>
+
+<p>
+  Chapter 1 is called <term>Fangtian (Bounding Fields)</term>. It includes formulas for areas of various shapes such as triangles, rectangles, trapezoids, and circles. It also includes rules for counting rod manipulation. Liu Hui's commentary for this section includes his method for calculating <m>\pi</m> and his approximate value of <m>3.14159</m>
+</p>
+
+<p>
+  Chapter 2 is called <term>Sumi (Millet and Rice)</term>. It involves the exchange of commodities at different rates, solving proportions and using fractions. 
+</p>
+
+<p>
+  Chapter 3 is called <term>Cuifen (Proportional Distribution)</term>. It involves distribution of money and commodities at proportional rates as well as arithmetic and geometric sums.
+</p>
+
+<p>
+  As an example, Chapter 3 Problem 3 states
+</p>
+
+<blockquote>
+  <p>
+    There is a woman weaver who increases an [equal] amount each day. She weaves <m>5</m> chi on the first day and in a month <m>9</m> pi <m>3</m> zang. Find her increase each day.
+  </p>
+</blockquote>
+
+<p>
+  Chapter 4 is called <term>Shaoguang (Reducing Dimensions)</term>. It involves finding the diameter or side length of a shape given its area or volume and extractions of square roots and cube roots.
+</p>
+
+<p>
+  Problem 12 of this chapter states
+</p>
+
+<blockquote>
+  <p>
+    One has a square area of <m>55,225</m> pu. What is the side of the square?
+  </p>
+</blockquote>
+
+<p>
+  The answer is <m>\sqrt{55,255}</m> but the problem is to find the exact value.
+</p>
     
   </subsection>
 
