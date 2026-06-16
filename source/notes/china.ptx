@@ -67,7 +67,59 @@
 </blockquote>
 
 <p>
-  The answer is <m>\sqrt{55,255}</m> but the problem is to find the exact value.
+  The answer is <m>\sqrt{55,255}</m> but the problem is to find the exact value. In <em>The Nine Chapters</em> this is done using the algebraic identity
+  <md>
+    (a+b+c)^2 = a^2+(2a+b)b + [2(a+b)+c]c
+  </md>
+  
+</p>
+
+<p>
+  To extract the square root of <m>55,255</m> using the above identity one dissects a square of area <m>N = 55,225</m> as follows. This method can be used to extract the square root for any <m>N</m>
+</p>
+
+<p>
+  Because <m>100^2 = 10,000 &lt; 55,255 &lt; 1,000,000 = 1,000^3</m> it follows that <m>\sqrt{N} = d_1d_2d_3</m>, i.e. a 3 digit number.
+</p>
+
+<p>
+  To obtain the first digit <m>d_1</m> one seeks the largest square of side <m>S_1 = d_1 \cdot 10^2</m> satisfying <m>S_1^2 \leq N = 55,255</m>. Since <m>200^2 = 40,000 &lt; 90,000 = 300^2</m>, it follows that <m>d_1 = 2</m> 
+</p>
+
+<p>
+  Removing the square with area <m>S_1^2</m> from the square of area <m>N</m> leaves a region with area <m>15,255</m>. The second digit <m>d_2</m> is found by selecting the largest value <m>S_2 = d_2 \cdot 10^1</m> with the property that
+  <md>
+    2S_1S_2+S_2^2 \leq N-S_1^2 = 15255
+  </md>
+  
+</p>
+
+<p>
+  Before finding <m>d_2</m> let us explain the rationale for this condition. <m>2S_1S_2+s_2^2</m> is the area of two rectangles with sides <m>S_1</m> and <m>S_2</m> plus a square with side <m>S_2</m>. Adding this to the square of side <m>S_1</m> that we previously removed and together we have removed a square with side <m>S_1+S_2</m> from our original square with area <m>N</m>.
+</p>
+
+<p>
+  To solve for <m>d_2</m> we notice that <m>2\cdot200\cdot 30 + 30^2 = 12,900</m> and <m>2\cdot200\cdot 40 + 40^2 = 17,600</m>. Thus <m>d_2 = 3</m>. Removing this area from the original square leaves an area of <m>2325</m>
+</p>
+
+<p>
+  The third digit <m>d_3</m> is found by finding the largest value <m>S_3 = d_3 \cdot 10^0</m> for which
+  <md>
+    2(S_1+S_2)S_3 + S_3^2 \leq 2325.
+  </md>
+  
+</p>
+
+<p>
+  The rationale for this choice is that <m>2(S_1+S_2)S_3 + S_3^2</m> is the area of two rectangles with sides <m>S_1+S_2</m> and <m>S_3</m> plus a square with side <m>S_3</m>. When added to the regions that were already removed, the total amount removed is a square with side length <m>S_1+S_2+S_3</m> proving the identity at the start of this problem.
+</p>
+
+<p>
+  Note that <m>2(200+30)5+5^2 = 2325</m> exactly. Thus <m>d_3=5</m> and the square root of <m>55225</m> is <m>235</m>.
+</p>
+
+<p>
+  Square root extraction doesn't result in a whole number answer unless you start with a perfect square. When this wasn't the case this method could be continued to produce a series of decimal places.
 </p>
     
   </subsection>
