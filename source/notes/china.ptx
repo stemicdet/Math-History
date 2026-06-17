@@ -121,6 +121,36 @@
 <p>
   Square root extraction doesn't result in a whole number answer unless you start with a perfect square. When this wasn't the case this method could be continued to produce a series of decimal places.
 </p>
+
+<p>
+  Chapter 5 is called <term>Shanggong (Figuring for Construction)</term>. It covers finding volumes of solids of various shapes including pyramids, prisms, and cones.
+</p>
+
+<p>
+  Chapter 6 is called <term>Junshu (Equitable Taxation)</term>. It covers problems on proportion, work, distances, and rates. As an example, Problem 26 in this section is one of my favorites: 
+</p>
+
+<blockquote>
+  <p>
+    A cistern is filled through five canals. Open the first canal and the cistern fills in <m>\frac{1}{3}</m> day; with the second, it fills in <m>1</m> day; with the third, in <m>2\frac{1}{2}</m>; with the fourth, in <m>3</m> days, and with the fifth in <m>5</m> days. If all the canals are opened how long will it take to fill the cistern?
+  </p>
+</blockquote>
+
+<p>
+  The solution is to reframe the problem by considering what portion of the cistern does each canal fill in a day. The first canal can fill <m>3</m> cisterns in a day, the second can fill <m>1</m>, the third can fill <m>\frac{2}{5}</m>, the fourth <m>\frac{1}{3}</m> and the fifth <m>\frac{1}{5}</m>. Adding them altogether we see that in one day all five canals can fill <m>\frac{74}{15}</m> cisterns in a day. Thus it would take <m>\frac{15}{74}</m> of a day to fill one cistern. 
+</p>
+
+<p>
+  Chapter 7 is called <term>Yingbuzu (Excess and Deficit)</term>. It covers linear problems that are solved using the method of false position.
+</p>
+
+<p>
+  Chapter 8 is called <term>Fangcheng (Rectangular Arrays)</term>. It covers systems of linear equations which is solved using the method of Gaussian elimination (1600 years before Gauss!). We will cover this method in a later section.
+</p>
+
+<p>
+  Chapter 9 is called <term>Gougu (Base and Altitude)</term>. It covers problems involving right triangles that are solved with the Pythagorean Theorem. These problems demonstrate that the Pythagorean theorem was independently discovered by Chinese mathematicians.
+</p>
     
   </subsection>
 
