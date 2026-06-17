@@ -149,9 +149,82 @@
 </p>
 
 <p>
-  Chapter 9 is called <term>Gougu (Base and Altitude)</term>. It covers problems involving right triangles that are solved with the Pythagorean Theorem. These problems demonstrate that the Pythagorean theorem was independently discovered by Chinese mathematicians.
+  Chapter 9 is called <term>Gougu (Base and Altitude)</term>. It covers problems involving right triangles that are solved with the Pythagorean Theorem. These problems demonstrate that the Pythagorean theorem was independently discovered by Chinese mathematicians. The <term>Gougu</term> rule states:
 </p>
+
+<blockquote>
+  <p>
+    Add the squares of the <term>gou</term> [short leg] and the <term>gu</term> [long leg], take the square root [of the sum] giving the hypotenuse. Further the square of the gu is subtracted from the square of the hypotenuse. The square root of the remainder is the gou. Further, the square of the gou is subtracted from the square on the hypotenuse. The square root of the remainder is the gu.
+  </p>
+</blockquote>
+
+<p>
+  Questions to consider: <ol>
+    <li>
+      <p>
+        What are some similarities between <em>The Elements</em> and <em>The Nine Chapters</em>?
+      </p>
+    </li>
+    <li>
+      <p>
+        What kinds of mathematics are emphasized more in <em>The Elements</em> than in <em>The Nine Chapters</em>?
+      </p>
+    </li>
+    <li>
+      <p>
+        What kinds of mathematics are emphasized more in <em>The Nine Chapters</em> than in <em>The Elements</em>?
+      </p>
+    </li>
+  </ol>
+</p>
+
+
+
+
     
   </subsection>
+
+
+  <subsection xml:id="subsec-Chinese-remainder-theorem">
+    <title>The Chinese Remainder Theorem</title>
+
+
+
+    <p>
+      The following problem appears in the book <em>Sunzi Suan Jing</em> (The Mathematical Classic of Master Sun) from around the 5th century A.D.
+    </p>
+
+    <blockquote>
+      <p>
+        Suppose we have an unknown number of objects. If they are counted in threes, <m>2</m> are left, if they are counted in fives, <m>3</m> are left and if they are counted in sevens, <m>2</m> are left. How many objects are there?
+      </p>
+    </blockquote>
+
+    <p>
+      These types of problems are known as the <term>Chinese Remainder Theorem</term> and were also considered by the Medieval Italian mathematician Leonardo of Pisa (Fibonacci) and Medieval Arabic mathematician ibn al-Haytham.
+    </p>
+
+    <p>
+      Sunzi gives <m>23</m> as the answer to his problem and his solution is as follows:
+    </p>
+
+    <blockquote>
+      <p>
+        If they are counted in threes, <m>2</m> are left: set <m>140</m>. If they are counted in fives, <m>3</m> are left: set <m>63</m>. If they are counted in sevens: <m>2</m> are left: set <m>30</m>. Take the sum of these [three numbers] to obtain <m>233</m>. Subtract <m>210</m> from this total; this gives the answer.
+      </p>
+
+      <p>
+        In general: For each remaining unit when counting in threes, set <m>70</m>. For each remaining unit when counting in fives, set <m>21</m>. For each remaining unit when counting in sevens, set <m>15</m>. If [the sum obtained in this way] is <m>106</m> or more, subtract <m>105</m> to obtain the answer.
+      </p>
+
+    </blockquote>
+
+    <p>
+      Question: Where do you suppose the numbers <m>70, 21, 15,</m> and <m>105</m> come from? 
+    </p>
+
+    
+  </subsection>
+
 
   </section>
