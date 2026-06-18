@@ -159,6 +159,10 @@
 </blockquote>
 
 <p>
+  Public Domain, https://commons.wikimedia.org/w/index.php?curid=104738
+</p>
+
+<p>
   Questions to consider: <ol>
     <li>
       <p>
@@ -276,5 +280,161 @@
       Suppose that <m>3</m> bing of top quality millet, <m>2</m> bing of medium quality millet, [and] <m>1</m> bing of low quality millet produce <m>39</m> dou of grain; <m>2</m> bing of top quality millet, <m>3</m> bing of medium quality millet, [and] <m>1</m> bing of low quality millet yield <m>34</m> dou. <m>1</m> bing of top quality millet, <m>2</m> bing of medium quality millet, [and] <m>3</m> bing of low quality millet yield <m>26</m> dou. One asks how much is produced respectively by one of high, medium, and low quality millet.
     </p>
   </blockquote>
+
+  <p>
+    We will solve this problem using modern numerals and notation, but we will use the same method from <em>The Nine Chapters</em>. Let <m>x</m>, <m>y</m>, and <m>z</m> represent the top, medium, and low quality millet. Then we can express the equations given in the problem as 
+    <md>
+      <mrow> 3x+2y+z \amp = 39 </mrow>
+      <mrow> 2x+3y+z \amp = 34 </mrow>
+      <mrow> x+2y+3z \amp = 26 </mrow>
+    </md>
+    
+  </p>
+
+  <p>
+    We next represent these equations using a rectangular array. Chinese mathematicians would have written these numbers from top to bottom and left to right, but we will keep them in the familiar form. To create this array, we record the coefficients of each term.
+    <md>
+      \left[
+\begin{array}{ccc|c}
+3 \amp 2 \amp 1 \amp 39\\
+2 \amp 3 \amp 1 \amp 34\\
+1 \amp 2 \amp 3 \amp 26
+\end{array}
+\right]
+    </md>
+    
+  </p>
+
+  <p>
+    Our goal is to reduce the matrix on the left to an <term>upper triangular matrix</term>. An upper triangular matrix is a matrix in which every entry below the diagonal from top left to bottom right is zero. For example the following is an upper triangular matrix.
+    <md>
+      \left[
+\begin{array}{ccc|c}
+3 \amp 2 \amp 1 \amp 39\\
+0 \amp 3 \amp 1 \amp 34\\
+0 \amp 0 \amp 3 \amp 26
+\end{array}
+\right]
+    </md>
+    
+  </p>
+
+  <p>
+    To reduce the matrix to an upper triangular matrix, we will use the following operations.
+    <ol>
+      <li>
+        <p>
+          Multiply a row by a non-zero constant
+        </p>
+      </li>
+      <li>
+        <p>
+          Add or subtract one row from another
+        </p>
+      </li>
+      <li>
+        <p>
+          Switch the position of two rows
+        </p>
+      </li>
+    </ol>
+  </p>
+
+  <p>
+    These are the same operations that we would use to solve an elimination problem with 2 unknowns. Now let's use these operations to solve the problem from <em>The Nine Chapters</em>. There are several ways that this can be done, but we will follow the approach used in <em>The Nine Chapters</em>.
+  </p>
+
+  <p>
+    The first step is to multiply the middle row by the highest coefficient of <m>x</m> in the top row (<m>3</m>).
+     <md>
+      \left[
+\begin{array}{ccc|c}
+3 \amp 2 \amp 1 \amp 39\\
+6 \amp 9 \amp 3 \amp 102\\
+1 \amp 2 \amp 3 \amp 26
+\end{array}
+\right]
+    </md>
+  </p>
+
+  <p>
+    Now we subtract the top row from the middle row as many times as needed to eliminate the <m>x</m> position in the middle row.
+     <md>
+      \left[
+\begin{array}{ccc|c}
+3 \amp 2 \amp 1 \amp 39\\
+0 \amp 5 \amp 1 \amp 24\\
+1 \amp 2 \amp 3 \amp 26
+\end{array}
+\right]
+    </md>
+  </p>
+
+  <p>
+    Now we repeat these operations to eliminate the <m>x</m> entry of the bottom row.
+
+    <md>
+      \left[
+\begin{array}{ccc|c}
+3 \amp 2 \amp 1 \amp 39\\
+0 \amp 5 \amp 1 \amp 24\\
+3 \amp 6 \amp 9 \amp 78
+\end{array}
+\right]
+    </md>
+
+    <md>
+      \left[
+\begin{array}{ccc|c}
+3 \amp 2 \amp 1 \amp 39\\
+0 \amp 5 \amp 1 \amp 24\\
+0 \amp 4 \amp 8 \amp 39
+\end{array}
+\right]
+    </md>
+  </p>
+
+  <p>
+    Next we multiply the bottom row by the highest coefficient in the middle row and repeatedly subtract the middle row to eliminate the <m>y</m> entry of the bottom row.
+    <md>
+      \left[
+\begin{array}{ccc|c}
+3 \amp 2 \amp 1 \amp 39\\
+0 \amp 5 \amp 1 \amp 24\\
+0 \amp 20 \amp 40 \amp 195
+\end{array}
+\right]
+    </md>
+
+    <md>
+      \left[
+\begin{array}{ccc|c}
+3 \amp 2 \amp 1 \amp 39\\
+0 \amp 5 \amp 1 \amp 24\\
+0 \amp 0 \amp 36 \amp 99
+\end{array}
+\right]
+    </md>
+  </p>
+
+  <p>
+    Now that we have reduced the matrix into upper-triangular form we can solve for the variables using the process of <term>back substitution</term>. First we turn the matrix back into a system of equations
+    <md>
+      <mrow> 3x+2y+z \amp = 39 </mrow>
+      <mrow> 5y+ 1 \amp = 24 </mrow>
+      <mrow> 36z \amp = 99 </mrow>
+    </md>
+    
+  </p>
+
+  <p>
+    We can solve the last equation for <m>z</m> to find that <m>z= \frac{99}{36} = 2\frac{3}{4}</m>. Then substituting this value into the middle equation we can solve for <m>y</m> and find that <m>5y + 2\frac{3}{4} = 24</m> which means that <m>y = 4\frac{1}{4}</m>. Substituting both <m>x</m> and <m>y</m> into the top equation gives <m>3x+9\frac{1}{2}+ 2 \frac{3}{4} = 39</m> which implies that <m>x = 9\frac{1}{4}</m>. So the final solution is that top quality millet produces <m>9\frac{1}{4}</m>, medium quality <m>4 \frac{1}{4}</m> and low quality <m>2\frac{3}{4}</m>.
+  </p>
+
+  <p>
+    Note that this method avoided using fractions until the very end. This is because working with fractions on a counting board is difficult.
+  </p>
+
+
 
   </section>
