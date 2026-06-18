@@ -223,8 +223,58 @@
       Question: Where do you suppose the numbers <m>70, 21, 15,</m> and <m>105</m> come from? 
     </p>
 
+    <p>
+      Sunzi's rule can be generalized to solve the following problem:
+    </p>
+
+    <p>
+      If they are counted in <m>a</m>s, <m>r</m> are left, if they are counted in <m>b</m>s, <m>s</m> are left and if they are counted in <m>c</m>s, <m>t</m> are left. How many objects are there?
+    </p>
+
+    <p>
+      Sunzi's rule for this problem is as follows. When counting in <m>a</m>s, set <m>bcR</m> where <m>R</m> will be determined shortly. When counting in <m>b</m>s set <m>acS</m> and when counting in <m>c</m>s set <m>abT</m>.
+    </p>
+
+    <p>
+      Consider the sum <m>bcRr + acSs + abTt</m> and subtract from this the largest multiple of <m>abc</m> that is less than it, say <m>nabc</m>. This gives the correct solution.
+    </p>
+
+    <p>
+      Now let's consider why this process leads to the correct answer. Note that when divided by <m>a</m> the number <m>bcRr + acSs + abTt</m> has the same remainder as <m>bcRr</m> because both <m>acSs</m> and <m>abTt</m> are divisible by <m>a</m>. So the number <m>bcRr</m> and the number we want give the same remainder when dividing by <m>a</m> and for this we find a small number <m>R</m> such that <m>bcR</m> has a remainder of <m>1</m> when divided by <m>a</m>. In Sunzi's problem <m>a=3</m>, <m>b=5</m> and <m>c=7</m> we find that <m>bc=35</m> which has a remainder of <m>2</m> when divided by <m>3</m>. However, <m>70</m> has a remainder of <m>1</m> when divided by <m>3</m> which is why Sunzi used <m>70</m> instead of <m>35</m> in his solution. 
+    </p>
+
+    <p>
+      Similarly when divided by <m>b</m>, <m>bcRr + acSs + abTt</m> has the same remainder as <m>acSs</m> and when divided by <m>c</m>, <m>bcRr + acSs + abTt</m> has the same remainder as <m>abTt</m>. By repeating the above process we can select numbers so that the sum will have the desired remainders for each division.
+    </p>
+
+    <p>
+      Finally because <m>abc</m> has remainder <m>0</m> when divided by <m>a</m>, <m>b</m>, or <m>c</m>, subtracting multiples of it doesn't change the divisibility. In fact we can add or subtract a multiple of <m>abc</m> to a solution to get another solution. In Sunzi's problem <m>abc = 105</m> and adding <m>105</m> to <m>23</m> gives <m>128</m> which also solves the problem. Typically the smallest positive number is sought as the solution to Chinese Remainder Theorem problems.
+    </p>
+
+    <p>
+      Example: There is an unknown number of objects: When counted in threes, the remainder is <m>1</m>; when counted in sevens, the remainder is <m>5</m>; when counted in elevens, the remainder is <m>6</m>. How many objects are there?
+    </p>
+
     
   </subsection>
 
+  <subsection xml:id="subsec-Counting-Boards">
+    <title>Counting Boards and Systems of Equations</title>
+    
+  </subsection>
+
+  <p>
+    Chinese mathematicians frequently performed calculations with the aid of a counting board. A counting board consists of columns arranged from right to left in increasing powers of <m>10</m> much as we do today when writing numbers. Numbers on the counting board were expressed using counting rods, which were actual rods made of ivory or bamboo.  By the 3rd century A.D. these numbers were described as being horizontal (Heng) or vertical (Zong) numerals. Horizontal numerals were used for odd powers of 10 (tens, thousands, hundred thousands, ...), while vertical numerals were used for even powers of 10 (units, hundreds, ten thousands, ...). Zero was represented by leaving a column blank. Positive and negative numbers were represented by red and black rods respectively. Negative numbers weren't admitted as solutions but they were used in calculations.
+  </p>
+
+  <p>
+    With counting rods, addition and subtraction can be done by repositioning the rods column by column. Multiplication and division are possible with counting rods as well. Another use of counting rods is solving systems of equations. The first problem of Chapter 8 of <em>The Nine Chapters</em> concerns the prices of three different qualities of grain.  
+  </p>
+
+  <blockquote>
+    <p>
+      Suppose that <m>3</m> bing of top quality millet, <m>2</m> bing of medium quality millet, [and] <m>1</m> bing of low quality millet produce <m>39</m> dou of grain; <m>2</m> bing of top quality millet, <m>3</m> bing of medium quality millet, [and] <m>1</m> bing of low quality millet yield <m>34</m> dou. <m>1</m> bing of top quality millet, <m>2</m> bing of medium quality millet, [and] <m>3</m> bing of low quality millet yield <m>26</m> dou. One asks how much is produced respectively by one of high, medium, and low quality millet.
+    </p>
+  </blockquote>
 
   </section>
