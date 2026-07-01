@@ -98,6 +98,18 @@
   Before finding <m>d_2</m> let us explain the rationale for this condition. <m>2S_1S_2+s_2^2</m> is the area of two rectangles with sides <m>S_1</m> and <m>S_2</m> plus a square with side <m>S_2</m>. Adding this to the square of side <m>S_1</m> that we previously removed and together we have removed a square with side <m>S_1+S_2</m> from our original square with area <m>N</m>.
 </p>
 
+
+<figure>
+      <caption>The rectangle used to extract the square root.</caption>
+      <image source="root_extraction.png" width="50%">
+        <description>Diagram of a large square subdivided into regions based on three side lengths labeled S1, S2, and S3. Along the top edge, the width is partitioned into three vertical strips: a wide strip labeled S1 on the left, a narrower strip labeled S2 in the middle, and a very narrow strip labeled S3 on the right. Along the left edge, the height is similarly partitioned into three horizontal strips: a tall section labeled S1 at the top, a shorter section labeled S2 in the middle, and a thin section labeled S3 at the bottom.
+The partition lines form a grid of rectangular regions. The upper-left region is a large square of side length S1. To its right are two vertical rectangles with widths S2 and S3 and height S1. Below the large S1 square are two horizontal rectangles with height S2 and S3 and width S1. At the intersection of the S2 row and S2 column is a square of side length S2. Additional small rectangles occupy the remaining regions where the S2 and S3 strips intersect. The diagram visually represents the decomposition of a square with side length S1 + S2 + S3 into smaller squares and rectangles determined by the lengths S1, S2, and S3.
+</description>
+      </image>
+    </figure>
+
+
+
 <p>
   To solve for <m>d_2</m> we notice that <m>2\cdot200\cdot 30 + 30^2 = 12,900</m> and <m>2\cdot200\cdot 40 + 40^2 = 17,600</m>. Thus <m>d_2 = 3</m>. Removing this area from the original square leaves an area of <m>2325</m>
 </p>
@@ -158,9 +170,15 @@
   </p>
 </blockquote>
 
-<p>
-  Public Domain, https://commons.wikimedia.org/w/index.php?curid=104738
-</p>
+<figure>
+      <caption>A historic Chinese illustration of the Pythagorean Theorem. (Public Domain, https://commons.wikimedia.org/w/index.php?curid=104738)</caption>
+      <image source="Chinese_pythagoras.jpg" width="50%">
+        <description>Historical Chinese mathematical diagram drawn on a square grid. A large diamond (a square rotated 45 degrees) is inscribed within the grid, with its four vertices touching the midpoint regions of the top, right, bottom, and left sides of the outer square. Thick dark lines outline the diamond and form a vertical and horizontal cross through its center, dividing the interior into several geometric regions.
+Multiple Chinese labels appear inside and around the figure. Most regions are labeled “朱鬻” (red millet), while a small central square formed by the intersecting cross is labeled “黃實” (yellow square). Additional vertical Chinese text runs down the left side of the image outside the grid.
+The diagram is black and white and resembles a page from an ancient Chinese mathematics text. The geometric construction visually partitions the inscribed diamond into smaller areas, likely illustrating a proof or geometric relationship involving areas, such as the Pythagorean theorem.
+</description>
+      </image>
+    </figure>
 
 <p>
   Questions to consider: <ol>
@@ -270,6 +288,18 @@
   <p>
     Chinese mathematicians frequently performed calculations with the aid of a counting board. A counting board consists of columns arranged from right to left in increasing powers of <m>10</m> much as we do today when writing numbers. Numbers on the counting board were expressed using counting rods, which were actual rods made of ivory or bamboo.  By the 3rd century A.D. these numbers were described as being horizontal (Heng) or vertical (Zong) numerals. Horizontal numerals were used for odd powers of 10 (tens, thousands, hundred thousands, ...), while vertical numerals were used for even powers of 10 (units, hundreds, ten thousands, ...). Zero was represented by leaving a column blank. Positive and negative numbers were represented by red and black rods respectively. Negative numbers weren't admitted as solutions but they were used in calculations.
   </p>
+
+  <figure>
+      <caption>The Chinese Counting Board Numerals</caption>
+      <image source="China.jpg" width="50%">
+        <description>Chart showing the rod-numeral system used in ancient Chinese mathematics for representing positive and negative integers. The figure is divided into two sections: Positive Numbers at the top in red and Negative Numbers at the bottom in black.
+For each section, numbers from 0 through 9 are displayed. The numeral 0 is labeled “space,” indicating an empty position. Each nonzero number is represented using counting rods arranged either vertically or horizontally. The orientation alternates by place value in traditional use.
+For positive numbers, the vertical forms use one to four vertical rods for 1–4, five rods represented by a horizontal top bar with a vertical stem (T-shape), and 6–9 formed by adding one to four additional vertical rods to the T-shape. The horizontal forms use one to four horizontal rods for 1–4, five rods represented by a vertical stem with a horizontal base (upside-down T-shape), and 6–9 formed by adding one to four additional horizontal rods.
+The lower half shows the corresponding representations for negative numbers in black. The shapes are identical to those for positive numbers, but the color difference distinguishes negative values from positive values.
+The diagram illustrates how ancient Chinese rod numerals encoded both magnitude and sign using rod arrangements and color conventions.
+          </description>
+      </image>
+    </figure>
 
   <p>
     With counting rods, addition and subtraction can be done by repositioning the rods column by column. Multiplication and division are possible with counting rods as well. Another use of counting rods is solving systems of equations. The first problem of Chapter 8 of <em>The Nine Chapters</em> concerns the prices of three different qualities of grain.  
