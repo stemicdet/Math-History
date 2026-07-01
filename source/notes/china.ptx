@@ -101,7 +101,7 @@
 
 <figure>
       <caption>The rectangle used to extract the square root.</caption>
-      <image source="root_extraction.png" width="50%">
+      <image source="root_extract.png" width="50%">
         <description>Diagram of a large square subdivided into regions based on three side lengths labeled S1, S2, and S3. Along the top edge, the width is partitioned into three vertical strips: a wide strip labeled S1 on the left, a narrower strip labeled S2 in the middle, and a very narrow strip labeled S3 on the right. Along the left edge, the height is similarly partitioned into three horizontal strips: a tall section labeled S1 at the top, a shorter section labeled S2 in the middle, and a thin section labeled S3 at the bottom.
 The partition lines form a grid of rectangular regions. The upper-left region is a large square of side length S1. To its right are two vertical rectangles with widths S2 and S3 and height S1. Below the large S1 square are two horizontal rectangles with height S2 and S3 and width S1. At the intersection of the S2 row and S2 column is a square of side length S2. Additional small rectangles occupy the remaining regions where the S2 and S3 strips intersect. The diagram visually represents the decomposition of a square with side length S1 + S2 + S3 into smaller squares and rectangles determined by the lengths S1, S2, and S3.
 </description>
@@ -289,9 +289,17 @@ The diagram is black and white and resembles a page from an ancient Chinese math
     Chinese mathematicians frequently performed calculations with the aid of a counting board. A counting board consists of columns arranged from right to left in increasing powers of <m>10</m> much as we do today when writing numbers. Numbers on the counting board were expressed using counting rods, which were actual rods made of ivory or bamboo.  By the 3rd century A.D. these numbers were described as being horizontal (Heng) or vertical (Zong) numerals. Horizontal numerals were used for odd powers of 10 (tens, thousands, hundred thousands, ...), while vertical numerals were used for even powers of 10 (units, hundreds, ten thousands, ...). Zero was represented by leaving a column blank. Positive and negative numbers were represented by red and black rods respectively. Negative numbers weren't admitted as solutions but they were used in calculations.
   </p>
 
+   <figure>
+      <caption>Chinese counting rods discovered at an archaeology site</caption>
+      <image source="countingrods2.png" width="50%">
+        <description>Black-and-white photograph of a collection of ancient counting rods arranged on a dark rectangular surface. Approximately two dozen narrow rods are lined up vertically from left to right. On the left side of the display, several rods are grouped into small clusters of varying lengths and positions. Toward the center and right, the rods become more regularly spaced, forming a sequence of parallel vertical lines. The rods appear light-colored against the dark background, making their arrangement clearly visible.
+          </description>
+      </image>
+    </figure>
+
   <figure>
       <caption>The Chinese Counting Board Numerals</caption>
-      <image source="China.jpg" width="50%">
+      <image source="china.jpeg" width="50%">
         <description>Chart showing the rod-numeral system used in ancient Chinese mathematics for representing positive and negative integers. The figure is divided into two sections: Positive Numbers at the top in red and Negative Numbers at the bottom in black.
 For each section, numbers from 0 through 9 are displayed. The numeral 0 is labeled “space,” indicating an empty position. Each nonzero number is represented using counting rods arranged either vertically or horizontally. The orientation alternates by place value in traditional use.
 For positive numbers, the vertical forms use one to four vertical rods for 1–4, five rods represented by a horizontal top bar with a vertical stem (T-shape), and 6–9 formed by adding one to four additional vertical rods to the T-shape. The horizontal forms use one to four horizontal rods for 1–4, five rods represented by a vertical stem with a horizontal base (upside-down T-shape), and 6–9 formed by adding one to four additional horizontal rods.
