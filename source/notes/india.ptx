@@ -3,8 +3,8 @@
 <section xml:id="notes-india">
   <title>Ancient Indian Mathematics (5.3)</title>
 
-  <subsection xml:id="subsec-Indeterminate-Equations">
-    <title>Indeterminate Equations</title>
+  <subsection xml:id="subsec-Hindu-Arabic-Numerals">
+    <title>Hindu-Arabic Numerals</title>
 
     <p>
         Unlike China, the Indian subcontinent was rarely unified and was frequently divided into small empires with their own languages and cultures. Thus to speak of Indian mathematics refers is to speak of a mathematics from a wide variety of linguistic and cultural contexts, much like if we speak about European mathematics during the Middle Ages and Renaissance. 
@@ -12,6 +12,131 @@
 
     <p>
         There are many similarities between India and Europe. Both regions consisted of many diverse peoples and languages who shared a common religion (Hinduism for India and Christianity for Europe) and a common language for intellectual communication (Sanskrit for India and Latin for Europe).
+    </p>
+
+    <p>
+        Modern mathematics uses the <term>Hindu-Arabic Numeral System</term> which was developed in India before spreading westward to the Islamic world and Europe.
+    </p>
+
+    <p>
+        Early Indian mathematicians used <term>Brahmi numerals</term>, which were an additive system with separate numerals for numbers of different magnitudes. However around 600 A.D. these numerals were transformed into a base 10 positional numeral system.
+    </p>
+
+    <p>
+        An important feature of this system was the use of a special symbol for zero. Although zero may have been used previously the first inscription definitively showing the use of a symbol for zero appears in a stone inscription at the Chaturbhuja Temple, from 876 A.D.
+    </p>
+
+    <p>
+        The concept of zero existed long before its symbol. The <term>Brahma-sphuta-siddhanta</term> is a work of mathematics and astronomy written by Brahmagupta around 628 A.D. that contains rules for arithmetic with zero. Notably, he is the first known mathematician to treat zero as a number and not merely as a placeholder. 
+    </p>
+
+    <blockquote>
+        <p>
+            A negative minus zero is negative, a positive [minus zero] is positive; zero [minus zero] is zero. When a positive is to be subtracted from a negative or a negative from a positive, then it is to be added.
+        </p>
+
+        <p>
+            The product of a negative and a positive is negative, of two negatives positive, and of positives positive; the product of zero and a negative, of zero and a positive, or of two zeros is zero.
+        </p>
+
+        <p>
+            A positive divided by a positive or a negative divided by a negative is positive; <em>a zero divided by zero is zero</em>; a positive divided by a negative is negative is negative; a negative divided by a positive is [also] negative.
+        </p>
+
+        <p>
+            A negative or positive divided by zero has that [zero] as its divisor, or zero divided by a negative or positive [has that negative or positive as its divisor].
+        </p>
+    </blockquote>
+
+    <p>
+        Although his rules for operations with zero are not quite correct, it is remarkable that he was able to determine them despite not having a symbol for zero to work with.
+    </p>
+    
+    
+  </subsection>
+
+  <subsection xml:id="subsec-Indeterminate-Equations">
+    <title>Indeterminate Equations</title>
+
+    <p>
+        Similar to Chinese mathematicians, Indian mathematicians and astronomers were interested in solving equations like those in the Chinese Remainder Theorem.
+    </p>
+
+    <p>
+        In his work <em>Aryabhatiya</em> the astronomer and mathematician Aryabhata (476-550 AD) considered problem of the form: Find an integer $N$ that when divided by numbers $a_1$, $a_2$, ... , $a_n$ leaves remainders $r_1$, $r_2$, ... , $r_n$ respectively.
+    </p>
+
+    <p>
+        Aryabhata also described a method for solving such problems.
+    </p>
+
+    <blockquote>
+        <p>
+            Divide the divisor corresponding to the greater remainder by the divisor corresponding to the smaller remainder. The residue (and the divisor corresponding to the smaller remainder) being mutually divided (until the remainder becomes zero), the last quotient should be multiplied by an optional integer and then added (in case the number of quotients of the mutual division is even) or subtracted (in case the number of quotients is odd) by the difference of the remainders. (Place the other quotients of the mutual division successively one below the other in a column; below them the result just obtained and underneath it the optional integer.) Any number below (that is, the penultimate) is multiplied by the one just above it and added by that just below it. Divide the last number (obtained so doing repeatedly) by the divisor corresponding to the smaller remainder; then multiply the residue by the divisor corresponding to the greater remainder and add the greater remainder. (The result will be) the number corresponding to the two divisors.
+        </p>
+    </blockquote>
+
+    <p>
+        A later mathematician, Bhaskara I (600-680 AD), wrote a commentary on Aryabhata's works and called his method of solution <term>Kuttaka</term> from a Sanskrit word meaning <term>pulverization</term>. The name is appropriate because in the method large numbers are broken down into smaller numbers until a solution is found.
+    </p>
+
+    <p>
+        In his commentary he gave the following example problem:
+    </p>
+
+    <blockquote>
+        <p>
+            A quantity divided by <m>12</m> leaves a remainder of <m>5</m>. Furthermore if such a quantity divided by <m>31</m> leaves a remainder of <m>7</m>, what should one such quantity be?
+        </p>
+    </blockquote>
+
+    <p>
+        To solve the problem we first rewrite these equation algebraically as
+        <md>
+            N = 12x + 5 = 31y+7
+        </md>
+        where <m>x</m> and <m>y</m> are integers.
+    </p>
+
+    <p>
+        Next we solve for <m>x</m> in terms of <m>y</m> to obtain
+        <md>
+            x = \dfrac{31y+2}{12} = 2y+w
+        </md>
+        where <m>w = \dfrac{7y+2}{12}</m>
+    </p>
+    
+    <p>
+        Now we solve for <m>y</m> in terms of <m>w</m>
+        <md>
+            y = \dfrac{12w-2}{7} = w + v
+        </md>
+        where <m>v = \dfrac{5w-2}{7}</m>
+    </p>
+
+
+    <p>
+        We repeat this process until we find a pair of integers that satisfy one of the equations. If we can't find any we continue breaking them down. Solving for <m>w</m> in terms of <m>v</m> gives
+        <md>
+            w = \dfrac{7v+2}{5} = v+ u
+        </md>
+        where <m>u = \dfrac{2v+2}{5}</m>
+    </p>
+
+    <p>
+        Solving for <m>v</m> in terms of <m>u</m> gives
+        <md>
+            v = \dfrac{5u-2}{2}. 
+        </md>
+        This equation has an integer solution of <m>u = 2</m> and <m>v = 4</m>
+    </p>
+
+    <p>
+        Now we use back substitution to find the solutions of the other variables. Since <m>w = v+u</m>, <m>w = 6</m>. Then since <m>y = w+v</m>, <m>y = 10</m>. Then since <m>x = 2y+w</m>, <m>x = 26</m>. Thus <m>N = 12(26) + 5 = 317</m>. To check our work note that <m>N = 31(10)+7 = 317</m>. Thus the solution is <m>317</m>
+    </p>
+
+    <p>
+        There are actually infinitely many solutions to this problem, but <m>317</m> is the smallest positive solution. All other solutions can be found by adding multiples of <m>372</m> to <m>317</m>. This is because <m>31\cdot 12 = 372</m> and the cycle repeats.
     </p>
 
      </subsection>
