@@ -139,6 +139,91 @@
         There are actually infinitely many solutions to this problem, but <m>317</m> is the smallest positive solution. All other solutions can be found by adding multiples of <m>372</m> to <m>317</m>. This is because <m>31\cdot 12 = 372</m> and the cycle repeats.
     </p>
 
+    <p>
+         The kuttata method can also be used to solve integer equations in 2 variables, such as <m>12x+10y = 54</m>.
+    </p>
+
+     </subsection>
+
+     <subsection xml:id="subsec-Pells-Equation">
+        <title>Pell's Equation and the Chakravala Method</title>
+
+
+
+        <p>
+            In 1657 Pierre de Fermat issued the following challenge to European Mathematicians: Find integer solutions to the equation
+            <md>
+                61x^2+1 = y^2
+            </md>
+            
+        </p>
+
+        <p>
+            Unknown to Fermat, this equation had been solved 500 years earlier by the Indian mathematician Bhaskara II using the Chakravala Method. Bhaskara II determined that $x= 226,153,980$ and $y= 1,766,319,049$ is the smallest solution to Fermat's challenge.
+        </p>
+
+        <p>
+            In general, <term>Pell's equation</term> (called <term>varga-prakriti</term> by the ancient Indians) is an equation of the form
+            <md>
+                nx^2+1 = y^2
+            </md>
+              where $n$ is not a perfect square and the solutions $x$ and $y$ are required to be positive integers. Fermat's challenge equation is an example of Pell's equation with $n= 61$.
+        </p>
+
+        <p>
+            Pell's equation has an important application for approximating square roots by fractions. If $(x_1, y_1)$ is a solution to 
+            <md>
+                nx^2+1 = y^2
+            </md>
+            then $\dfrac{y_1}{x_1}$ closely approximates $\sqrt{n}$. The larger $x_1$ and $y_1$ are, the closer the approximation is to the exact value.
+        </p>
+
+        <p>
+            Special cases of Pell's equation had been studied by earlier mathematicians, but the first mathematician to study the general form of Pell's equation was the Indian mathematician Brahmagupta in the 7th century A.D. Brahmagupta proved many facts about Pell's equation and used them to solve Pell's equation for various values of $n$. However, he didn't know a method that would work in general and there were certain values of $n$ that he was unable to solve.
+        </p>
+
+        <p>
+            The <term>Chakravala method</term> was developed as a general method for solving Pell's equation. It was created by Jayadeva in the 11th century and simplified by Bhaskara II. <term>Chakra</term> is the Sankrit word for cycle. Chakravala refers to a mythical mountain range that encircles the earth. Brahmagupta had used a form of the Chakravala method in his solutions; however, Jayadeva expanded the method so that it would solve Pell's equation for all $n$.
+        </p>
+        
+
+        <p>
+            In 1657 Pierre de Fermat issued a challenge to European mathematicians to solve Pell's equation for $n=61$, which Bhaskara II had solved 500 years earlier. To solve this problem William Brouncker developed a method involving continued fractions. With this method he was able to obtain the same solution as Bhaskara II. Brouncker's method of continued fractions was later refined by Lagrange. However, this method is more complicated than the Chakravala method. 
+        </p>
+
+        <p>
+            In 1658 Johann Rahm wrote an algebra book, with the help of John Pell, which featured an example of Pell's equation. This is Pell's only contribution to the equation. Leonhard Euler is responsible for naming the equation <em>Pell's Equation</em> and it is widely believed that Euler confused Brouncker and Pell and thought that Pell was responsible for the solution for $n = 61$. 
+        </p>
+
+        <p>
+            The main idea of the Chakravala method comes from the following theorem of Brahmagupta written down around 628 A.D.
+        </p>
+
+        <theorem xml:id="thm-brahmagupta">
+            <title>Brahmagupta's Identity</title>
+            
+            
+            <statement>
+                <p>
+                    Suppose that for integers $n$, $x_1$, $x_2$, $y_1$, $y_2$, $k_1$, and $k_2$
+                    <md>
+                         nx_1^2+ k_1 = y_1^2
+                    </md>
+                    and
+                    <md>
+                        nx_2^2+k_2 = y_2^2.
+                    </md>
+                    Then if $x = x_1y_2+x_2y_1$, $y = nx_1x_2 + y_1y_2$, and $k=k_1k_2$,
+                    <md>
+                        nx^2+k = y^2
+                    </md>
+                    
+                </p>
+            </statement>
+        </theorem>
+        
+
+
      </subsection>
 
   </section>
