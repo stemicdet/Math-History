@@ -63,7 +63,7 @@
     </p>
 
     <p>
-        In his work <em>Aryabhatiya</em> the astronomer and mathematician Aryabhata (476-550 AD) considered problem of the form: Find an integer $N$ that when divided by numbers $a_1$, $a_2$, ... , $a_n$ leaves remainders $r_1$, $r_2$, ... , $r_n$ respectively.
+        In his work <em>Aryabhatiya</em> the astronomer and mathematician Aryabhata (476-550 AD) considered problem of the form: Find an integer <m>N</m> that when divided by numbers <m>a_1</m>, <m>a_2</m>, ... , <m>a_n</m> leaves remainders <m>r_1</m>, <m>r_2</m>, ... , <m>r_n</m> respectively.
     </p>
 
     <p>
@@ -159,7 +159,7 @@
         </p>
 
         <p>
-            Unknown to Fermat, this equation had been solved 500 years earlier by the Indian mathematician Bhaskara II using the Chakravala Method. Bhaskara II determined that $x= 226,153,980$ and $y= 1,766,319,049$ is the smallest solution to Fermat's challenge.
+            Unknown to Fermat, this equation had been solved 500 years earlier by the Indian mathematician Bhaskara II using the Chakravala Method. Bhaskara II determined that <m>x= 226,153,980</m> and <m>y= 1,766,319,049</m> is the smallest solution to Fermat's challenge.
         </p>
 
         <p>
@@ -167,32 +167,32 @@
             <md>
                 nx^2+1 = y^2
             </md>
-              where $n$ is not a perfect square and the solutions $x$ and $y$ are required to be positive integers. Fermat's challenge equation is an example of Pell's equation with $n= 61$.
+              where <m>n</m> is not a perfect square and the solutions <m>x</m> and <m>y</m> are required to be positive integers. Fermat's challenge equation is an example of Pell's equation with <m>n= 61</m>.
         </p>
 
         <p>
-            Pell's equation has an important application for approximating square roots by fractions. If $(x_1, y_1)$ is a solution to 
+            Pell's equation has an important application for approximating square roots by fractions. If <m>(x_1, y_1)</m> is a solution to 
             <md>
                 nx^2+1 = y^2
             </md>
-            then $\dfrac{y_1}{x_1}$ closely approximates $\sqrt{n}$. The larger $x_1$ and $y_1$ are, the closer the approximation is to the exact value.
+            then <m>\dfrac{y_1}{x_1}</m> closely approximates <m>\sqrt{n}</m>. The larger <m>x_1</m> and <m>y_1</m> are, the closer the approximation is to the exact value.
         </p>
 
         <p>
-            Special cases of Pell's equation had been studied by earlier mathematicians, but the first mathematician to study the general form of Pell's equation was the Indian mathematician Brahmagupta in the 7th century A.D. Brahmagupta proved many facts about Pell's equation and used them to solve Pell's equation for various values of $n$. However, he didn't know a method that would work in general and there were certain values of $n$ that he was unable to solve.
+            Special cases of Pell's equation had been studied by earlier mathematicians, but the first mathematician to study the general form of Pell's equation was the Indian mathematician Brahmagupta in the 7th century A.D. Brahmagupta proved many facts about Pell's equation and used them to solve Pell's equation for various values of <m>n</m>. However, he didn't know a method that would work in general and there were certain values of <m>n</m> that he was unable to solve.
         </p>
 
         <p>
-            The <term>Chakravala method</term> was developed as a general method for solving Pell's equation. It was created by Jayadeva in the 11th century and simplified by Bhaskara II. <term>Chakra</term> is the Sankrit word for cycle. Chakravala refers to a mythical mountain range that encircles the earth. Brahmagupta had used a form of the Chakravala method in his solutions; however, Jayadeva expanded the method so that it would solve Pell's equation for all $n$.
+            The <term>Chakravala method</term> was developed as a general method for solving Pell's equation. It was created by Jayadeva in the 11th century and simplified by Bhaskara II. <term>Chakra</term> is the Sankrit word for cycle. Chakravala refers to a mythical mountain range that encircles the earth. Brahmagupta had used a form of the Chakravala method in his solutions; however, Jayadeva expanded the method so that it would solve Pell's equation for all <m>n</m>.
         </p>
         
 
         <p>
-            In 1657 Pierre de Fermat issued a challenge to European mathematicians to solve Pell's equation for $n=61$, which Bhaskara II had solved 500 years earlier. To solve this problem William Brouncker developed a method involving continued fractions. With this method he was able to obtain the same solution as Bhaskara II. Brouncker's method of continued fractions was later refined by Lagrange. However, this method is more complicated than the Chakravala method. 
+            In 1657 Pierre de Fermat issued a challenge to European mathematicians to solve Pell's equation for <m>n=61</m>, which Bhaskara II had solved 500 years earlier. To solve this problem William Brouncker developed a method involving continued fractions. With this method he was able to obtain the same solution as Bhaskara II. Brouncker's method of continued fractions was later refined by Lagrange. However, this method is more complicated than the Chakravala method. 
         </p>
 
         <p>
-            In 1658 Johann Rahm wrote an algebra book, with the help of John Pell, which featured an example of Pell's equation. This is Pell's only contribution to the equation. Leonhard Euler is responsible for naming the equation <em>Pell's Equation</em> and it is widely believed that Euler confused Brouncker and Pell and thought that Pell was responsible for the solution for $n = 61$. 
+            In 1658 Johann Rahm wrote an algebra book, with the help of John Pell, which featured an example of Pell's equation. This is Pell's only contribution to the equation. Leonhard Euler is responsible for naming the equation <em>Pell's Equation</em> and it is widely believed that Euler confused Brouncker and Pell and thought that Pell was responsible for the solution for <m>n = 61</m>. 
         </p>
 
         <p>
@@ -205,7 +205,7 @@
             
             <statement>
                 <p>
-                    Suppose that for integers $n$, $x_1$, $x_2$, $y_1$, $y_2$, $k_1$, and $k_2$
+                    Suppose that for integers <m>n</m>, <m>x_1</m>, <m>x_2</m>, <m>y_1</m>, <m>y_2</m>, <m>k_1</m>, and <m>k_2</m>
                     <md>
                          nx_1^2+ k_1 = y_1^2
                     </md>
@@ -213,7 +213,7 @@
                     <md>
                         nx_2^2+k_2 = y_2^2.
                     </md>
-                    Then if $x = x_1y_2+x_2y_1$, $y = nx_1x_2 + y_1y_2$, and $k=k_1k_2$,
+                    Then if <m>x = x_1y_2+x_2y_1</m>, <m>y = nx_1x_2 + y_1y_2</m>, and <m>k=k_1k_2</m>,
                     <md>
                         nx^2+k = y^2
                     </md>
@@ -243,22 +243,22 @@
             <ol>
                 <li>
                     <p>
-                        By inspection determine the smallest integral solution for the equation. Call these $x_1$ and $y_1$.
+                        By inspection determine the smallest integral solution for the equation. Call these <m>x_1</m> and <m>y_1</m>.
                     </p>
                 </li>
                 <li>
                     <p>
-                        Let $x_2 = 2x_1y_1$ and let $y_2 = nx_1^2 + y_1^2$. These are also solutions to the equation.
+                        Let <m>x_2 = 2x_1y_1</m> and let <m>y_2 = nx_1^2 + y_1^2</m>. These are also solutions to the equation.
                     </p>
                 </li>
                 <li>
                     <p>
-                        Let $x_3 = x_2y_1 + x_1y_2$ and let $y_3 = nx_2x_1 + y_2y_1$.
+                        Let <m>x_3 = x_2y_1 + x_1y_2</m> and let <m>y_3 = nx_2x_1 + y_2y_1</m>.
                     </p>
                 </li>
                 <li>
                     <p>
-                        Repeat to find all solutions. In general $x_{j+1} = x_jy_{1}+x_{1}y_j$ and $y_{j+1} = nx_jx_{1} + y_jy_{1}$.
+                        Repeat to find all solutions. In general <m>x_{j+1} = x_jy_{1}+x_{1}y_j</m> and <m>y_{j+1} = nx_jx_{1} + y_jy_{1}</m>.
                     </p>
                 </li>
             </ol>
@@ -275,7 +275,7 @@
 </p>
 
 <p>
-    By inspection $x_1 = 2$, $y_1 = 3$. To find the other three solutions we repeat the basic form of the Chakravala method. $x_2 = 2(2)(3) = 12$, $y_2 = 2(2)^2+(3)^2 = 17$. $x_3 = 12\cdot 3 + 2\cdot 17 = 70$, $y_3=2(12)(2)+(17)(3) = 99$. $x_4 = 70\cdot 3 + 2\cdot 99 = 408$, $y_4 = 2(70)(2)+(99)(3)=577$.  
+    By inspection <m>x_1 = 2</m>, <m>y_1 = 3</m>. To find the other three solutions we repeat the basic form of the Chakravala method. <m>x_2 = 2(2)(3) = 12</m>, <m>y_2 = 2(2)^2+(3)^2 = 17</m>. <m>x_3 = 12\cdot 3 + 2\cdot 17 = 70</m>, <m>y_3=2(12)(2)+(17)(3) = 99</m>. <m>x_4 = 70\cdot 3 + 2\cdot 99 = 408</m>, <m>y_4 = 2(70)(2)+(99)(3)=577</m>.  
 </p>
 
 <theorem xml:id="thm-chakravala-advanced">
@@ -287,27 +287,27 @@
             <ol>
                 <li>
                     <p>
-                        By inspection determine the smallest integral solution to the equation $nx^2+k =y^2$ for some $k$. Call these $x_1$ and $y_1$.
+                        By inspection determine the smallest integral solution to the equation <m>nx^2+k =y^2</m> for some <m>k</m>. Call these <m>x_1</m> and <m>y_1</m>.
                     </p>
                 </li>
                 <li>
                     <p>
-                        Choose $m$ so that $\dfrac{mx_1+y_1}{k}$ is an integer and $m^2-n$ is as small as possible in absolute value.
+                        Choose <m>m</m> so that <m>\dfrac{mx_1+y_1}{k}</m> is an integer and <m>m^2-n</m> is as small as possible in absolute value.
                     </p>
                 </li>
                 <li>
                     <p>
-                        Let $x_2 = mx_1+y_1$ and let $y_2 = nx_1 + my_1$. These are solutions to the equation $nx^2 + k(m^2-n) = y^2$.
+                        Let <m>x_2 = mx_1+y_1</m> and let <m>y_2 = nx_1 + my_1</m>. These are solutions to the equation <m>nx^2 + k(m^2-n) = y^2</m>.
                     </p>
                 </li>
                 <li>
                     <p>
-                        Scale the solutions by replacing $x_2$ with $\frac{x_2}{|k|}$ and $y_2$ with $\frac{y_2}{|k|}$. The new $x_2$ and $y_2$ solve the equation $nx^2 + \dfrac{(m^2-n)}{k} = y^2$.
+                        Scale the solutions by replacing <m>x_2</m> with <m>\frac{x_2}{|k|}</m> and <m>y_2</m> with <m>\frac{y_2}{|k|}</m>. The new <m>x_2</m> and <m>y_2</m> solve the equation <m>nx^2 + \dfrac{(m^2-n)}{k} = y^2</m>.
                     </p>
                 </li>
                 <li>
                     <p>
-                        Repeat the process until you end up with a solution to the equation $nx^2 +1 = y^2$.
+                        Repeat the process until you end up with a solution to the equation <m>nx^2 +1 = y^2</m>.
                     </p>
                 </li>
             </ol>
@@ -316,35 +316,35 @@
 </theorem>
 
 <p>
-    Example: Find an integer solution to the equation $19x^2+1 = y^2$
+    Example: Find an integer solution to the equation <m>19x^2+1 = y^2</m>
 </p>
 
 <p>
-    Note that the equation $19x^2-3 = y^2$ has solution $x_1 = 1$, $y_1=4$. Thus $k = -3$.
+    Note that the equation <m>19x^2-3 = y^2</m> has solution <m>x_1 = 1</m>, <m>y_1=4</m>. Thus <m>k = -3</m>.
 </p>
 
 <p>
-    Let $m=5$. Then $x_2 = 5(1)+4 = 9$ and $y_2= 19(1)+5(4) = 39$ solve the equation $19x^2-18 = y^2$.
+    Let <m>m=5</m>. Then <m>x_2 = 5(1)+4 = 9</m> and <m>y_2= 19(1)+5(4) = 39</m> solve the equation <m>19x^2-18 = y^2</m>.
 </p>
 
 <p>
-    Scale the solutions to get that $x_2' = \frac{9}{3} =3$ and $y_2' = \frac{39}{3} = 13$ solve the equation $19x^2-2 = y^2$.
+    Scale the solutions to get that <m>x_2' = \frac{9}{3} =3</m> and <m>y_2' = \frac{39}{3} = 13</m> solve the equation <m>19x^2-2 = y^2</m>.
 </p>
 
 <p>
-    Let $m=5$. Then $x_3 = 5(3)+13 = 28$ and $y_3= 19(3)+5(13) = 122$ solve the equation $19x^2-12 = y^2$.
+    Let <m>m=5</m>. Then <m>x_3 = 5(3)+13 = 28</m> and <m>y_3= 19(3)+5(13) = 122</m> solve the equation <m>19x^2-12 = y^2</m>.
 </p>
 
 <p>
-    Scale the solutions to get that $x_3' = \frac{28}{2} =14$ and $y_3' = \frac{122}{2} = 61$ solve the equation $19x^2-3 = y^2$.
+    Scale the solutions to get that <m>x_3' = \frac{28}{2} =14</m> and <m>y_3' = \frac{122}{2} = 61</m> solve the equation <m>19x^2-3 = y^2</m>.
 </p>
 
 <p>
-    Let $m=4$. Then $x_4 = 4(14)+61 = 117$ and $y_4= 19(14)+4(61) = 510$ solve the equation $19x^2+9 = y^2$.
+    Let <m>m=4</m>. Then <m>x_4 = 4(14)+61 = 117</m> and <m>y_4= 19(14)+4(61) = 510</m> solve the equation <m>19x^2+9 = y^2</m>.
 </p>
 
 <p>
-    Scale the solutions to get that $x_4' = \frac{117}{3} =39$ and $y_4' = \frac{510}{3} = 170$ solve the equation $19x^2+1 = y^2$.
+    Scale the solutions to get that <m>x_4' = \frac{117}{3} =39</m> and <m>y_4' = \frac{510}{3} = 170</m> solve the equation <m>19x^2+1 = y^2</m>.
 </p>
 
 
@@ -359,14 +359,14 @@
         </p>
 
         <p>
-            Recall that a sequence is an infinite list of numbers. Typically we describe sequences using a closed form formula, such as $a_n = 2n$ for the sequence $0, 2, 4, \ldots$. (Note: I am starting sequences with $n=0$ to simplify later formulas.) The partial sums of a sequence are the sums of the first few terms of the sequence. For the sequence $a_0, a_1, a_2, \ldots a_n, \ldots$, the partial sums are
+            Recall that a sequence is an infinite list of numbers. Typically we describe sequences using a closed form formula, such as <m>a_n = 2n</m> for the sequence <m>0, 2, 4, \ldots</m>. (Note: I am starting sequences with <m>n=0</m> to simplify later formulas.) The partial sums of a sequence are the sums of the first few terms of the sequence. For the sequence <m>a_0, a_1, a_2, \ldots a_n, \ldots</m>, the partial sums are
             <md>
                 <mrow> \amp S_0 = a_0</mrow>
                 <mrow> \amp S_1 = a_0+a_1</mrow>
                 <mrow> \amp S_2 = a_0 + a_1 + a_2</mrow>
                 <mrow> \amp S_n = a_0 + a_1 + a_2 + \ldots + a_n</mrow>
             </md>
-            $S_0$ is called the zeroth partial sum, $S_1$ is the first partial sum and so on. $S_n$ is called the $n$th partial sum.
+            <m>S_0</m> is called the zeroth partial sum, <m>S_1</m> is the first partial sum and so on. <m>S_n</m> is called the <m>n</m>th partial sum.
         </p>
 
         <p>
@@ -378,7 +378,7 @@
         </p>
 
         <p>
-            We can start the series at $n=1$ or any other value for $n$.
+            We can start the series at <m>n=1</m> or any other value for <m>n</m>.
             <md>
                 \sum_{n=1}^{5} a_n = a_1+a_2 + \ldots + a_5
             </md>
@@ -389,6 +389,249 @@
             In Nilakantha's commentary on the Aryabhatiya, written in the early 16th century, partial sums of series are represented by piling rectangular strips of unit width on top of each other and then calculating the area of the strip.
         </p>
 
+
+
+
+
+
+
+
+        <p>
+            In the above picture we combine <m>n</m> strips with lengths increasing arithmetically from <m>a</m> to <m>f</m>. The complete rectangle has length <m>a+f</m> and width <m>n</m> so the area is <m>n(a+f)</m>. Since the strips form half the rectangle, this shows that the sum of an arithmetic series of <m>n</m> terms from <m>a</m> to <m>f</m> is <m>\dfrac{n(a+f)}{2}</m>.
+        </p>
+
+        <p>
+            Example: Find the sum of the series <m>2+4+6+\ldots+5,196</m>.
+        </p>
+
+        <p>
+            Example: If we let <m>a=1</m> and <m>f = n</m> then we get that the sum of the first <m>n</m> integers is <m>\dfrac{n(n+1)}{n}</m>
+        </p>
+
+
+
+
+
+
+
+
+
+        <p>
+            We will now show that <m>\sum_{m=1}^{n} \dfrac{m(m+1)}{2} = \dfrac{n(n+1)(n+2)}{6}</m>. This was also demonstrated by Nilakantha.
+        </p>
+
+        <p>
+            Take <m>6</m> of the stacks which represent the sum of the first <m>n</m> integers and combine them to create 3 rectangles with length <m>n+1</m> and width <m>n</m>. We now make them 3 dimensional by giving them a thickness of 1 so that the total volume is <m>n(n+1)</m>.
+        </p>
+
+        <p>
+            Place one piece flat on the ground. Place the second piece standing vertically next to the side with length <m>n</m> and place the 3rd piece standing vertically next to the side with length <m>n+1</m>. This forms the sides of a prism with dimensions <m>n \times (n+1) \times (n+2)</m>
+        </p>
+
+
+
+
+
+
+
+
+        <p>
+            We can fill in the prism layer by layer by using the sums of the first <m>m</m> integers for <m>m</m> less than <m>n</m>. For example the second layer is formed by repeating the process with rectangles representing the sum of the first <m>n-1</m> integers. The final result is a rectangular prism with volume <m>n(n+1)(n+2)</m>. It is made up by adding 6 copies of the sums of the first <m>m</m> integers as <m>m</m> goes from 1 to <m>n</m>. Because the sum of the first <m>m</m> integers is <m>\dfrac{m(m+1)}{2}</m>, we have that 
+            <md>
+                \sum_{m =1}^{n} \dfrac{m(m+1)}{2} = \dfrac{n(n+1)(n+2)}{6}
+            </md>
+            This formula can be used when you need to add up sums of the first <m>n</m> integers.
+        </p>
+
+        <p>
+            Example: In the song <q>The 12 days of Christmas</q> the singer receives various gifts on each of the 12 days of Christmas. On the <m>n</m>th day of Christmas, the singer receives gifts equal to the sum of the first <m>n</m> integers. How many gifts does the singer receive in total at the end of the 12th day of Christmas?
+        </p>
+
+
+        <p>
+            Informally, an infinite series is the <q>sum</q> of all the terms in a sequence. Formally the infinite series is the limit as <m>n \to \infty</m> of the sequence of partial sums <m>S_1, S_2, \ldots S_n, \ldots</m>. If <m>\{a_n\}</m> is a sequence, then we denote the infinite series <m>S</m> by 
+            <md>
+                S = \sum_{n=0}^{\infty} a_n.
+            </md>
+            For example, if <m>a_n = 2n+1</m>, then 
+            <md>
+                S = \sum_{n=0}^{\infty} 2n+1 = 1 + 3 +5 + \ldots
+            </md>
+            
+        </p>
+
+        <p>
+            There is no guarantee that this limit will exist. For example, the series
+            <md>
+                S = \sum_{n=0}^{\infty} 2n+1 = 1 + 3 +5 + \ldots
+            </md>
+            grows without bound.
+        </p>
+
+        <p>
+            The series
+            <md>
+                S = \sum_{n=0}^{\infty} (-1)^n = 1-1+1-1+1-1+\ldots
+            </md>
+            alternates between <m>0</m> and <m>1</m> for all eternity.
+        </p>
+
+        <p>
+            In both cases we say that these series diverge or that they are divergent series.
+        </p>
+
+        <p>
+            The limit will exist if the terms tend to 0 very quickly. For example, consider the series 
+            <md>
+                \sum_{n=0}^{\infty} \dfrac{1}{2^n} = 1+ \dfrac{1}{2} + \dfrac{1}{4} + \dfrac{1}{8} + \ldots
+            </md>
+            As we add more and more terms, the series gets closer and closer to 2. In this case we say that the series converges to 2. We call these types of series convergent series.
+        </p>
+
+        <p>
+            Thus far all our example of infinite series have been series of numbers. But we can have sequences of functions as well.
+        </p>
+
+        <p>
+            Let <m>f_0(x), f_1(x), f_2(x), \ldots</m> be a sequence of functions. Then 
+            <md>
+                 f(x) = \sum_{n=0}^{\infty} f_n(x) = f_0(x)+ f_1(x) + f_2(x) + \ldots
+            </md>
+            is a function as well, provided that the series converges.
+        </p>
+
+        <p>
+            Example: If <m>|x| &lt; 1</m> then the following infinite series defines a function
+
+            <md>
+                f(x) = \sum_{n=0}^{\infty} x^n = 1+ x + x^2 + x^3+ \ldots
+            </md>
+            Moreover, this series converges to a familiar function.
+            <md>
+                \sum_{n=0}^{\infty} x^n = 1+ x + x^2 + x^3+ \ldots = \dfrac{1}{1-x}
+            </md>
+            for <m>|x| &lt; 1</m>. 
+        </p>
+
+        <p>
+            This means that we can approximate the values of <m>\dfrac{1}{1-x}</m> by evaluating more and more terms of the infinite series. This isn't particularly useful for <m>\dfrac{1}{1-x}</m> because we can evaluate it directly, but it is useful for functions that are harder to evaluate.
+        </p>
+
+        <p>
+            Now consider the problem of finding the sine of an angle. For some angles, such as <m>\dfrac{\pi}{4}</m> or 45 degrees, we can find the sine exactly, but this isn't the case for most angles. If we want to find the sine for an angle that we can't find exactly, we can use our calculator to approximate the value of the sine. But a calculator can only add, subtract, multiply, and divide numbers, so how can it approximate the sine of an angle for us? To answer this, we need to look at one of the more remarkable discoveries of Madhava of Sangamagrama.
+        </p>
+
+        <p>
+            Madhava gave the following instructions for calculating sine (jiva).
+        </p>
+
+        <blockquote>
+            <p>
+                Multiply the arc by the square of the arc, and take the result of repeating that (any number of times). Divide (each of the above numerators) by the squares of the successive even numbers increased by that number and multiplied by the square of the radius. Place the arc and the successive results so obtained one below the other, and subtract each from the one above. These together give the jiva, as collected together in the verse beginning with <q>vidvan</q> etc.
+            </p>
+        </blockquote>
+
+        <p>
+            In modern mathematical notation, his formula is as follows.
+            <md>
+                \sin(x) = \sum_{n=0}^{\infty} (-1)^n\dfrac{x^{2n+1}}{(2n+1)!} = x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\ldots
+            </md>
+            where <m>n!</m> is the product of <m>n</m>, <m>n-1</m>, \ldots 1.
+        </p>
+
+        <p>
+            Using Madhava's formula, we can calculate the sine of any angle provided that we measure the angle in radians, not degrees.
+        </p>
+
+        <p>
+            Example: Use Madhava's formula to estimate <m>\sin(\frac{\pi}{10})</m> to 3 decimal places of accuracy.
+        </p>
+
+        <p>
+            Madhava's formula for sine is an example of a power series. A power series is an infinite series of power functions (functions of the form <m>x^n</m> for some positive integer <m>n</m>.) A power series with a finite number of terms is a polynomial. Infinite power series can be thought of as polynomials of infinite degree. More precisely, Madhava's formula is an example of Taylor series. A Taylor series is a power series in which the coefficients are determined from the derivatives of the function. Madhava's formula for sine is the earliest known example of a Taylor series. 
+        </p>
+
+        <p>
+            In addition to his series for sine, Madhava also discovered the Taylor series for cosine and arctangent. (inverse tangent).
+            <md>
+                \cos(x) = \sum_{n=0}^{\infty} (-1)^n \dfrac{x^{2n}}{(2n)!}= 1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\ldots
+            </md>
+
+            <md>
+                \arctan(x) = \sum_{n=0}^{\infty} (-1)^n \dfrac{x^{2n+1}}{2n+1} = x-\frac{x^3}{3}+\frac{x^5}{5}-\frac{x^7}{7}+\ldots
+            </md>
+            
+            
+        </p>
+
+        <p>
+            Example: Use Madhava's series to approximate <m>\cos(\dfrac{\pi}{5})</m> to 3 decimal places.
+        </p>
+
+        <p>
+            Example: Use Madhava's series to approximate <m>\arctan(2)</m> to 3 decimal places.
+        </p>
+
+        <p>
+            Recall that <m>\arctan(1) = \dfrac{\pi}{4}</m>. Thus by letting <m>x=1</m> in his formula for Arctangent, Madhava obtained the following series expansion of <m>\dfrac{\pi}{4}</m>.
+            <md>
+                \dfrac{\pi}{4} = \sum_{n=0}^{\infty} (-1)^n \dfrac{1}{2n+1} = 1-\frac{1}{3}+\frac{1}{5}-\frac{1}{7}+\ldots
+            </md>
+            This formula is known as the Leibniz formula, or the Madhava-Leibniz formula, in honor of Gottfried Leibniz who rediscovered it around 1676, about 300 years after Madhava. 
+        </p>
+
+        <p>
+            By taking sufficiently many terms in the Madhava-Leibniz formula, one can approximate <m>\dfrac{\pi}{4}</m> to any desired accuracy. Multiplying this by 4, gives an approximation for <m>\pi</m> to any desired accuracy. 
+        </p>
+
+        <p>
+            The downside to this formula is that it converges very slowly. This means that one needs to add up a large number of terms to get an accurate value of <m>\pi</m>. After adding up 500,000 terms, one only has <m>\pi</m> correctly approximated to 5 decimal places. 
+        </p>
+
+        <p>
+            Madhava realized that if <m>x = \dfrac{\sqrt{3}}{3}</m> in his formula for arctangent, then he would obtain the following series after some simplification.
+            <md>
+                \pi = \sqrt{12}\sum_{n=0}^{\infty} (-1)^n \dfrac{(\frac{1}{3})^{n}}{2n+1} = \sqrt{12} \left( 1-\frac{1}{3\cdot 3}+\frac{1}{5\cdot 3^2}-\frac{1}{7\cdot 3^3}+\ldots\right)
+            </md>
+            
+            
+        </p>
+
+        <p>
+            This series converges faster than the previous one, and Madhava was able to use it to accurately compute <m>\pi</m> to 11 decimal places. Prior to this <m>\pi</m> had been accurately computed only to 7 decimal places by Chinese mathematicians. However, unlike Madhava they used an approach involving areas of polygons. By inclosing a circle between polygons with the same large number of sides they were able to calculate <m>pi</m> to many decimal places of accuracy.
+        </p>
+
+        <p>
+            In 1424 a Persian mathematician, Jamshid Al-Kashi, used this approach to calculate <m>\pi</m> accurately to 17 places. This involved calculating the perimeter of a regular polygon with <m>3\cdot 2^{28}</m> sides.
+        </p>
+
+        <p>
+            In 1621 the German mathematician and fencing instructor Ludolph Van Ceulen calculated <m>\pi</m> accurately to 35 places using a polygon with <m>2^{62}</m> sides. He was so proud of this accomplishment, that he had it inscribed on his tombstone. For many years in Germany, <m>\pi</m> was known as the Ludolphine number.
+        </p>
+
+        <p>
+            In 1706, English mathematician John Machin discovered that
+            <md>
+                 \dfrac{\pi}{4} = 4 \arctan \dfrac{1}{5} -\arctan \dfrac{1}{239}
+            </md>
+            When combined with Madhava's series for arctangent, it converged rapidly and he was able to calculate <m>\pi</m> accurately to 100 decimal places.
+        </p>
+
+        <p>
+            In 1873 British amateur mathematician William Shanks used Machin's formula to calculate <m>\pi</m> to 707 places. However, he made an error and only the first 527 places were correct. 
+        </p>
+
+        <p>
+            In 1914 Indian mathematician Srinivasa Ramanujan (who lived near where Madhava was born) found a remarkable series for <m>\pi</m> which converges incredibly quickly.
+            <md>
+                \dfrac{1}{\pi} = \dfrac{2\sqrt{2}}{640320^{3/2}} \sum_{n=0}^{\infty} \dfrac{(4n)!(1103+26390n)}{(n!)^4(396^{4n})}
+            </md>
+            Using this series 17 million digits of <m>\pi</m> were calculated by computer in 1985.
+        </p>
+
+        <p>
+            Using a slightly more complicated closely related series, Timothy Mullican computed over 50 trillion digits on his computer in 2020. 
+        </p>
         
      </subsection>
 
