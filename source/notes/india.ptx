@@ -222,8 +222,174 @@
             </statement>
         </theorem>
         
+<p>
+    There are two forms of the Chakravala method, which I will call the basic form and the advanced form. The basic form is used when you know one solution to the equation 
+    <md>
+        nx^2+1 = y^2
+    </md>
+    and want to find other solutions.
+</p>
+
+<p>
+    The advanced form is used when you can't easily determine a solution to the equation.
+</p>
+
+<theorem xml:id="thm-chakravala-basic">
+    <title>Chakravala Method (Basic Form)</title>
+    
+    
+    <statement>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        By inspection determine the smallest integral solution for the equation. Call these $x_1$ and $y_1$.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Let $x_2 = 2x_1y_1$ and let $y_2 = nx_1^2 + y_1^2$. These are also solutions to the equation.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Let $x_3 = x_2y_1 + x_1y_2$ and let $y_3 = nx_2x_1 + y_2y_1$.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Repeat to find all solutions. In general $x_{j+1} = x_jy_{1}+x_{1}y_j$ and $y_{j+1} = nx_jx_{1} + y_jy_{1}$.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</theorem>
+
+<p>
+    Example: Find four positive integer equations to the following equation:
+    <md>
+        2x^2 +1 = y^2
+    </md>
+    
+</p>
+
+<p>
+    By inspection $x_1 = 2$, $y_1 = 3$. To find the other three solutions we repeat the basic form of the Chakravala method. $x_2 = 2(2)(3) = 12$, $y_2 = 2(2)^2+(3)^2 = 17$. $x_3 = 12\cdot 3 + 2\cdot 17 = 70$, $y_3=2(12)(2)+(17)(3) = 99$. $x_4 = 70\cdot 3 + 2\cdot 99 = 408$, $y_4 = 2(70)(2)+(99)(3)=577$.  
+</p>
+
+<theorem xml:id="thm-chakravala-advanced">
+    <title>Chakravala Method (Advanced)</title>
+    
+    
+    <statement>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        By inspection determine the smallest integral solution to the equation $nx^2+k =y^2$ for some $k$. Call these $x_1$ and $y_1$.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Choose $m$ so that $\dfrac{mx_1+y_1}{k}$ is an integer and $m^2-n$ is as small as possible in absolute value.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Let $x_2 = mx_1+y_1$ and let $y_2 = nx_1 + my_1$. These are solutions to the equation $nx^2 + k(m^2-n) = y^2$.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Scale the solutions by replacing $x_2$ with $\frac{x_2}{|k|}$ and $y_2$ with $\frac{y_2}{|k|}$. The new $x_2$ and $y_2$ solve the equation $nx^2 + \dfrac{(m^2-n)}{k} = y^2$.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Repeat the process until you end up with a solution to the equation $nx^2 +1 = y^2$.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+</theorem>
+
+<p>
+    Example: Find an integer solution to the equation $19x^2+1 = y^2$
+</p>
+
+<p>
+    Note that the equation $19x^2-3 = y^2$ has solution $x_1 = 1$, $y_1=4$. Thus $k = -3$.
+</p>
+
+<p>
+    Let $m=5$. Then $x_2 = 5(1)+4 = 9$ and $y_2= 19(1)+5(4) = 39$ solve the equation $19x^2-18 = y^2$.
+</p>
+
+<p>
+    Scale the solutions to get that $x_2' = \frac{9}{3} =3$ and $y_2' = \frac{39}{3} = 13$ solve the equation $19x^2-2 = y^2$.
+</p>
+
+<p>
+    Let $m=5$. Then $x_3 = 5(3)+13 = 28$ and $y_3= 19(3)+5(13) = 122$ solve the equation $19x^2-12 = y^2$.
+</p>
+
+<p>
+    Scale the solutions to get that $x_3' = \frac{28}{2} =14$ and $y_3' = \frac{122}{2} = 61$ solve the equation $19x^2-3 = y^2$.
+</p>
+
+<p>
+    Let $m=4$. Then $x_4 = 4(14)+61 = 117$ and $y_4= 19(14)+4(61) = 510$ solve the equation $19x^2+9 = y^2$.
+</p>
+
+<p>
+    Scale the solutions to get that $x_4' = \frac{117}{3} =39$ and $y_4' = \frac{510}{3} = 170$ solve the equation $19x^2+1 = y^2$.
+</p>
 
 
+     </subsection>
+
+
+     <subsection xml:id="subsec-The-Kerala-School">
+        <title>The Kerala School</title>
+
+        <p>
+            One of the most important schools of mathematical thought was created in the Kerala region of Southwest India during Medieval times. Kerala was an ancient center of the spice trade and had links with Greeks, Romans, Arabs, Iranians, and Egyptians. The Kerala school was a group of mathematicians and astronomers living in Kerala between the 14th and 16th centuries. The school was founded by Madhava of Sangamagrama (1350-1425 A.D.) who was frequently referred to as <term>Golavid</term>, or one who knows the sphere. The Kerala school made remarkable contributions in mathematics, most notably in the mathematics of infinite series.
+        </p>
+
+        <p>
+            Recall that a sequence is an infinite list of numbers. Typically we describe sequences using a closed form formula, such as $a_n = 2n$ for the sequence $0, 2, 4, \ldots$. (Note: I am starting sequences with $n=0$ to simplify later formulas.) The partial sums of a sequence are the sums of the first few terms of the sequence. For the sequence $a_0, a_1, a_2, \ldots a_n, \ldots$, the partial sums are
+            <md>
+                <mrow> \amp S_0 = a_0</mrow>
+                <mrow> \amp S_1 = a_0+a_1</mrow>
+                <mrow> \amp S_2 = a_0 + a_1 + a_2</mrow>
+                <mrow> \amp S_n = a_0 + a_1 + a_2 + \ldots + a_n</mrow>
+            </md>
+            $S_0$ is called the zeroth partial sum, $S_1$ is the first partial sum and so on. $S_n$ is called the $n$th partial sum.
+        </p>
+
+        <p>
+            We often using sigma notation to represent series. 
+            <md>
+                \sum_{n=0}^{5} a_n = a_0+a_1+a_2 + \ldots + a_5
+            </md>
+            
+        </p>
+
+        <p>
+            We can start the series at $n=1$ or any other value for $n$.
+            <md>
+                \sum_{n=1}^{5} a_n = a_1+a_2 + \ldots + a_5
+            </md>
+            
+        </p>
+
+        <p>
+            In Nilakantha's commentary on the Aryabhatiya, written in the early 16th century, partial sums of series are represented by piling rectangular strips of unit width on top of each other and then calculating the area of the strip.
+        </p>
+
+        
      </subsection>
 
   </section>
