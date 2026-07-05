@@ -391,7 +391,13 @@
 
 
 
-
+<figure>
+      <caption>Representing Partial Sums as Areas of Rectangular Strips</caption>
+      <image source="series2.png" width="50%">
+        <description>Diagram of a rectangular array of stepped horizontal bars. Inside a large outer rectangle, four long horizontal bars are stacked from top to bottom, each extending farther to the right than the bar above it, creating a staircase pattern. Vertical line segments connect the right ends of successive bars, emphasizing the stepped shape. Near the top bar, a short vertical marker indicates a horizontal segment labeled “a.” The left side of the figure is labeled “n,” suggesting the number of stacked levels. The bottom bar is labeled “f,” and centered beneath the entire stack along the bottom edge is the label “a + f.” The drawing appears to represent a sequence of terms increasing from a to f, arranged as a staircase within a bounding rectangle.
+          </description>
+      </image>
+    </figure>
 
 
 
@@ -410,7 +416,14 @@
 
 
 
-
+<figure>
+      <caption>Picture Representation of the Sum of the First <m>n</m> Integers</caption>
+      <image source="series.png" width="50%">
+        <description>Rectangular diagram showing a staircase arrangement of horizontal strips inside a large outer rectangle. Five horizontal levels are visible, labeled 1, 2, 3, 4, and 5 from top to bottom. Each lower strip extends farther to the right than the strip immediately above it, and vertical segments connect the right endpoints, forming a descending staircase shape.
+A short vertical marker near the left end of the top strip indicates the width of the first section labeled 1. The left side of the figure is labeled n, indicating the number of levels in the general case. Centered below the base of the outer rectangle is the label n + 1, indicating the total horizontal length. The figure visually represents the sum of consecutive integers, with row lengths increasing by one unit at each step from top to bottom.
+        </description>
+      </image>
+    </figure>
 
 
 
@@ -431,7 +444,13 @@
 
 
 
-
+<figure>
+      <caption>Picture Representation of the Sum by Stacking Rectangular Prisms</caption>
+      <image source="series3.png" width="50%">
+        <description>The central black rectangle has width n+1n+1n+1 (labeled along the top) and height nnn (labeled along the right side). A red vertical strip of width 1 and height n+1n+1n+1 is attached to the left side of the rectangle; the strip is labeled n+1n+1n+1. A blue horizontal strip of height 1 and width n+1n+1n+1 is attached along the bottom; the strip is labeled n+1n+1n+1. Green curly braces indicate the overall dimensions after adding the strips: a horizontal brace above the figure is labeled n+2n+2n+2, and a vertical brace on the right is labeled n+1n+1n+1. 
+        </description>
+      </image>
+    </figure>
 
 
 
