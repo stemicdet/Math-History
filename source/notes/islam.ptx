@@ -9,6 +9,97 @@
     <p>
         I have decided to use the term <q>Islamic World</q> to describe the mathematics in areas of the world that were unified by a shared culture centered around the religion of Islam, much the same way as Europe in the Middle ages was unified by a common culture of Christianity. This doesn't mean that all the mathematicians in this region were Muslim; although most were. For example Qusta ibn Luqa (Costas son of Luke) was a 9th century Lebanese Christian mathematician who translated many Greek texts into Arabic including Diophantus' <em>Arithmetica</em>. The region that we will consider includes Arabia, Mesopotamia, the Levant, North Africa, Iran, Central Asia, and parts of Spain and Portugal. Some sources use the terms <term>Muslim</term> and <term>Arab</term> interchangably when referring to mathematicians of this time and place. This is incorrect because they were not all Arabs. 
     </p>
+
+    <p>
+      A quick note on reading Arabic names: A child in an Arabic family is given a name such as Thabit or Muhammad. After this comes a phrase meaning <q>son of</q> so Thabit ibn Muhammad means <q>Thabit son of Muhammad</q>. This can be extended further back such as Thabit ibn Muhammad ibn Ismail ibn Ibrahim, which goes back to the great grandfather. Later in life one may add a paternal name such as Abu Aladdin (father of Aladdin). At the end comes a name indicating a tribe or place of origin such as al-Harrani (the man from Harran). Finally there may also be a nickname at the end such as al-Rashid (the Orthodox). Putting this altogether and you could have a name Thabit ibn Muhammad ibn Ismail ibn Ibrahim abu Aladdin al-Harrani al-Rashid.
+    </p>
+
+    <p>
+      The first Islamic mathematician we will examine is Al-Kharizmi. Muhammad ibn Musa Al-kharizmi was an Iranian Mathematician who studied at the House of Wisdom. The House of Wisdom was a large library and academy founded in Baghdad in the 8th century A.D. The scholars of the House of Wisdom translated Greek and Indian texts into Arabic, which preserved much of the knowledge of the ancient Greeks which had been lost in Europe. The translation of these Arabic texts to Latin was one of the causes of the Renaissance. Al-Khwarizmi is most famous for his textbook <em>Al-jabr wa'l muqabalah</em>, which is where our word <term>algebra</term> comes from. In addition our word <term>algorithm</term> comes from al-Kwwarizmi's name.
+    </p>
+
+    <p>
+      Al-jabr is an arabic word meaning reunion of broken parts, or bonesetting, In his book Al-kharizmi uses the word al-jabr to refer to the process of adding a positive quantity to both sides of an equation to remove a negative quantity. For example if we are given the equation
+      <md>
+        4x= 9 - 2x
+      </md>
+      then adding $2x$ to both sides to obtain 
+      <md>
+        6x=9
+      </md>
+      is an example of al-jabr.
+    </p>
+
+    <p>
+      In his book, Al-kharizmi classified 6 types of equations. He referred to the unknown variable as the root and the constant as the number. His 6 types of equations are
+     
+      <ol>
+        <li>
+          <p>
+            roots equal squares: $bx = ax^2$
+          </p>
+        </li>
+        <li>
+          <p>
+            roots equal numbers: $bx=c$
+          </p>
+        </li>
+        <li>
+          <p>
+            squares equal numbers: $ax^2 = c$
+          </p>
+        </li>
+        <li>
+          <p>
+            squares and roots equal numbers: $ax^2 + bx = c$
+          </p>
+        </li>
+        <li>
+          <p>
+            roots and numbers equal squares: $bx + c = ax^2$
+          </p>
+        </li>
+        <li>
+          <p>
+            squares and numbers equal roots: $ax^2 + c = bx$
+          </p>
+        </li>
+      </ol>
+      Here $a$, $b$, and $c$ are positive integers. All 6 equations are special cases of quadratic equations.
+    </p>
+
+    <p>
+      Al-Khwarizmi explains each of the examples in great detail. Let us consider in depth his example for <term>roots and squares equal to numbers</term>.
+    </p>
+
+    <blockquote>
+      <p>
+        For instance <q>one square, and ten roots of the same, amount to thirty-nine dirhems</q>; that is to say, what must be the square which, when increased by ten of its own roots, amounts to thirty-nine? The solution is this: you halve the number of the roots which in the present instance yields five. This you multiply by itself; the product is twenty-five. Add this to thirty-nine; the sum is sixty four. Now take the root of this, which is eight, and subtract from it half the number of the roots, which is five; the remainder is three. This is the root of the square which you sought for; the square itself is nine.
+      </p>
+    </blockquote>
+
+    <p>
+      This example, <m>x^2+10x = 39</m> appears frequently in Islamic works and early western works on algebra. Al-Khwarizmi doesn't stop with the solution of the problem. He continues to show using geometry why the solution method works.
+    </p>
+
+    <blockquote>
+      <p>
+        We have said enough so far as numbers are concerned, about the six types of equations. Now, however, it is necessary that we should demonstrate geometrically the truth of the same problems which we have explained in numbers. Therefore our first proposition is this, that a square and 10 roots equal 39 units. 
+      </p>
+
+      <p>
+        The proof is that we construct a square of unknown sides, and let this square figure represent the square (second power of the unknown) which together with its root you wish to find. Let the square, then, be <m>ab</m> of which any side represents one root. When we multiply any side of his by a number (or numbers) it is evident that that which results from the multiplication will be a number of roots equal to the root of the same number (of the square). Since then ten roots were proposed with the square, we take a fourth part of the number ten and apply to each side of the square an area of equidistant sides, of which the length should be the same as the length of the square first described and the breadth <m>2 \frac{1}{2}</m>, which is a fourth part of <m>10</m>. Therefore four areas of equidistant sides are applied to the first square <m>ab</m>. Of each of these the length is the length of one root of the square <m>ab</m> and also the breadth of each is <m>2 \frac{1}{2}</m>, as we have just said. These now are the areas <m>c,d, e,f</m>. Therefore it follows from what we have said that there will be four areas having sides of unequal length, which are also regarded as unknown. The size of the areas in each of the four corners, which is found by multiplying <m>2\frac{1}{2}</m> by <m>2\frac{1}{2}</m>, completes that which is lacking in the larger or whole area. Whence it is [that] we complete the drawing of the larger area by the addition of the four products, each <m>2\frac{1}{2}</m> by <m>2\frac{1}{2}</m>; the whole of this multiplication gives <m>25</m>.
+      </p>
+
+      <p>
+        And now it is evident that the first square figure, which represents the square of the unknown [<m>x^2</m>] and the four surrounding areas [<m>10x</m>] make <m>39</m>. When we add <m>25</m> to this, that is, the four smaller squares which indeed are placed at the four angles of the square <m>ab</m>, the drawing of the larger square called <m>GH</m> is completed. Whence also the sum total of this is <m>64</m>, of which <m>8</m> is the root and by this is designated one side of the completed figure. Therefore when we subtract from <m>8</m> twice the fourth part of <m>10</m>, which is placed at the extremities of the larger square <m>GH</m> there will remain but <m>3</m>. Five being subtracted from <m>8</m>, <m>3</m> necessarily remains, which is equal to one side of the first square <m>ab</m>.
+      </p>
+
+      <p>
+        This <m>3</m> then expresses one root of the square figure, that is one root of the proposed square of the unknown and <m>9</m> the square itself. Hence we take half of <m>10</m> and multiply this by itself. We then add the whole product of the multiplication to <m>39</m>, that the drawing of the larger square <m>GH</m> may be completed; for the lack of the four corners rendered incomplete the drawing of the whole of this square. Now it is evident that the fourth part of any number multiplied by itself and then multiplied by four gives the same number as half of the number multiplied by itself. Therefore if half of the root is multiplied by itself, the sum total of this multiplication will wipe out, equal, or cancel out the multiplication of the fourth part by itself and then by <m>4</m>.
+      </p>
+
+    </blockquote>
     
   </subsection>
 
