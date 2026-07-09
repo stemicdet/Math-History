@@ -99,6 +99,75 @@
         This <m>3</m> then expresses one root of the square figure, that is one root of the proposed square of the unknown and <m>9</m> the square itself. Hence we take half of <m>10</m> and multiply this by itself. We then add the whole product of the multiplication to <m>39</m>, that the drawing of the larger square <m>GH</m> may be completed; for the lack of the four corners rendered incomplete the drawing of the whole of this square. Now it is evident that the fourth part of any number multiplied by itself and then multiplied by four gives the same number as half of the number multiplied by itself. Therefore if half of the root is multiplied by itself, the sum total of this multiplication will wipe out, equal, or cancel out the multiplication of the fourth part by itself and then by <m>4</m>.
       </p>
 
+      <p>
+        The next great Islamic algebraist that we will consider is Omar Khayyam (1048-1131 A.D.) an Iranian mathematician and poet. His poetry became renowned throughout the English speaking world after it was translated into English in 1859 by Edward FitzGerald, who published it as <em>The Rubaiyat of Omar Khayyam</em>. Some of his poetry conveys a sceptical attitude towards religious faith and the medieval historian Al-Qifti wrote that Khayyam was indicted for impiety and went on a pilgrimage to Mecca to clear himself of charges of atheism. 
+      </p>
+
+      <p>
+        As a mathematician, Omar Khayyam is most famous for his work on cubic equations. Following the example of Al-Khwarizmi, he set out to classify all types of cubic equations and ultimately to find a method for solving them. There are <m>27</m> types of cubic equations corresponding to the number of ways that an expression of the form
+        <md>
+          x^3+ax^2+bx+c = 0
+        </md>
+
+        can be written so that all coefficients are either positive or zero. For example as
+
+        <md>
+          x^3+bx = ax^2+c
+        </md>
+
+        (cubes and sides equal to squares and numbers). We can obtain this by allowing <m>a, b, </m> and <m>c</m> to be positive, negative, or zero. With three choices for each coefficient we get a total of <m>27</m> possibilities.
+        
+        
+      </p>
+
+      <p>
+        Omar Khayyam enumerated these equations by counting how many non-zero terms occur. He excluded the case where no such coefficients occur (corresponding to <m>x^3 = 0</m>).
+      </p>
+
+      <p>
+        There are six equations with only two non-zero terms. They are of the form <m>x^3+ax^2=0</m>, <m>x^3+bx=0</m>, or <m>x^3+c = 0</m> where none of <m>a,b,</m> or <m>c</m> are equal to zero. Khayyam regarded the first two types as being equivalent to quadratic equations, but included the positive and negative cases of the third type.
+      </p>
+
+      <p>
+        There are twelve cases with exactly three non-zero terms. Khayyam regarded the four cases where <m>c=0</m> as equivalent to quadratic equations and solvable by known methods. This left him eight equations that are not equivalent to quadratic equations.
+      </p>
+
+      <p>
+        Finally there are eight cases in which none of the coefficients are zero. None of these are equivalent to quadratic equations. Thus there are <m>18</m> types of cubic equations that cannot be reduced to quadratic equations. However some of these equations such as <m>x^3+ c = 0</m> where <m>c</m> is a positive number cannot have positive solutions, so Khayyam excluded four types for that reason. That left <m>14</m> types of cubic equations that must be solved.
+      </p>
+
+      <p>
+        Khayyam solved these cubics equations with geometry instead of algebra. He wrote <q>Algebras are geometric facts which are proved by Propositions 5 and 6 of Book II of the Elements</q>. By this he meant that when solving an equation by algebra, the results obtained can also be proven using geometry. To understand Khayyam's work, let's first consider how a cubic equation can be obtained from the intersection of a circle and a parabola.
+      </p>
+
+      <p>
+        Let the circle have equation <m>x^2+y^2-2xa = 0</m>; that is the circle has center <m>(a,0)</m> and radius <m>a</m>. We let the parabola have equation <m>x^2= by</m> so that it opens upward, is symmetric about the <m>y</m>-axis and has its vertex at the origin. In fact, the circle and parabola intersect at the origin. There is another point where the two curves intersect and we can solve for it by solving the system of equations using elimination. Substituting <m>y = x^2/b</m> into the equation of the circle, we get
+        <md>
+          x^2 + \left( \frac{x^2}{b} \right)^2 - 2xa = 0
+        </md>
+        which simplifies to 
+        <md>
+          x^4 + b^2x^2-2b^2ax = 0
+        </md>
+        By setting aside the point of intersection at the origin which corresponds to the factor <m>x=0</m> we are left wide a cubic equation in <m>x</m>.
+        <md>
+          x^3+b^2x - 2b^2a = 0
+        </md>
+        
+      </p>
+
+      <p>
+        To connect this to a cubic equation of the form
+        <md>
+          x^3 + \alpha x - \beta = 0
+        </md>
+        we need to express <m>\alpha</m> and <m>\beta</m> in terms of <m>a</m> and <m>b</m>. Since <m>b^2 = \alpha</m>, <m> b = \sqrt{\alpha}</m> and since <m>2b^2a = \beta</m>, <m>a = \frac{\beta}{2\alpha}</m>.
+      </p>
+
+      <p>
+        However Khayyam had to show how to find <m>a</m> and <m>b</m> geometrically, so he had to give constructions for <m>a</m> and <m>b</m> in terms of the given lengths <m>\alpha</m> and <m>\beta</m>.
+      </p>
+
     </blockquote>
     
   </subsection>
