@@ -99,6 +99,8 @@
         This <m>3</m> then expresses one root of the square figure, that is one root of the proposed square of the unknown and <m>9</m> the square itself. Hence we take half of <m>10</m> and multiply this by itself. We then add the whole product of the multiplication to <m>39</m>, that the drawing of the larger square <m>GH</m> may be completed; for the lack of the four corners rendered incomplete the drawing of the whole of this square. Now it is evident that the fourth part of any number multiplied by itself and then multiplied by four gives the same number as half of the number multiplied by itself. Therefore if half of the root is multiplied by itself, the sum total of this multiplication will wipe out, equal, or cancel out the multiplication of the fourth part by itself and then by <m>4</m>.
       </p>
 
+        </blockquote>
+
       <p>
         The next great Islamic algebraist that we will consider is Omar Khayyam (1048-1131 A.D.) an Iranian mathematician and poet. His poetry became renowned throughout the English speaking world after it was translated into English in 1859 by Edward FitzGerald, who published it as <em>The Rubaiyat of Omar Khayyam</em>. Some of his poetry conveys a sceptical attitude towards religious faith and the medieval historian Al-Qifti wrote that Khayyam was indicted for impiety and went on a pilgrimage to Mecca to clear himself of charges of atheism. 
       </p>
@@ -168,8 +170,127 @@
         However Khayyam had to show how to find <m>a</m> and <m>b</m> geometrically, so he had to give constructions for <m>a</m> and <m>b</m> in terms of the given lengths <m>\alpha</m> and <m>\beta</m>.
       </p>
 
+    <p>
+      Khayyam's method for solving the equation <m>x^3+ \alpha x - \beta = 0</m> is as follows. First he constructs a line $BC$ with length $\dfrac{\beta}{\alpha}$. Next draw a second line $AB$ with length $\sqrt{\alpha}$ that is perpendicular to $BC$. He then constructs a parabola with vertex at $B$ and parameter (distance from focus to directrix) equal to $\dfrac{\sqrt{\alpha}}{2}$
+    </p>
+
+    <p>
+      Next he draws a semicircle on $BC$. This semicircle intersects the parabola at one point, which we call $D$. He then draws a line perpendicular to $BC$ that passes through $D$. Let $E$ be the point where that line intersects $BC$. Then $BE$ is the line segment that solves the problem. That is, the length of $BE$ is the value of $x$ that solves the equation.
+    </p>
+
+    <p>
+      Here is an alternative form of his method.
+      <ol>
+        <li>
+          <p>
+            First sketch the parabola $y = \dfrac{1}{\sqrt{\alpha}}x^2$.
+          </p>
+        </li>
+        <li>
+          <p>
+            Next draw a line segment on the $x$ axis from the origin to $\frac{\beta}{\alpha}$ and draw a semicircle on the line.
+          </p>
+        </li>
+        <li>
+          <p>
+            Locate the point where the semicircle and parabola intersect. The x coordinate of that point is the solution to the cubic equation.
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <p>
+      Example: Use Khayyam's method to solve $x^3 + 4x=20$.
+    </p>
+
+    <p>
+      The intersection of the a circle and parabola is only used to solve equations of the form <m>x^3+ \alpha x - \beta = 0</m>. For other types of equations Khayyam used a different intersection to find the solution.
+    </p>
+
+    <table xml:id="omar-cubic-equations">2  <title>Omar Khayyam's Classification of Cubic Equations</title>3  <tabular>4    <col width="40%"/>5    <col width="60%"/>6 7    <row>8      <cell><m>Type (\alpha &gt; 0,\ \beta &gt; 0)</m></cell>9      <cell>Method</cell>10    </row>11 12    <row>13      <cell><m>x^3=\beta</m></cell>14      <cell>Intersection of 2 parabolas</cell>15    </row>16 17    <row>18      <cell><m>x^3+\alpha x=\beta</m></cell>19      <cell>Intersection of a circle and parabola</cell>20    </row>21 22    <row>23      <cell><m>x^3\pm\beta=\alpha x</m></cell>24      <cell>Intersection of a hyperbola and parabola</cell>25    </row>26 27    <row>28      <cell><m>x^3=\alpha x+\beta</m></cell>29      <cell>Intersection of 2 hyperbolas</cell>30    </row>31  </tabular>32</table>
+  
+
+    <p>
+      In his introduction to cubic equations Khayyam wrote
+    </p>
+
+    <blockquote>
+      <p>
+        When, however, the object of the problem is an absolute number, neither we, nor any who are concerned with algebra, have been able to prove this equation--perhaps others who follow us will be able to fill in the gap--except when it contains only the first 3 degrees, namely the number, the thing and the square
+      </p>
     </blockquote>
+
+    <p>
+      By absolute number, Khayyam means an algebraic solution instead of a geometrical one. Although he never found a way to solve all cubics algebraically, he did forsee that it would be possible.
+    </p>
     
+  </subsection>
+
+  <subsection xml:id="subsec-Trigonometry-in-the-Islamic-World">
+    <title>Trigonometry in the Islamic World</title>
+    
+    <p>
+      The sine and cosine functions were first invented in India but were transmitted to Europe via the mathematicians of the Islamic world. However, the Indians defined the sine function slightly differently than we do today. Their sine function was equal to the radius of the circle times the ratio between the opposite and hypotenuse of the angle. Islamic mathematicians first introduced the modern sine function with a circle of unit radius.
+    </p>
+
+    <p>
+      Sine and cosine are basically Indian inventions, but the tangent function is uniquely the creation of Islamic mathematics. The 9th century Iranian astronomer Habash al-Hasib examined the length of the shadow of a unit rod when the sun was at various angles. The length $s$ of the shadow cast by a horizontal rod is $\tan \alpha$, where $\alpha$ is the angle of elevation of the sun above the horizon. The length $t$ of the shadow cast by a vertical rod is $\cot \alpha$.
+    </p>
+
+    <p>
+      Secant and Cosecant were rarely used in Islamic mathematics, but they do appear in a work by Iranian mathematician Abu al-Wafa in the 10th century. Al-Wafa also constructed a table of tangents and a sine table that was more accurate than previous sine tables. He did this in part by using a rule for calculating the sum or difference of 2 sines. In modern notation his rule (The angle addition formula for Sine) is
+      <md>
+        \sin (\alpha \pm \beta) = \sin \alpha \cos \beta \pm \cos \alpha \sin\beta
+      </md>
+      
+    </p>
+
+    <p>
+      Al-Wafa described the formula thusly
+    </p>
+
+    <blockquote>
+      <p>
+        Multiply the sine of each of them by the cosine of the other, expressed in sixtieths, and we add the 2 products if we want the sine of the sum of the two arcs, but take the difference if we want the sine of the difference.
+      </p>
+    </blockquote>
+
+    <p>
+      The reference to the functions expressed in sixtieths shows that these calculations were carried out using fractions in base 60. This is because 60 has more factors than 10, so it is easier to work with fractions in base 60 than base 10.
+    </p>
+
+    <p>
+      One of the great achievements of Islamic mathematicians were very accurate tables of sines. In order to make an accurate table of sines, it is imperative that we get a good approximation for $\sin 1^{\circ}$. Once we have such an approximation, we can use the sum formula to find the sines of any integer degree by adding the approximation for $\sin 1^{\circ}$ multiple times. Approximating $\sin 1^{\circ}$ is not easy, however. We will look at how this problem was approached by Islamic mathematicians.  
+    </p>
+
+    <p>
+      One approach involved repeatedly applying the half angle formula, which was known to the Ancient Greeks
+      <md>
+        \sin \left (  \dfrac{\alpha}{2}\right ) = \pm \sqrt{\dfrac{1 - \cos \alpha}{2} }
+      </md>
+    </p>
+
+    <p>
+      First it can be shown that $\sin 72^{\circ} = \sqrt{\dfrac{5+\sqrt{5}}{8}}$ and $\sin 60^{\circ}= \dfrac{\sqrt{3}}{2}$. Thus by using Al-Wafa's formula, one can determine $\sin 12^{\circ}$. By repeated application of the half-angle formula, one can approximate the values of the sines of angles of 6, 3, 1.5 and 0.75 degrees. 
+    </p>
+
+    <p>
+      For small values of $\theta$ $\sin \theta \approx \theta$. Thus we can approximate $\sin 1^{\circ}$ by averaging the sines of 1.5 and 0.75 degrees. This procedure gives a close estimate for the sine of 1 degree, but it is not perfectly accurate because the average of the sine of 1.5 and 0.75 degrees while close, is not quite the sine of 1 degree.
+    </p>
+
+    <p>
+      A second approach was developed by the Iranian Mathematician Al-Kashi based on cubic equations. Al-Kashi lived during the conquests of Tamerlane, during which there was widespread poverty. Al-Kashi himself lived in poverty for many years, but eventually was invited to work at the astronomy of Ulugh Beg.
+    </p>
+
+    <p>
+      Timur the Lame (or Tamerlane) was a descendant of Genghis Khan, who conquered much of Central Asia and the Middle East in an attempt to restore Genghis Khan's empire. When he died his empire was divided among his successors and his grandson Ulugh Beg inherited the region of Transoxiana in central Asia in 1411 while still a teenager.
+    </p>
+
+    <p>
+      Unlike his grandfather, Ulugh Beg's passion was not warfare but rather astronomy. He built a large observatory called the Ulugh Beg Observatory in Samarkand, which attracted a large number of astronomers and mathematicians including Al-Kashi. Ulugh Beg worked with the other astronomers to create a catalog of the stars. In 1438 they published the Zij-i Sultani, a catalog of 992 stars and their positions. This required precise trigonometric calculations. The astronomers also produced a table of sines and tangents with 8 decimal places of accuracy. They did this by accurately approximating the sine of 1 degree by showing it to be the solution of a cubic equation. These astronomers also calculated to length of a year accurate to about 25 seconds.
+    </p>
+
+
   </subsection>
 
   </section>
