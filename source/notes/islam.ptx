@@ -290,6 +290,97 @@
       Unlike his grandfather, Ulugh Beg's passion was not warfare but rather astronomy. He built a large observatory called the Ulugh Beg Observatory in Samarkand, which attracted a large number of astronomers and mathematicians including Al-Kashi. Ulugh Beg worked with the other astronomers to create a catalog of the stars. In 1438 they published the Zij-i Sultani, a catalog of 992 stars and their positions. This required precise trigonometric calculations. The astronomers also produced a table of sines and tangents with 8 decimal places of accuracy. They did this by accurately approximating the sine of 1 degree by showing it to be the solution of a cubic equation. These astronomers also calculated to length of a year accurate to about 25 seconds.
     </p>
 
+  <p>
+    Al-Kashi was aware of the following identities involving sine.
+    <md>
+      \sin 3 \alpha = 3 \sin \alpha - 4 \sin^3 \alpha
+    </md>
+    and
+
+    <md>
+      \sin 3^{\circ} = 0.052335956
+    </md>
+    
+  </p>
+
+  <p>
+    By letting $\alpha = 1$, he obtained the equation
+    <md>
+      \sin^3 1^{\circ} -0.75\sin 1^{\circ} + 0.013083989 = 0.
+    </md>
+    This means that $\sin 1^{\circ}$ is the solution to the cubic equation
+    <md>
+      x^3-0.75x+0.013083989=0
+    </md>
+    
+  </p>
+
+  <p>
+    By solving this equation, Al-Kashi would be able to determine the value of $\sin 1^{\circ}$. Unfortunately, this equation is not easy to solve directly, so Al-Kashi needed to approximate the solution.
+  </p>
+
+  <p>
+    Al-Kashi came up with an ingenious iterative method for finding the solution to this equation. We'll first demonstrate his method on the simpler equation $x^2-6x+8 = 0$
+  </p>
+
+  <p>
+    First we can rearrange this equation as $x^2+8 = 6x$ or $\dfrac{x^2}{6}+ \dfrac{8}{6} = x$. 
+  </p>
+
+  <p>
+    $f(x) = \dfrac{x^2}{6}+ \dfrac{8}{6}$. Then we have the equation $f(x) = x$.
+  </p>
+
+  <p>
+    We now choose an initial guess $x_0$ and compute $f(x_0)$. If our initial guess is good enough, $f(x_0)$ will be a better approximation than $x_0$. So we let $x_1 = f(x_0)$. Then $f(x_1)$ is a better approximation than $x_1$ so let $x_2 = f(x_1)$. In general let $x_n = f(x_{n-1})$. This gives us a sequence of increasingly better approximations, $x_0, x_1, x_2, \ldots, x_n$. By taking the sequence sufficiently far, we can approximate the solution of the equation. 
+  </p>
+
+  <p>
+    Let $x_0 = 1$. Then $f(1) = \dfrac{9}{6} = x_1$. Further iteration gives us the sequence
+    <md>
+      <mrow> x_0 \amp = 1 </mrow>
+      <mrow> x_1 \amp = \frac{9}{6}</mrow>
+      <mrow> x_2 \amp = 1.71 </mrow>
+      <mrow> x_3 \amp = 1.82 </mrow>
+      <mrow> x_4 \amp = 1.885 </mrow>
+      <mrow> x_5 \amp = 1.925 </mrow>
+      <mrow> x_6 \amp = 1.95 </mrow>
+    </md>
+    
+  </p>
+
+  <p>
+    From these approximations it appears that the solution is $x=2$, which is one solution to the equation $x^2-6x+8 =0$.
+  </p>
+
+  <p>
+    Now we use this approach to solve
+    <md>
+      x^3-0.75x + 0.013083989 = 0
+    </md>
+    
+  </p>
+
+  <p>
+    First we rearrange the equation by getting $x$ by itself. This gives
+    <md>
+      \dfrac{4}{3}x^3 + 0.0174453187=x.
+    </md>
+    Let $f(x) = \dfrac{4}{3}x^3 + 0.0174453187$, so $f(x) = x$.
+  </p>
+
+  <p>
+    Since $\sin 1^{\circ}$ is very small, let's guess that $x_0 = 0$. This gives the following sequence.
+    <md>
+      <mrow> x_0 \amp = 0.0174453187 </mrow>
+      <mrow> x_1 \amp = 0.0174523977578 </mrow>
+      <mrow> x_2 \amp = 0.0174524063791 </mrow>
+      <mrow> x_3 \amp = 0.0174524063896 </mrow>
+    </md>
+    This converges very quickly and after 3 iterations we already have a high degree of accuracy for $\sin 1^{\circ}$. The actual value is $0.0174524064373$, so we have 9 decimal places of accuracy. Al-Kashi continued this process to achieve 16 decimal places of accuracy.
+  </p>
+
+
 
   </subsection>
 
