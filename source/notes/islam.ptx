@@ -23,7 +23,7 @@
       <md>
         4x= 9 - 2x
       </md>
-      then adding $2x$ to both sides to obtain 
+      then adding <m>2x</m> to both sides to obtain 
       <md>
         6x=9
       </md>
@@ -36,36 +36,36 @@
       <ol>
         <li>
           <p>
-            roots equal squares: $bx = ax^2$
+            roots equal squares: <m>bx = ax^2</m>
           </p>
         </li>
         <li>
           <p>
-            roots equal numbers: $bx=c$
+            roots equal numbers: <m>bx=c</m>
           </p>
         </li>
         <li>
           <p>
-            squares equal numbers: $ax^2 = c$
+            squares equal numbers: <m>ax^2 = c</m>
           </p>
         </li>
         <li>
           <p>
-            squares and roots equal numbers: $ax^2 + bx = c$
+            squares and roots equal numbers: <m>ax^2 + bx = c</m>
           </p>
         </li>
         <li>
           <p>
-            roots and numbers equal squares: $bx + c = ax^2$
+            roots and numbers equal squares: <m>bx + c = ax^2</m>
           </p>
         </li>
         <li>
           <p>
-            squares and numbers equal roots: $ax^2 + c = bx$
+            squares and numbers equal roots: <m>ax^2 + c = bx</m>
           </p>
         </li>
       </ol>
-      Here $a$, $b$, and $c$ are positive integers. All 6 equations are special cases of quadratic equations.
+      Here <m>a</m>, <m>b</m>, and <m>c</m> are positive integers. All 6 equations are special cases of quadratic equations.
     </p>
 
     <p>
@@ -171,11 +171,11 @@
       </p>
 
     <p>
-      Khayyam's method for solving the equation <m>x^3+ \alpha x - \beta = 0</m> is as follows. First he constructs a line $BC$ with length $\dfrac{\beta}{\alpha}$. Next draw a second line $AB$ with length $\sqrt{\alpha}$ that is perpendicular to $BC$. He then constructs a parabola with vertex at $B$ and parameter (distance from focus to directrix) equal to $\dfrac{\sqrt{\alpha}}{2}$
+      Khayyam's method for solving the equation <m>x^3+ \alpha x - \beta = 0</m> is as follows. First he constructs a line <m>BC</m> with length <m>\dfrac{\beta}{\alpha}</m>. Next draw a second line <m>AB</m> with length <m>\sqrt{\alpha}</m> that is perpendicular to <m>BC</m>. He then constructs a parabola with vertex at <m>B</m> and parameter (distance from focus to directrix) equal to <m>\dfrac{\sqrt{\alpha}}{2}</m>
     </p>
 
     <p>
-      Next he draws a semicircle on $BC$. This semicircle intersects the parabola at one point, which we call $D$. He then draws a line perpendicular to $BC$ that passes through $D$. Let $E$ be the point where that line intersects $BC$. Then $BE$ is the line segment that solves the problem. That is, the length of $BE$ is the value of $x$ that solves the equation.
+      Next he draws a semicircle on <m>BC</m>. This semicircle intersects the parabola at one point, which we call <m>D</m>. He then draws a line perpendicular to <m>BC</m> that passes through <m>D</m>. Let <m>E</m> be the point where that line intersects <m>BC</m>. Then <m>BE</m> is the line segment that solves the problem. That is, the length of <m>BE</m> is the value of <m>x</m> that solves the equation.
     </p>
 
     <p>
@@ -183,12 +183,12 @@
       <ol>
         <li>
           <p>
-            First sketch the parabola $y = \dfrac{1}{\sqrt{\alpha}}x^2$.
+            First sketch the parabola <m>y = \dfrac{1}{\sqrt{\alpha}}x^2</m>.
           </p>
         </li>
         <li>
           <p>
-            Next draw a line segment on the $x$ axis from the origin to $\frac{\beta}{\alpha}$ and draw a semicircle on the line.
+            Next draw a line segment on the <m>x</m> axis from the origin to <m>\frac{\beta}{\alpha}</m> and draw a semicircle on the line.
           </p>
         </li>
         <li>
@@ -200,7 +200,7 @@
     </p>
 
     <p>
-      Example: Use Khayyam's method to solve $x^3 + 4x=20$.
+      Example: Use Khayyam's method to solve <m>x^3 + 4x=20</m>.
     </p>
 
     <p>
@@ -234,7 +234,7 @@
     </p>
 
     <p>
-      Sine and cosine are basically Indian inventions, but the tangent function is uniquely the creation of Islamic mathematics. The 9th century Iranian astronomer Habash al-Hasib examined the length of the shadow of a unit rod when the sun was at various angles. The length $s$ of the shadow cast by a horizontal rod is $\tan \alpha$, where $\alpha$ is the angle of elevation of the sun above the horizon. The length $t$ of the shadow cast by a vertical rod is $\cot \alpha$.
+      Sine and cosine are basically Indian inventions, but the tangent function is uniquely the creation of Islamic mathematics. The 9th century Iranian astronomer Habash al-Hasib examined the length of the shadow of a unit rod when the sun was at various angles. The length <m>s</m> of the shadow cast by a horizontal rod is <m>\tan \alpha</m>, where <m>\alpha</m> is the angle of elevation of the sun above the horizon. The length <m>t</m> of the shadow cast by a vertical rod is <m>\cot \alpha</m>.
     </p>
 
     <p>
@@ -260,7 +260,7 @@
     </p>
 
     <p>
-      One of the great achievements of Islamic mathematicians were very accurate tables of sines. In order to make an accurate table of sines, it is imperative that we get a good approximation for $\sin 1^{\circ}$. Once we have such an approximation, we can use the sum formula to find the sines of any integer degree by adding the approximation for $\sin 1^{\circ}$ multiple times. Approximating $\sin 1^{\circ}$ is not easy, however. We will look at how this problem was approached by Islamic mathematicians.  
+      One of the great achievements of Islamic mathematicians were very accurate tables of sines. In order to make an accurate table of sines, it is imperative that we get a good approximation for <m>\sin 1^{\circ}</m>. Once we have such an approximation, we can use the sum formula to find the sines of any integer degree by adding the approximation for <m>\sin 1^{\circ}</m> multiple times. Approximating <m>\sin 1^{\circ}</m> is not easy, however. We will look at how this problem was approached by Islamic mathematicians.  
     </p>
 
     <p>
@@ -271,11 +271,11 @@
     </p>
 
     <p>
-      First it can be shown that $\sin 72^{\circ} = \sqrt{\dfrac{5+\sqrt{5}}{8}}$ and $\sin 60^{\circ}= \dfrac{\sqrt{3}}{2}$. Thus by using Al-Wafa's formula, one can determine $\sin 12^{\circ}$. By repeated application of the half-angle formula, one can approximate the values of the sines of angles of 6, 3, 1.5 and 0.75 degrees. 
+      First it can be shown that <m>\sin 72^{\circ} = \sqrt{\dfrac{5+\sqrt{5}}{8}}</m> and <m>\sin 60^{\circ}= \dfrac{\sqrt{3}}{2}</m>. Thus by using Al-Wafa's formula, one can determine <m>\sin 12^{\circ}</m>. By repeated application of the half-angle formula, one can approximate the values of the sines of angles of 6, 3, 1.5 and 0.75 degrees. 
     </p>
 
     <p>
-      For small values of $\theta$ $\sin \theta \approx \theta$. Thus we can approximate $\sin 1^{\circ}$ by averaging the sines of 1.5 and 0.75 degrees. This procedure gives a close estimate for the sine of 1 degree, but it is not perfectly accurate because the average of the sine of 1.5 and 0.75 degrees while close, is not quite the sine of 1 degree.
+      For small values of <m>\theta</m> <m>\sin \theta \approx \theta</m>. Thus we can approximate <m>\sin 1^{\circ}</m> by averaging the sines of 1.5 and 0.75 degrees. This procedure gives a close estimate for the sine of 1 degree, but it is not perfectly accurate because the average of the sine of 1.5 and 0.75 degrees while close, is not quite the sine of 1 degree.
     </p>
 
     <p>
@@ -304,11 +304,11 @@
   </p>
 
   <p>
-    By letting $\alpha = 1$, he obtained the equation
+    By letting <m>\alpha = 1</m>, he obtained the equation
     <md>
       \sin^3 1^{\circ} -0.75\sin 1^{\circ} + 0.013083989 = 0.
     </md>
-    This means that $\sin 1^{\circ}$ is the solution to the cubic equation
+    This means that <m>\sin 1^{\circ}</m> is the solution to the cubic equation
     <md>
       x^3-0.75x+0.013083989=0
     </md>
@@ -316,27 +316,27 @@
   </p>
 
   <p>
-    By solving this equation, Al-Kashi would be able to determine the value of $\sin 1^{\circ}$. Unfortunately, this equation is not easy to solve directly, so Al-Kashi needed to approximate the solution.
+    By solving this equation, Al-Kashi would be able to determine the value of <m>\sin 1^{\circ}</m>. Unfortunately, this equation is not easy to solve directly, so Al-Kashi needed to approximate the solution.
   </p>
 
   <p>
-    Al-Kashi came up with an ingenious iterative method for finding the solution to this equation. We'll first demonstrate his method on the simpler equation $x^2-6x+8 = 0$
+    Al-Kashi came up with an ingenious iterative method for finding the solution to this equation. We'll first demonstrate his method on the simpler equation <m>x^2-6x+8 = 0</m>
   </p>
 
   <p>
-    First we can rearrange this equation as $x^2+8 = 6x$ or $\dfrac{x^2}{6}+ \dfrac{8}{6} = x$. 
+    First we can rearrange this equation as <m>x^2+8 = 6x</m> or <m>\dfrac{x^2}{6}+ \dfrac{8}{6} = x</m>. 
   </p>
 
   <p>
-    $f(x) = \dfrac{x^2}{6}+ \dfrac{8}{6}$. Then we have the equation $f(x) = x$.
+    <m>f(x) = \dfrac{x^2}{6}+ \dfrac{8}{6}</m>. Then we have the equation <m>f(x) = x</m>.
   </p>
 
   <p>
-    We now choose an initial guess $x_0$ and compute $f(x_0)$. If our initial guess is good enough, $f(x_0)$ will be a better approximation than $x_0$. So we let $x_1 = f(x_0)$. Then $f(x_1)$ is a better approximation than $x_1$ so let $x_2 = f(x_1)$. In general let $x_n = f(x_{n-1})$. This gives us a sequence of increasingly better approximations, $x_0, x_1, x_2, \ldots, x_n$. By taking the sequence sufficiently far, we can approximate the solution of the equation. 
+    We now choose an initial guess <m>x_0</m> and compute <m>f(x_0)</m>. If our initial guess is good enough, <m>f(x_0)</m> will be a better approximation than <m>x_0</m>. So we let <m>x_1 = f(x_0)</m>. Then <m>f(x_1)</m> is a better approximation than <m>x_1</m> so let <m>x_2 = f(x_1)</m>. In general let <m>x_n = f(x_{n-1})</m>. This gives us a sequence of increasingly better approximations, <m>x_0, x_1, x_2, \ldots, x_n</m>. By taking the sequence sufficiently far, we can approximate the solution of the equation. 
   </p>
 
   <p>
-    Let $x_0 = 1$. Then $f(1) = \dfrac{9}{6} = x_1$. Further iteration gives us the sequence
+    Let <m>x_0 = 1</m>. Then <m>f(1) = \dfrac{9}{6} = x_1</m>. Further iteration gives us the sequence
     <md>
       <mrow> x_0 \amp = 1 </mrow>
       <mrow> x_1 \amp = \frac{9}{6}</mrow>
@@ -350,7 +350,7 @@
   </p>
 
   <p>
-    From these approximations it appears that the solution is $x=2$, which is one solution to the equation $x^2-6x+8 =0$.
+    From these approximations it appears that the solution is <m>x=2</m>, which is one solution to the equation <m>x^2-6x+8 =0</m>.
   </p>
 
   <p>
@@ -362,22 +362,22 @@
   </p>
 
   <p>
-    First we rearrange the equation by getting $x$ by itself. This gives
+    First we rearrange the equation by getting <m>x</m> by itself. This gives
     <md>
       \dfrac{4}{3}x^3 + 0.0174453187=x.
     </md>
-    Let $f(x) = \dfrac{4}{3}x^3 + 0.0174453187$, so $f(x) = x$.
+    Let <m>f(x) = \dfrac{4}{3}x^3 + 0.0174453187</m>, so <m>f(x) = x</m>.
   </p>
 
   <p>
-    Since $\sin 1^{\circ}$ is very small, let's guess that $x_0 = 0$. This gives the following sequence.
+    Since <m>\sin 1^{\circ}</m> is very small, let's guess that <m>x_0 = 0</m>. This gives the following sequence.
     <md>
       <mrow> x_0 \amp = 0.0174453187 </mrow>
       <mrow> x_1 \amp = 0.0174523977578 </mrow>
       <mrow> x_2 \amp = 0.0174524063791 </mrow>
       <mrow> x_3 \amp = 0.0174524063896 </mrow>
     </md>
-    This converges very quickly and after 3 iterations we already have a high degree of accuracy for $\sin 1^{\circ}$. The actual value is $0.0174524064373$, so we have 9 decimal places of accuracy. Al-Kashi continued this process to achieve 16 decimal places of accuracy.
+    This converges very quickly and after 3 iterations we already have a high degree of accuracy for <m>\sin 1^{\circ}</m>. The actual value is <m>0.0174524064373</m>, so we have 9 decimal places of accuracy. Al-Kashi continued this process to achieve 16 decimal places of accuracy.
   </p>
 
 
@@ -423,7 +423,7 @@
     </p>
 
     <p>
-      Another contributor to number theory was Abu Bakr al-Karaj, a tenth-century Iranian mathematician from the city of Karaj near Tehran. In one of his works he considered binomial expansion. He correctly determined the rule of the binomial coefficients <m>C_n^k</m> in the expansion
+      Another contributor to number theory was Abu Bakr al-Karaji, a tenth-century Iranian mathematician from the city of Karaj near Tehran. In one of his works he considered binomial expansion. He correctly determined the rule of the binomial coefficients <m>C_n^k</m> in the expansion
       <md>
         (a+b)^n = \sum_{k=0}^n C_n^k a^{n-k}b^k
       </md>
@@ -442,9 +442,67 @@
     </blockquote>
 
     <p>
-      Al-Samaw'al continued in this manner until he had constructed a table of binomial coefficients up to the twelfth power. Such a table is known today as <term>Pascal's triangle</term> after its appearance in Blaise Pascal's book <em>Traite du Triangle Arithmetique</em> in 1665. However it had appeared in Western literature before then. A table of binomial coefficients appeared in Michael's Stifel's book <em>Deutsche Arithmetica</em> published in 1544.
+      Al-Samaw'al continued in this manner until he had constructed a table of binomial coefficients up to the twelfth power. Such a table is known today as <term>Pascal's triangle</term> after its appearance in Blaise Pascal's book <em>Traite du Triangle Arithmetique</em> in 1665. However it had appeared in Western literature before then. A table of binomial coefficients appeared in Michael's Stifel's book <em>Deutsche Arithmetica</em> published in 1544. Pascal's triangle was also independently discovered by Chinese mathematicians.
     </p>
     
+    <p>
+      Al-Karaji also determined formulas for the sums of the first <m>n</m> squares and cubes.
+    </p>
+
+    <theorem xml:id="thm-al-karaj">
+      <title>Sums of Squares and Cubes</title>
+      
+      
+      <statement>
+        <p>
+          Let <m>n</m> be a positive integer. Then
+          <md>
+            1^2+2^2+3^2+ \ldots + n^2 = (\frac{2n}{3}+\frac{1}{3})(1+2+3+ \ldots + n)
+          </md>
+          and
+          <md>
+            1^3+2^3+3^3 + \ldots + n^3 = (1+2+3+\ldots + n)^2
+          </md>
+          
+        </p>
+      </statement>
+    </theorem>
+    
+
+    <p>
+      al-Samaw'al further simplified these identities by showing that
+      <md>
+        1^2+2^2+3^2+ \ldots + n^2 = \frac{1}{6}n(n+1)(2n+1)
+      </md>
+      and
+
+      <md>
+        1^3+2^3+3^3 + \ldots + n^3 = \frac{1}{4}(n(n+1))^2
+      </md>
+      
+      
+    </p>
+
+    <p>
+      al-Karaji's proof for the sum of cubes is the earliest known use of mathematical induction. He only gives the proof for the case of <m>n=10</m> but the proof applies to any value of <m>n</m>.
+    </p>
+
+    <proof>
+      <p>
+        al-Karaji begins with a square with side lengths <m>1+2+3+ \ldots + 10</m>, which is partitioned as shown below.
+      </p>
+
+
+
+
+
+
+      <p>
+        The outermost L shaped region <m>ABCGFE</m> is made up of two rectangles and a square. Thus it has area equal to <m>2\cdot 10(1+2+3+ \ldots + 9) + 10^2</m> which simplifies to <m>9\cdot 10^2+ 10^2 = 10^3</m>. Similarly the area of the next region <m>EFGJIH</m> has area <m>9^3</m>. We continue in like manner until we reach the single square in the bottom left corner with area <m>1</m>. Thus the total area of the square is <m>1^3+2^3+3^3 + \ldots + n^3</m>. Alternative the area of the square is the square of the length of its side or <m>(1+2+3+\ldots + 10)^2</m> which proves the theorem. 
+      </p>
+
+
+    </proof>
 
 
     
