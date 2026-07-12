@@ -384,4 +384,74 @@
 
   </subsection>
 
+  <subsection xml:id="subsec-Number-Theory">
+    <title>Number Theory</title>
+
+    <p>
+      Number theory is a branch of mathematics devoted to the study of the properties of the integers. The classification of integers into even and odd or prime and composite are examples of number theory as are theorems such as the sum of two odd numbers is an even number and Euclid's method for finding perfect numbers. Both the ancient Greek and ancient Indian mathematicians came up with many results of number theory. The mathematicians of the Islamic world built on these foundations and extended these ideas. 
+    </p>
+
+    <p>
+      A remarkable example of number theory in the Islamic world is found in the works of Thabit ibn Qurra, a ninth century Arab astronomer and mathematician who was a member of a religious group called the Sabeans of Harran which worshipped the stars. His <em>Book on the Determination of Amicable Numbers</em> considers the properties of <term>amicable number pairs</term>. Amicable number pairs are pairs of numbers for which the sum of proper divisors of the first totals the second and the sum of proper divisors of the second totals the first. For example <m>220</m> and <m>284</m> are amicable numbers since the proper factors of <m>220</m> are
+      <md>
+        1+2+4+5+10+11+20+22+44+55+110 = 284
+      </md>
+      and the proper factors of <m>284</m> are
+      <md>
+        1+2+4+71+142 = 220.
+      </md>
+      
+    </p>
+
+    <p>
+      Amicable numbers had been considered by Ancient Greek mathematicians but they failed to derive any of them. Thabit ibn Qurra provided the following rule for finding amicable pairs.
+    </p>
+
+    <theorem xml:id="thm-Thabit">
+      <title>Construction of Amicable Pairs</title>
+      
+      
+      <statement>
+        <p>
+          If <m>p = 3\cdot 2^n-1</m>, <m>q = 3 \cdot 2^{n-1}-1</m> and <m>r = 9 \cdot 2^{2n-1}-1</m> are all prime numbers, then <m>M = 2^npq</m> and <m>N = 2^n r</m> for amicable pairs. 
+        </p>
+      </statement>
+    </theorem>
+
+    <p>
+      As an example, if <m>n = 2</m> then <m>p = 11</m>, <m>q = 5</m>, and <m>r = 71</m> are all prime numbers. Hence <m>M = 2^2 \cdot 11 \cdot 5 = 220</m> and <m>N = 2^2 \cdot 71 = 284</m> are amicable numbers.
+    </p>
+
+    <p>
+      Another contributor to number theory was Abu Bakr al-Karaj, a tenth-century Iranian mathematician from the city of Karaj near Tehran. In one of his works he considered binomial expansion. He correctly determined the rule of the binomial coefficients <m>C_n^k</m> in the expansion
+      <md>
+        (a+b)^n = \sum_{k=0}^n C_n^k a^{n-k}b^k
+      </md>
+      namely that <m>C_n^k = C_{n-1}^{k-1} C_{n-1}^k</m>.
+      
+    </p>
+
+    <p>
+      A later Iranian mathematician Al-Samaw'al created a table of these binomial coefficients and discussed how to create such a table.
+    </p>
+
+    <blockquote>
+      <p>
+        Let us now recall a principle for knowing the necessary number of multiplications of these degrees by each other, for any number divided into two parts. al-Karaji said that in order to succeed we must place <q>one</q> on a table and <q>one</q> below the first <q>one</q>, move the [first] <q>one</q> into another column, add the [first] <q>one</q> to he one below it. We thus obtain <q>two</q>, which we put below the [transferred] <q>one</q> and we place the [second] <q>one</q> below <q>two</q>. We have therefore <q>one</q>, <q>two</q>, and <q>one</q>. This shows that for every number composed of two numbers, if we multiply each of them by itself once -- since the two extremes are <q>one</q> and <q>one</q> -- and if we multiply each one by the other twice -- since the intermediary term is <q>two</q> -- we obtain the square of this number. If we then transter the <q>one</q> in the second column into another column, then add <q>one</q> [from the second column] to <q>two</q> [below it], we obtain <q>three</q> to be written under the <q>one</q> [in the third column], if we then add <q>two</q> (from the second column) to <q>one</q> below it, we have <q>three</q> which is written under <q>three</q>, then we write <q>one</q> under this <q>three</q>; we thus obtain a third column whose numbers are <q>one</q>, <q>three</q>, <q>three</q>, and <q>one</q>. This teaches us that the cube of any number composed of two numbers is given by the sum of the cube of each of them and three times the product of each of them by the square of the other.
+      </p>
+    </blockquote>
+
+    <p>
+      Al-Samaw'al continued in this manner until he had constructed a table of binomial coefficients up to the twelfth power. Such a table is known today as <term>Pascal's triangle</term> after its appearance in Blaise Pascal's book <em>Traite du Triangle Arithmetique</em> in 1665. However it had appeared in Western literature before then. A table of binomial coefficients appeared in Michael's Stifel's book <em>Deutsche Arithmetica</em> published in 1544.
+    </p>
+    
+
+
+    
+  </subsection>
+
+
+
+
+
   </section>
