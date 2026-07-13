@@ -441,8 +441,7 @@ A short vertical marker near the left end of the top strip indicates the width o
             Place one piece flat on the ground. Place the second piece standing vertically next to the side with length <m>n</m> and place the 3rd piece standing vertically next to the side with length <m>n+1</m>. This forms the sides of a prism with dimensions <m>n \times (n+1) \times (n+2)</m>
         </p>
 
-
-
+        
 
 <figure>
       <caption>Picture Representation of the Sum by Stacking Rectangular Prisms</caption>
