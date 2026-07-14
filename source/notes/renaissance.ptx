@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-renaissance">
+  <title>Renaissance Mathematics (7.1-7.4)</title>
+
+
+<subsection xml:id="subsec-Tartaglia-and-Cardano">
+  <title>Tartaglia and Cardano</title>
+
+<p>
+    The Renaissance in Italy was fueled by the rediscovery of works by ancient Roman and Greek authors. In mathematics this involved the translation of works from the Islamic world into Latin, which included works by ancient Greek mathematicians that had been preserved and translated into Arabic.
+  </p>
+
+  <p>
+    Recall that Omar Khayyam and other Islamic mathematicians had solved cubic equations using geometric methods, but there was no algebraic method to solve general cubic equations, though it was known how to solve certain kinds of cubic equations. A method for solving cubic equations algebraically was first developed in Renaissance Italy by Niccolo Tartaglia and Girolamo Cardano in one of the most famous disputes in the history of mathematics.
+  </p>
+
+  <p>
+    To understand the controversy over the cubic formula, we need to understand the context of mathematics in Renaissance Italy. Scholars in Renaissance Italy would often challenge each other to mathematics duels as a way to demonstrate their ability, attract students and achieve professional recognition. A challenger would send 30 problems to a rival who would reply with 30 problems for the opponent. They would have a set amount of time to solve the problems. It was expected that the proposer of a problem be able to solve it themselves and in the event of a dispute over a problem or solution a public debate would be held.
+  </p>
+
+  <p>
+    Niccolo Fontana Tartaglia was born in Brescia Italy in 1500. His father was murdered when he was six years old and he grew up in poverty. When he was 13, his hometown was invaded by the French army and despite taking refuge in a church, a soldier cut his face with a sword and left him for dead. His mother licked his wound clean, which he attributed to saving his life. However, he was permanently scarred and spoke with a stutter the rest of his life. Tartaglia is a nickname which means stutterer or stammerer. 
+  </p>
+
+  <p>
+    In 1534 Tartaglia was challenged to a math duel by Antonio Fior, a mediocre student of Scipione del Ferro, who boasted that he could solve depressed cubics. A depressed cubic is an equation of the form $x^3+ ax = b$. For example, Fior's first problem was <q>Find me a number such that when its cube is added the result is 6</q> or in modern notation <m>x^3+x=6</m>
+  </p>
+
+  <p>
+    Tartaglia accepted the challenge. He and Fior exchanged problems on February 22 and agreed to return their solutions 40 days later. In addition to the usual stakes of a math duel, they also agreed that the loser would have to buy the winner a dinner at a tavern for each unsolved problem. 
+  </p>
+
+  <p>
+    When Fior first issued his challenge, Tartaglia did not know how to solve depressed cubics. However, he worked diligently and on the night of February 12 he figured out a method for solving them. The 30 problems Fior sent to Tartaglia were all depressed cubics and he solved them all in two hours. Tartaglia sent Fior a variety of problems, none of which were depressed cubics, and he could not solve a single one.
+  </p>
+
+  <p>
+    At this point Girolamo Cardano (who the textbook calls <q>A Scoundral Mathematician</q>) enters the scene. Cardano was born in Pavia, Italy in 1501, a year after Tartaglia. He worked as a doctor, but had studied mathematics and had an interest in it. He wrote books on a variety of topics including medicine, mathematics, music, hydrodynamics, mechanics, astrology, and gambling.
+  </p>
+
+  <p>
+    When Cardano heard that Tartaglia had solved depressed cubics to win his math duel with Fior, he wrote to Tartaglia asking first if he could publish his method in a book he was writing and then asking to be shown the method and promising to keep it secret. Tartaglia refused at first, but changed his mind when Cardano offered to introduce him to the influential governor of Milan, Alfonso d'Avalos. However, when Tartaglia arrived in Milan, the governor was not there, but Cardano let him stay at his house while he waited for the governor to return. While there Tartaglia agreed to share his method with Cardano, provided that he swear an oath to never show it to anyone else. According to Tartaglia, the oath sworn by Cardano was 
+  </p>
+
+  <blockquote>
+    <p>
+      I swear to you, by God's holy Gospels, and as a true man of honor, not only never to publish your discoveries, if you teach me them, but I also promise you, and I pledge my faith as a true Christian, to note them down in code, so that after my death no one will be able to understand them.
+    </p>
+  </blockquote>
+
+  <p>
+    To insure the method would not fall into the wrong hands, he communicated it to Cardano in the form of a poem. It began
+  </p>
+
+  <blockquote>
+    <p>
+      Quando chel cubo con le cose appresso
+    </p>
+    <p>
+      Se aqquaglia a qualche numero discreto
+    </p>
+    <p>
+      Trouan duo altri di erenti in esso
+    </p>
+    <p>
+      -
+    </p>
+
+    <p>
+      Dapoi terrai questo per consueto
+    </p>
+    <p>
+      Che llor productto sempre sia equale
+    </p>
+    <p>
+      Alterzo cubo delle cose neto,
+    </p>
+    <p>
+      -
+    </p>
+    <p>
+      El residuo poi suo generale
+    </p>
+    <p>
+      Delli lor lati cubi ben sottrati
+    </p>
+    <p>
+      Varra la tua cosa principale.
+    </p>
+  </blockquote>
+
+  <p>
+    The previous lines can be translated as
+  </p>
+
+  <blockquote>
+    <p>
+      When the cube and the things together
+    </p>
+    <p>
+      Are equal to some discrete number,
+    </p>
+    <p>
+      Find two other numbers differing in this one.
+    </p>
+    <p>
+      -
+    </p>
+    <p>
+      Then you will keep this as a habit
+    </p>
+    <p>
+      That their product should always be equal
+    </p>
+    <p>
+      Exactly to the cube of a third of the things.
+    </p>
+    <p>
+      -
+    </p>
+    <p>
+      The remainder then as a general rule
+    </p>
+    <p>
+      Of their cube roots subtracted
+    </p>
+    <p>
+      Will be equal to your principal thing.
+    </p>
+  </blockquote>
+
+  <p>
+    Translating the words into equations, Tartaglia's formula says that to solve the equation <m>x^3 + ax = b</m>, you need to find two numbers <m>u</m> and <m>v</m> such that <m>u-v=b</m> and <m>uv = \left(\frac{a}{3}\right)^3</m>. Then <m>\sqrt[3]{u} - \sqrt[3]{v}</m> is the solution. 
+  </p>
+
+  <p>
+    As an example of Tartaglia's method, consider the equation <m>x^3+3x=14</m>. To solve this equation we need to find $u$ and $v$ so that $u-v = 14$ and $uv = 1$. This leads to a quadratic equation for $v$: $v^2+14v = 1$ which has positive solution $\approx 0.071$. Thus $u = 14.071$ and the solution is $\sqrt[3]{14.071}-\sqrt[3]{0.071} = 2$.
+  </p>
+
+  <p>
+    Tartaglia would have kept his answer in terms of square roots instead of using a decimal approximation and would have simplified the square roots to obtain the final answer.
+  </p>
+
+
+
+
+  
+</subsection>
+
+
+</section>
