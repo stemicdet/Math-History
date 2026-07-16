@@ -24,7 +24,7 @@
   </p>
 
   <p>
-    In 1534 Tartaglia was challenged to a math duel by Antonio Fior, a mediocre student of Scipione del Ferro, who boasted that he could solve depressed cubics. A depressed cubic is an equation of the form $x^3+ ax = b$. For example, Fior's first problem was <q>Find me a number such that when its cube is added the result is 6</q> or in modern notation <m>x^3+x=6</m>
+    In 1534 Tartaglia was challenged to a math duel by Antonio Fior, a mediocre student of Scipione del Ferro, who boasted that he could solve depressed cubics. A depressed cubic is an equation of the form <m>x^3+ ax = b</m>. For example, Fior's first problem was <q>Find me a number such that when its cube is added the result is 6</q> or in modern notation <m>x^3+x=6</m>
   </p>
 
   <p>
@@ -135,16 +135,219 @@
   </p>
 
   <p>
-    As an example of Tartaglia's method, consider the equation <m>x^3+3x=14</m>. To solve this equation we need to find $u$ and $v$ so that $u-v = 14$ and $uv = 1$. This leads to a quadratic equation for $v$: $v^2+14v = 1$ which has positive solution $\approx 0.071$. Thus $u = 14.071$ and the solution is $\sqrt[3]{14.071}-\sqrt[3]{0.071} = 2$.
+    As an example of Tartaglia's method, consider the equation <m>x^3+3x=14</m>. To solve this equation we need to find <m>u</m> and <m>v</m> so that <m>u-v = 14</m> and <m>uv = 1</m>. This leads to a quadratic equation for <m>v</m>: <m>v^2+14v = 1</m> which has positive solution <m>\approx 0.071</m>. Thus <m>u = 14.071</m> and the solution is <m>\sqrt[3]{14.071}-\sqrt[3]{0.071} = 2</m>.
   </p>
 
   <p>
     Tartaglia would have kept his answer in terms of square roots instead of using a decimal approximation and would have simplified the square roots to obtain the final answer.
   </p>
 
+  <p>
+    After returning home, Tartaglia began to regret sharing his method with Cardano but was somewhat reassured when his method didn't appear in any of Cardano's books published that year.
+  </p>
 
+  <p>
+    Cardano had a pupil named Lodovico Ferrari. Born in Bologna, Italy in 1522, Ferrari served as Cardano's secretary as a teenager until Cardano realized his ability and taught him mathematics. In 1541, he accepted a position as a public lecturer in geometry but still kept close ties with Cardano.
+  </p>
 
+  <p>
+    Cardano discovered a transformation that could convert any cubic equation into a depressed cubic. Thus he could solve any cubic equation, but his solution required using Tartaglia's method for solving depressed cubics.
+  </p>
 
+  <p>
+    Specifically if given a cubic equation
+    <md>
+      ax^3 + bx^2 + cx +d = 0
+    </md>
+    the transformation <m>x = z-\frac{b}{3a}</m> will result in a depressed cubic.
+  </p>
+
+  <p>
+    Applying the transformation gives
+    <md>
+      <mrow>a (z-\frac{b}{3a})^3 + b(z-\frac{b}{3a})^2+ c(z-\frac{b}{3a})+ d \amp = 0 </mrow>
+      <mrow> a (z^3 - \frac{z^2b}{a}+ \frac{zb^2}{3a^2}+\frac{b^3}{27a^2}) + b(z^2-\frac{2bz}{3a} + \frac{b^2}{9a^2}) + c(z-\frac{b}{3a})+ d \amp = 0 </mrow>
+    </md>
+    Observe that the <m>z^2</m> terms cancel out so the result is a depressed cubic equation of <m>z</m>.
+  </p>
+
+  <p>
+    Shortly after Ferrari found a method for solving quartic (4th degree polynomial) equations which made use of Cardano's method for solving cubic equations. However, they were unable to find a general formula for solving fifth degree equations. The problem of determining a general formula for solving fifth degree equations would not be solved until the 19th century when Pablo Ruffini and Niels Abel proved that it is impossible for there to be a general formula for solving all fifth degree polynomial equations.
+  </p>
+
+  <p>
+    In 1543 Cardano and Ferrari traveled to Bologna where they met with the mathematician Hannibal della Nave. Della Nave showed them a book written by his father-in-law, Scipione del Ferro, that included the method for solving depressed cubics.
+  </p>
+
+  <p>
+    Believing that his oath to Tartaglia was no longer binding since the formula for solving depressed cubics was not entirely Tartaglia's discovery, Cardano published his work with Ferrari on cubic and quartic equations in his book <em>Artis magnae sive de regulis algebraicis liber unus</em> or <em>Ars Magna</em>. The title is Latin for <em>The Great Art, or the Rules of Algebra, Book One</em>. Cardano jointly credited del Ferro and Tartaglia for the method of solving depressed cubics. However, Tartaglia viewed the publication of the book as a breaking of Cardano's oath and thus began one of the greatest disputes in all mathematics.
+  </p>
+
+  <p>
+    Tartaglia published his own book <em>New Problems and Inventions</em> giving his side of the story and accusing Cardano of breaking his oath. Ferrari wrote back to Tartaglia in defense of Cardano and they exchanged letters over a year that did little to resolve their dispute. Ferrari wanted a public debate, while Tartaglia wanted an exchange of equations. Also Tartaglia wanted to challenge Cardano directly, not Ferrari.
+  </p>
+
+  <p>
+    In one letter Tartaglia proposed a challenge of 31 questions writing <q>I am not like Signor Girolamo [Cardano] who presents cases he does not know how to solve himself</q>.
+  </p>
+
+  <p>
+    Ferrari didn't answer the questions but replied with 31 of his own. Making a pun on Tartaglia's name, he wrote back <q>I have received your <em>tartagliala</em>: which, though long and confused, contains nothing but insults, refusals to admit defeat, and a fixed idea of wanting to fight while running away. </q>
+  </p>
+
+  <p>
+    Tartaglia responded by solving all 31 questions and claiming victory, but Ferrari countered saying that he had only gotten 5 questions correct.
+  </p>
+
+  <p>
+    Here are some excerpts from the letters written between Tartaglia and Ferrari that shows just how serious their dispute had become. The first is from Ferrari's first letter in defense of Cardano.
+  </p>
+
+  <blockquote>
+    <p>
+      You have the infamy to say that Cardano is ignorant in mathematics, and you call him uncultured and simple-minded, a man of low standing and coarse talk and other similar offending words too tedious to repeat. Since his excellency is prevented by the rank he holds, and because this matter concerns me personally since I am his creature, I have taken it upon myself to make known publicly your deceit and malice.
+    </p>
+  </blockquote>
+
+  <p>
+    One of the letters from Cardano to Ferrari contains this gem. Cardano and Ferrari had recently moved to Pavia.
+  </p>
+
+  <blockquote>
+    <p>
+      You say that you have heard that in the past few years I have made machines and invented several types of instruments and that people think that by my persistent knowledge I have succeeded in making a machine with which I can shoot clear to Milan while I am stationed in Venice. Regarding this particular, I answer they are not at all wrong. For since the presentation of your letter I have actually built one with which, while I am in Venice, I can shoot, not only as far as Milan but even as far as Pavia, and shoot with such a direct aim that I will not only scare you and Signor Girolamo [Cardano] but cause you great anguish.
+    </p>
+  </blockquote>
+
+  <p>
+    Ferrari was unfazed by Tartaglia's threat and wrote this in reply.
+  </p>
+
+  <blockquote>
+    <p>
+      As for the twenty-second problem in the disputation. You at first say that it is not a question for a mathematician. To which I reply, that, if by a mathematician you mean someone like you, that is, someone who spends the whole time on roots, fifth powers, cubes and other trifles, then you are quite right. I promise you that if it were up to me to reward you, taking example from the custom of Alexander, I would load you up so much with roots and radishes that you would never eat anything else in your life.
+    </p>
+  </blockquote>
+
+  <p>
+    Tartaglia eventually agreed to a debate with Ferrari and remarkably allowed for it to be held in Milan, which had been their hometown for a long time. Moreover, Tartaglia was living in Venice, which was Milan's rival. On August 10, 1548 the debate was held between Tartaglia and Ferrari with the governor of Milan as the judge. It's not entirely clear what happened at the debate. Some accounts state that Ferrari was able to demonstrate a better knowledge of cubic and quartic equations then Tartaglia and that Tartaglia left the city after realizing that the debate was not going his way. However, according to Tartaglia the crowd at the debate would not let him speak and he left after the first day lucky to have kept his life. 
+  </p>
+
+  <p>
+    Tartaglia returned to Venice disgraced by the outcome of the debate. He died there in 1557.
+  </p>
+
+  <p>
+    For a time Cardano was the most famous mathematician in Europe. Then his son poisoned his own wife and was executed and later Cardano was arrested on charges of heresy for writing books on astrology, which ruined his reputation. He died in 1576.
+  </p>
+
+  <p>
+    Ferrari took a position as tax assessor of the Governor of Milan, which made him wealthy. At age 43 he died of arsenic poisoning allegedly by his sister.
+  </p>
+
+  <p>
+    Today we know of Cardano's method for solving cubic equations as the cubic formula.
+  </p>
+
+  <theorem xml:id="thm-cubic-formula">
+    <title>The Cubic Formula</title>
+    
+    
+    <statement>
+      <p>
+        The solution to <m>ax^3+bx^2+cx+d=0</m> is
+        <md>
+          x = \sqrt[3]{\left( \frac{-b^3}{27a^3} + \frac{bc}{6a^2}-\frac{d}{2a} \right) + \sqrt{\left( \frac{-b^3}{27a^3} + \frac{bc}{6a^2}-\frac{d}{2a} \right)^2 + \left(\frac{c}{3a} - \frac{b^2}{9a^2} \right)^3}}
+        + \sqrt[3]{\left( \frac{-b^3}{27a^3} + \frac{bc}{6a^2}-\frac{d}{2a} \right) - \sqrt{\left( \frac{-b^3}{27a^3} + \frac{bc}{6a^2}-\frac{d}{2a} \right)^2 + \left(\frac{c}{3a} - \frac{b^2}{9a^2} \right)^3}}
+        - \frac{b}{3a}
+        </md>
+        
+      </p>
+    </statement>
+  </theorem>
+  
+  <p>
+    Instead of trying to memorize the cubic formula, it is easier to learn Tartaglia's method for solving depressed cubics and Cardona's technique for transforming any cubic into a depressed cubic.
+  </p>
+
+  <p>
+    An interesting thing happens if we try to apply the cubic formula to the equation <m>x^3-15x-4 = 0</m>. The cubic formula tells us that the solution is 
+    <md>
+      x = \sqrt[3]{2 + \sqrt{-121}} + \sqrt[3]{2 - \sqrt{-121}}
+    </md>
+    or in modern notation
+    <md>
+      x = \sqrt[3]{2 + 11i} + \sqrt[3]{2 - 11i}
+    </md>
+    
+  </p>
+
+  <p>
+    It may seem that the appearance of imaginary numbers means that this equation has no solutions, but it can be checked that <m>x=4</m> solves the equation. Most mathematicians of the time concluded that this meant that there were certain equations which could not be solved by the cubic formula. This mystery would finally be solved by the engineer Rafael Bombelli.
+  </p>
+
+  <p>
+    Bombelli was born in 1526 in Bologna, Italy, the same town where Ferrari was born. He was trained as an engineer but received no university education. As an engineer he acheived renown for successfully draining swampland.  
+  </p>
+
+  <p>
+    In 1557 while one of his projects was on hiatus he decided to write an algebra textbook that could be read by those without a high level of mathemtical training. In his textbook Bombelli considered the equation <m>x^3 -15x-4=0</m>. He made the bold assumption that <m>\sqrt[3]{2 + 11i} + \sqrt[3]{2 - 11i}</m> is actually a real number, written in a very strange form. He later wrote:
+  </p>
+
+  <blockquote>
+    <p>
+      It was a wild thought in the judgment of many; and I too for a long time was of the same opinion. The whole matter seemed to rest on sophistry rather than on truth. Yet I sought so long, until I actually proved it to be the case.
+    </p>
+  </blockquote>
+
+  <p>
+    If the solution given by the cubic formula is a real number then <m>\sqrt[3]{2 + 11i}</m> and <m>\sqrt[3]{2 - 11i}</m> must be complex conjugates; that is, there exists real numbers <m>a</m> and <m>b</m> such that
+    <md>
+      \sqrt[3]{2 + 11i} = a+bi
+    </md>
+
+    and
+    <md>
+      \sqrt[3]{2 - 11i} = a-bi
+    </md>
+    
+    
+  </p>
+
+  <p>
+    Cubing both sides of the first equation gives
+    <md>
+      <mrow> 2 + 11i \amp = (a+bi)^3 </mrow>
+      <mrow> \amp = a^3 + 3a^2bi -3ab^2 -b^3i </mrow>
+      <mrow> \amp = a^3-3ab^2 + (3a^2b -b^3)i </mrow>
+    </md>
+    
+  </p>
+
+  <p>
+    Equating real and imaginary parts gives
+    <md>
+      <mrow> 2 \amp = a^3 - 3ab^2 </mrow>
+      <mrow> 11 \amp = 3a^2b - b^3 </mrow>
+    </md>
+    
+  </p>
+
+  <p>
+    You can verify that <m>a = 2</m> and <m>b = 1</m> is a solution to this system of equations. Hence
+    <md>
+      \sqrt[3]{2 + 11i} = 2+i
+    </md>
+    and
+    <md>
+      \sqrt[3]{2 - 11i} = 2-i
+    </md>
+    
+  </p>
+
+  <p>
+    Therefore the cubic formula gives that the solution to <m>x^3-15x-4=0</m> is <m>x=4</m>. Thus in order to find a real solution to an equation with real coefficients, we need to make use of imaginary numbers. 
+  </p>
   
 </subsection>
 
