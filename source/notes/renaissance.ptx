@@ -348,6 +348,47 @@
   <p>
     Therefore the cubic formula gives that the solution to <m>x^3-15x-4=0</m> is <m>x=4</m>. Thus in order to find a real solution to an equation with real coefficients, we need to make use of imaginary numbers. 
   </p>
+
+  <p>
+    Bombelli is the first mathematician to consider imaginary numbers as mathematical objects. In his textbook he called <m>i</m> <term>plus of minus</term> and <m>-i</m> <term>minus of minus</term> and gave rules for their multiplication.
+    <ol>
+      <li>
+        <p>
+          Plus times plus of minus makes plus of minus: <m>(+1)(i) = +i</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          Minus times plus of minus makes minus of minus: <m>(-1)(i) = -i</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          Plus times minus of minus makes minus of minus: <m>(+1)(-i) = -i</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          Minus times minus of minus makes plus of minus: <m>(-1)(-i) = +i</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          Plus of minus times plus of minus makes minus: <m>(i)(i) = -1</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          Plus of minus times minus of minus makes plus: <m>(i)(-i) = +1</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          Minus of minus times minus of minus makes minus: <m>(-i)(-i) = -1</m>
+        </p>
+      </li>
+    </ol>
+  </p>
   
 </subsection>
 
