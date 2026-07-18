@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="notes-renaissance">
-  <title>Renaissance Mathematics (7.1-7.4)</title>
+  <title>Renaissance Mathematics (7.1-7.4, 8.1)</title>
 
 
 <subsection xml:id="subsec-Tartaglia-and-Cardano">
@@ -351,5 +351,100 @@
   
 </subsection>
 
+<subsection xml:id="subsec-Napier-and-Logarithms">
+  <title>Napier's Invention of the Logarithm</title>
+
+  <p>
+    Another important milestone of Renaissance mathematics was John Napier's invention of the Logarithm. Logarithms began as an aid for simplifying computations but have become a fundamental part of modern mathematics and science.
+  </p>
+
+  <p>
+    John Napier was born in 1550 to a wealthy Scottish family. He studied at home until he was 13 when he enrolled at St. Andrew's University, which was the normal age for university enrollment at the time. He never graduated from St. Andrew's but most likely studied abroad. By 1571 he had returned to Scotland. In addition to his mathematical writings, Napier also wrote books on theology and plans for inventions. One of his most famous inventions was a devise with a hydraulic screw for pumping water out of coal mines. Another invention known as <term>Napier's bones</term> were a collection of rods that formed a sort of multiplication table. These rods could be manipulated to quickly compute the products of large numbers. 
+  </p>
+
+  <p>
+    Similarly Napier developed the logarithm as an aid for multiplication. The key idea is to simplify multiplications by reducing them to addition. He may have been motivated by the work of Michael Stifel. In his book <em>Arithmetica Integra</em> Stifel laid out a table of powers of two and made the observation that the product of two terms of the second row corresponded to the sum of the corresponding terms from the first row. 
+  </p>
+
+  <table>2  <tabular top="major" bottom="major" left="major" right="major">3    <row>4      <cell>0</cell>5      <cell>1</cell>6      <cell>2</cell>7      <cell>3</cell>8      <cell>4</cell>9      <cell>5</cell>10      <cell>6</cell>11      <cell>7</cell>12      <cell>8</cell>13    </row>14    <row>15      <cell>1</cell>16      <cell>2</cell>17      <cell>4</cell>18      <cell>8</cell>19      <cell>16</cell>20      <cell>32</cell>21      <cell>64</cell>22      <cell>128</cell>23      <cell>256</cell>24    </row>25  </tabular>26</table>
+
+
+  <p>
+    Another motivation may have come from trigonometry, especially since Napier intended for logarithms to be used for finding sine tables. In the 16th century it was known that
+    <md>
+      2\cos A \cos B = \cos(A-B)+\cos(A+B)
+    </md>
+    and hence instead of multiplying cosines together, which was quite tedius without calculators, mathematicians used this formula to add them together which was much easier.
+  </p>
+
+  <p>
+    Napier's goal with logarithms was thus to develop a process by which multiplication and division could be replaced by addition and subtraction. However, his original definition of the logarithm looks very different than the modern definition. This is partly because he intended his logarithms for use in trigonometry and calculated the logarithms of sines of angles between 30 and 90 degrees. In Renaissance Europe it was customery to treat sine, not as a ratio, but as a length, specifically <m>\sin \alpha</m> was thought of as the length of the half chord subtending a central angle <m>2\alpha</m> in a circle with very large radius <m>R</m>. This is the same way that the Indian mathematicians such as Madhava defined sine. Napier decided to choose <m>R = 10^7</m> so that he would have seven places of accuracy before needing fractions. In Napier's original definition <m>10^7</m>, the largest possible value of sine with his setup was chosen to have logarithm <m>0</m> and the smaller a number, the larger the logarithm would become.
+  </p>
+
+  <p>
+    Similar to Stifel's table, Napier's logarithms would involve pairing terms of a geometric sequence with an arithmetic one. For the terms of the geometric progression to be close together their ratio must be close to <m>1</m>. Napier chose the value <m>1-10^{-7}</m> to be this ratio. Then to avoid decimals he multiplied this by <m>10^7</m>. Next he calculated the sequence of values
+    <md>
+      10^7(1-10^{-7})^n
+    </md>
+    for <m>n = 0, 1, 2, \ldots 100</m>.
+  </p>
+
+  <p>
+    Napier called the number <m>n</m> the <term>logarithm</term> of the number <m>10^7(1-10^{-7})^n</m>. Napier's definition of the logarithm is not the same as the modern definition so if <m>N = 10^7(1-10^{-7})^n</m> we will write <m>Nap.logN = n</m> for Napier's logarithm of <m>N</m>. It is easy to see from the definition that <m>Nap.log 10^7 = 0</m> and <m>Nap.log 10^7(1-10^{-7})= 1.</m> 
+  </p>
+
+  <p>
+    The familiar rules for logarithms do not apply to Napier's logarithms. Notably 
+    <md>
+      Nap.log(MN) \neq Nap.log(M) + Nap.log(N)
+    </md>
+    In fact if <m>M = 10^7(1-10^{-7})^m</m>, <m>N = 10^7(1-10^{-7})^n</m> and <m>1 = 10^7(1-10^{-7})^k</m> then
+    <md>
+     <mrow> MN  \amp = 10^7(1-10^{-7})^{m+n} 10^7 </mrow>
+     <mrow> \amp = 10^7(1-10^{-7})^{m+n} (1-10^{-7})^k = 10^{7} (1-10^{-7})^{m+n-k} </mrow> 
+    </md>
+    which implies that
+    <md>
+      Nap.log(MN) = Nap.log(M) + Nap.log(N) - Nap.log(1)
+    </md>
+    
+  </p>
+
+  <p>
+    However, Napier's logarithms do succeed in converting multiplication into addition, provided that you subtract Nap.log <m>1 \approx 1611809 </m>.
+  </p>
+
+  <p>
+    It turns out that the value <m>(1-10^{-7})^{10^7}</m> is nearly <m>\frac{1}{e}</m> so Napier's logarithms are almost logarithms with base <m>\frac{1}{e}</m> although he never thought of them as such.
+  </p>
+
+  <p>
+    Napier first called his invention <term>artificial numbers</term> before coining the word <term>logarithm</term> from Greek words <em>logos</em> meaning <em>word</em> and <em>arithmos</em> meaning <em>number</em>.
+  </p>
+
+  <p>
+    Napier's logarithms were quickly adopted by other mathematicians though it had some detractors. One of the early adopters of logarithms was Henry Briggs, professor of geometry at Gresham College who wrote to James Ussher in 1615
+  </p>
+
+  <blockquote>
+    <p>
+      Napier, lord of Markinston, hath set my Head and Hands a Work with his new and admirable Logarithms. I hope to see him this Summer if it please God, for I never saw Book which please me better or made me more wonder.
+    </p>
+  </blockquote>
+
+  <p>
+    Briggs and Napier did visit during the summer of 1615 and they discussed simplifications to logarithms. The both agreed that it would be better if the logarithm of <m>1</m> was <m>0</m> and the logarithm of <m>10</m> was <m>1</m>. This modification acheives the desired property of logarithms that 
+    <md>
+      \log (MN) = \log(M) + \log(N).
+    </md>
+    
+  </p>
+
+  <p>
+    Since Napier's health was failing, Briggs set out to recalculate the tables of these new logarithms. His book <em>Arithmetica Logarithmica</em> published in 1624 contained 14 place logarithms of the first <m>20,000</m> numbers and those between <m>90,000</m> and <m>100,000</m>. The logarithms of the remaining integers between <m>20,000</m> and <m>90,000</m> were calculated to 10 decimal places by Adrian Vlacq and published in 1627.
+  </p>
+
+
+</subsection>
 
 </section>
