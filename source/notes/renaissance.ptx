@@ -23,6 +23,14 @@
     Niccolo Fontana Tartaglia was born in Brescia Italy in 1500. His father was murdered when he was six years old and he grew up in poverty. When he was 13, his hometown was invaded by the French army and despite taking refuge in a church, a soldier cut his face with a sword and left him for dead. His mother licked his wound clean, which he attributed to saving his life. However, he was permanently scarred and spoke with a stutter the rest of his life. Tartaglia is a nickname which means stutterer or stammerer. 
   </p>
 
+  <figure>
+      <caption>A portrait of Tartaglia</caption>
+      <image source="Tartaglia.jpeg" width="50%">
+        <description>A picture of Niccolo Tartaglia
+        </description>
+      </image>
+    </figure>
+
   <p>
     In 1534 Tartaglia was challenged to a math duel by Antonio Fior, a mediocre student of Scipione del Ferro, who boasted that he could solve depressed cubics. A depressed cubic is an equation of the form <m>x^3+ ax = b</m>. For example, Fior's first problem was <q>Find me a number such that when its cube is added the result is 6</q> or in modern notation <m>x^3+x=6</m>
   </p>
@@ -38,6 +46,14 @@
   <p>
     At this point Girolamo Cardano (who the textbook calls <q>A Scoundral Mathematician</q>) enters the scene. Cardano was born in Pavia, Italy in 1501, a year after Tartaglia. He worked as a doctor, but had studied mathematics and had an interest in it. He wrote books on a variety of topics including medicine, mathematics, music, hydrodynamics, mechanics, astrology, and gambling.
   </p>
+
+  <figure>
+      <caption>A portrait of Cardano</caption>
+      <image source="Cardan.jpeg" width="50%">
+        <description>A picture of Girolamo Cardano
+        </description>
+      </image>
+    </figure>
 
   <p>
     When Cardano heard that Tartaglia had solved depressed cubics to win his math duel with Fior, he wrote to Tartaglia asking first if he could publish his method in a book he was writing and then asking to be shown the method and promising to keep it secret. Tartaglia refused at first, but changed his mind when Cardano offered to introduce him to the influential governor of Milan, Alfonso d'Avalos. However, when Tartaglia arrived in Milan, the governor was not there, but Cardano let him stay at his house while he waited for the governor to return. While there Tartaglia agreed to share his method with Cardano, provided that he swear an oath to never show it to anyone else. According to Tartaglia, the oath sworn by Cardano was 
@@ -146,6 +162,14 @@
   <p>
     Cardano had a pupil named Lodovico Ferrari. Born in Bologna, Italy in 1522, Ferrari served as Cardano's secretary as a teenager until Cardano realized his ability and taught him mathematics. In 1541, he accepted a position as a public lecturer in geometry but still kept close ties with Cardano.
   </p>
+
+    <figure>
+      <caption>A portrait of Ferrari</caption>
+      <image source="ferrari.jpg" width="50%">
+        <description>A picture of Lodovico Ferrari
+        </description>
+      </image>
+    </figure>
 
   <p>
     Cardano discovered a transformation that could convert any cubic equation into a depressed cubic. Thus he could solve any cubic equation, but his solution required using Tartaglia's method for solving depressed cubics.
@@ -286,6 +310,14 @@
   <p>
     Bombelli was born in 1526 in Bologna, Italy, the same town where Ferrari was born. He was trained as an engineer but received no university education. As an engineer he acheived renown for successfully draining swampland.  
   </p>
+
+    <figure>
+      <caption>A portrait of Bombelli</caption>
+      <image source="Bombelli (1).jpeg" width="50%">
+        <description>A picture of Girolamo Cardano
+        </description>
+      </image>
+    </figure>
 
   <p>
     In 1557 while one of his projects was on hiatus he decided to write an algebra textbook that could be read by those without a high level of mathemtical training. In his textbook Bombelli considered the equation <m>x^3 -15x-4=0</m>. He made the bold assumption that <m>\sqrt[3]{2 + 11i} + \sqrt[3]{2 - 11i}</m> is actually a real number, written in a very strange form. He later wrote:

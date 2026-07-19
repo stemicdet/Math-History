@@ -492,7 +492,14 @@
         al-Karaji begins with a square with side lengths <m>1+2+3+ \ldots + 10</m>, which is partitioned as shown below.
       </p>
 
-
+<figure>
+      <caption>Square used in al-Karaji's proof of the sum of cubes formula</caption>
+      <image source="squares.png" width="50%">
+        <description>Diagram showing a sequence of nested squares sharing the same lower-left corner DDD. The largest square has vertices AAA (upper left), BBB (upper right), CCC (lower right), and DDD (lower left). Along the left side of the large square, points EEE and HHH mark the top edges of two smaller nested squares. The vertical distances on the left side are labeled 111, 222, 999, and 101010 from bottom to top, indicating successive square side lengths.
+Inside the large square is a square of side length 101010 with top-left corner at EEE and top-right corner FFF; its lower-right corner is GGG on the bottom edge of the large square. Inside that is a square of side length 999 with top-left corner at HHH and top-right corner III; its lower-right corner is JJJ on the bottom edge. Two additional smaller squares of side lengths 222 and 111 are nested in the lower-left corner. All squares are aligned with the coordinate directions, and each smaller square shares the same lower-left corner DDD as the larger squares.
+        </description>
+      </image>
+    </figure>
 
 
 
