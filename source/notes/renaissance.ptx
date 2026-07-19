@@ -135,13 +135,10 @@
   </p>
 
   <p>
-    As an example of Tartaglia's method, consider the equation <m>x^3+3x=14</m>. To solve this equation we need to find <m>u</m> and <m>v</m> so that <m>u-v = 14</m> and <m>uv = 1</m>. This leads to a quadratic equation for <m>v</m>: <m>v^2+14v = 1</m> which has positive solution <m>\approx 0.071</m>. Thus <m>u = 14.071</m> and the solution is <m>\sqrt[3]{14.071}-\sqrt[3]{0.071} = 2</m>.
+    As an example of Tartaglia's method, consider the equation <m>x^3+3x=14</m>. To solve this equation we need to find <m>u</m> and <m>v</m> so that <m>u-v = 14</m> and <m>uv = 1</m>. This leads to a quadratic equation for <m>v</m>: <m>v^2+14v = 1</m> which has positive solution <m>5\sqrt{2}-7 \approx 0.071</m>. Thus <m>u = 5\sqrt{2}+7 \approx 14.071</m> and the solution is <m>\sqrt[3]{5\sqrt{2}+7}-\sqrt[3]{5\sqrt{2}-7} = 2</m>.
   </p>
 
-  <p>
-    Tartaglia would have kept his answer in terms of square roots instead of using a decimal approximation and would have simplified the square roots to obtain the final answer.
-  </p>
-
+  
   <p>
     After returning home, Tartaglia began to regret sharing his method with Cardano but was somewhat reassured when his method didn't appear in any of Cardano's books published that year.
   </p>
