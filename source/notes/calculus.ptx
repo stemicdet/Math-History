@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-calculus">
+  <title>Newton, Leibniz, and the Calculus (8.2-8.4)</title>
+
+  <subsection xml:id="subsec-Forerunners-of-Calculus">
+    <title>Forerunners of Calculus</title>
+
+    <p>
+      Calculus emerged in the 17th century with the discovery that two of the most well known problems of mathematics at the time, the area problem and the tangent line problem are essentially inverses of each other. During the 16th and 17th centuries many mathematicians worked on one or both of these problems and some developed techniques for solving them, but when it comes to the discovery of calculus, there are three things that are required for a theory of calculus:
+      <ol>
+        <li>
+          <p>
+            A systemic method for finding areas.
+          </p>
+        </li>
+        <li>
+          <p>
+            A systemic method for finding tangents.
+          </p>
+        </li>
+        <li>
+          <p>
+            A profound connection between the area and tangent problems.
+          </p>
+        </li>
+      </ol>
+    </p>
+
+    <p>
+      Isaac Newton and Gottfried Leibniz independently came up with methods that satisfied all three requirements and thus they are considered the discoverers of calculus; however, they did not develop their ideas out of nothing, but were influenced by the mathematicians who had come before them. To better appreciate the magnitude of their discoveries, it is helpful to consider the state of mathematics in the 17th century before the discovery of calculus.
+    </p>
+
+    <p>
+      The problem of finding the area of geometric shapes goes back to ancient times; however, in the 17th century new techniques were developed to calculate areas. A common technique was the <term>method of indivisibles</term> which was popularized by Bonaventura Cavalieri and is also known as <term>Cavalieri's principle</term>. In the two dimensional case the method of indivisibles states that if two regions of a plane are included between two parallel lines in that plane and if every line parallel to those lines intersects both regions in line segments of equal length than the two regions have equal areas. Cavalieri considered a 2D object such as a square to be made up of an infinite number of lines. If those lines were shifted up or down, but their lengths stayed the same then the resulting shape would have the same area as the square. The method of indivisibles can also be extended to volumes in which the lines between regions are replaced by planes whose cross sections have equal areas. Using these techniques Cavalieri was able to determine areas and volumes of many shapes.
+    </p>
+
+    <p>
+      The method of indivisibles has some noticeable drawbacks. First off it is not entirely rigorous since it implies that a 2D shape is made up of an infinite number of lines with no area. This makes it very easy to obtain incorrect results. For these reasons the method of indivisibles was replaced with the <term>method of infinitessimals</term>. Whereas the indivisibles had dimension one less than the figure, infinitessimals were of the same dimension as the figure. For example instead of a square being made up as an infinite number of lines, in the method of infinitessimals it would be thought of as made up of infinitely many rectangles of infinitessimal width. While more rigorous than the method of indivisibles, the method of infinitessimals was not without flaws. In particular if a square is made of infinitely many rectangles and those rectangles all have positive area (no matter how small) then it would seem that the square must have infinite area. Mathematicians justified this by saying that the rectangles had width that was smaller than any positive quantity, but not zero. 
+    </p>
+
+    <p>
+      
+    </p>
+    
+  </subsection>
+
+  </section>

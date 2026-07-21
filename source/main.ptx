@@ -38,6 +38,7 @@
       <xi:include href="./notes/india.ptx"/>
       <xi:include href="./notes/islam.ptx"/>
       <xi:include href="./notes/renaissance.ptx"/>
+      <xi:include href="./notes/calculus.ptx"/>
       <!-- etc. -->
 
     </chapter>
