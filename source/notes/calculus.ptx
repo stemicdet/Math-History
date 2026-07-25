@@ -40,8 +40,82 @@
     </p>
 
     <p>
+      A very different approach to the area problem was developed by the English mathematician John Wallis by 1676. Unlike the other approaches to the area problem, this one uses an arithmetic approach rather than a geometric one. We can illustrate Wallis' method by considering the area beneath the parabola <m>y = x^2</m> on the interval <m>[0,1]</m>. Wallis' approach is based off the following observations:
+      <md>
+        <mrow> \frac{0^2+1^2}{1^2+1^2} \amp = \frac{1}{2} = \frac{1}{3} + \frac{1}{6} </mrow>
+        <mrow> \frac{0^2+1^2+2^2}{2^2+2^2+2^2} \amp = \frac{5}{12} = \frac{1}{3} + \frac{1}{12} </mrow>
+         <mrow> \frac{0^2+1^2+2^2+3^2}{3^2+3^2+3^2+3^2} \amp = \frac{7}{18} = \frac{1}{3} + \frac{1}{18} </mrow>
+         <mrow> \frac{0^2+1^2+2^2+3^2+4^2}{4^2+4^2+4^2+4^2+4^2} \amp = \frac{3}{8} = \frac{1}{3} + \frac{1}{24} </mrow>
+      </md>
       
     </p>
+
+    <p>
+      Wallis concluded that in general
+      <md>
+        \frac{0^2+1^2+2^2+3^2+ \ldots + n^2}{n^2+n^2+n^2+n^2+ \ldots + n^2} = \frac{1}{3} + \frac{1}{6n}
+      </md>
+      By taking <m>n</m> to have larger and larger values, the right hand side approaches the limiting value of <m>\frac{1}{3}</m>.
+    </p>
+
+    <p>
+      To determine the area under the parabola <m>y= x^2</m> from <m>x=0</m> to <m>x=a</m>, Wallis considered the area under the parabola to be made up of <m>n</m> infinitely narrow vertical rectangles each with width <m>\frac{a}{n}</m>. The ratio of the sum of the areas of these rectangles to the rectangle cirumscribing the entire parabola is
+      <md>
+        \frac{(\frac{0a}{n})^2+(\frac{1a}{n})^2+(\frac{2a}{n})^2+ \ldots + (\frac{0a}{n})^2}{a^2+a^2+a^2+ \ldots + a^2} = \frac{0^2+1^2+2^2+\ldots + n^2}{n^2+n^2 +\ldots + n^2}
+      </md>
+      
+    </p>
+
+    <p>
+      Wallis thus concluded that the ratio of the area underneath the parabola to the area of the circumscribing rectangle was
+      <md>
+        \lim_{n\to \infty}  \frac{0^2+1^2+2^2+\ldots + n^2}{n^2+n^2 +\ldots + n^2} = \frac{1}{3}.
+      </md>
+      In modern notation this says that
+      <md>
+        \frac{\int_0^a x^2dx}{a^3} = \frac{1}{3}
+      </md>
+      
+    </p>
+
+    <p>
+      After working out several special cases, Wallis concluded that 
+      <md>
+        \int_0^a x^k dx = \frac{a^{k+1}}{k+1}
+      </md>
+      
+    </p>
+
+    <p>
+      The other important problem in 17th century European mathematics was finding tangent lines. Pierre de Fermat gave a formula for finding tangent lines that was based off his <term>adequality</term> method for finding the maximum or minimum of functions. As an illustration we demonstrate how this method is used to maximize a quantity. Suppose we want to divide a line segment <m>AC</m> into 2 pieces at a point <m>E</m> so that the product <m>|AE| \times |EC|</m> is maximized. Fermat described his solution of the problem as follows.
+    </p>
+
+    <blockquote>
+      <p>
+        We write <m>AC = b</m>; let <m>a</m> be one of the segments so that the other will be <m>b-a</m>, and the product, the maximum of which is to be found will be <m>ba-a^2</m>. Let now <m>a+e</m> be the first segment of <m>b</m>; the second will be <m>b-a-e</m>, and the product of the segments, <m>ba-a^2 +be -2ae-e^2</m>; this must be adequated with the preceding: <m>ba-a^2</m>. Suppressing common terms <m>be \sim 2ae + e^2</m>. Suppressing <m>e: b = 2a</m>. To solve the problem we must consequently take the half of <m>b</m>. 
+      </p>
+
+      <p>
+        We can hardly expect a more general method.
+      </p>
+    </blockquote>
+
+    <p>
+      Fermat's method is based off an assumption that the value of an expression doesn't change much if you are close to a maximum or minimum. Thus if the maximum occurs at <m>a</m> then <m>(b-a)\times a</m> must be close to <m> (b-(a-e)) \times (a+e)</m>. Expanding this out, this implies that <m>be</m> must be approximately equal to <m>2ae+e^2</m>. Dividing both sides by <m>e</m> gives that <m>b</m> is approximately <m>2a+e</m>. Since <m>e</m> needs to be sufficiently small for this to be true, we can take <m>e=0</m> and conclude that <m>b = 2a</m>.
+    </p>
+
+    <p>
+      As mentioned Fermat used a similar approach to determine the tangent line to an arbitrary point on a parabola. Rene Descartes developed a method of finding a normal line to a given point on a curve, from which a tangent line could be determined. He illustrated it with three examples that demonstrated how his method worked; however, in general his method is not easy to apply and does not work for all curves. A third method was developed by Gilles Personne de Roberval which relates the problem of finding a tangent line to a problem of finding the direction of motion at an instant. Ultimately, however, before Newton and Leibniz there was no general method for finding tangent lines, though there were several methods that could work in special cases.
+    </p>
+
+
+
+    
+  </subsection>
+
+
+  <subsection xml:id="subsec-Newton">
+    <title>Newton and the Development of Calculus</title>
     
   </subsection>
 
