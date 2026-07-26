@@ -116,6 +116,41 @@
 
   <subsection xml:id="subsec-Newton">
     <title>Newton and the Development of Calculus</title>
+
+    <p>
+      Newton built off the work of Wallis to investigate the area problem. Wallis had found the areas under certain curves such as <m>y=1</m>, <m>y = 1-x^2</m>, <m>y=(1-x^2)^2</m>. To find the area under a more complicated curve such as <m>y = \sqrt{1-x^2}</m>. This is done by noticing that these equations form a pattern <m>(1-x^2)^{0/2}</m>, <m>(1-x^2)^{1/2}</m>, <m>(1-x^2)^{2/2}</m>, <m>(1-x^2)^{3/2}</m>, <m>(1-x^2)^{4/2}</m>
+    </p>
+
+    <p>
+      It follows from this that the area under the curve <m>(1-x^2)^{1/2}</m> lies between those of <m>y=1</m> and <m>y = 1-x^2</m>.
+    </p>
+
+    <p>
+      Newton made the observation that the curve <m>y = (1-x^2)^{0/2} = 1</m> sits above an area of <m>x</m>, the curve <m>y = (1-x^2)^{2/2} = 1-x^2</m> sits above an area of <m>x-\frac{1}{3}x^3</m>, and the curve <m>y = (1-x^2)^{4/2} = 1-2x^2+x^4</m> sits above an area of <m>x - \frac{2}{3}x^3 + \frac{1}{5}x^5</m>. Newton spotted the pattern and came up with the following rules for finding areas.
+    </p>
+
+    <blockquote>
+      <p>
+        The general method which I had devised some time ago for measuring the quantity of curves by an infinite series of terms you have, in the following, rather briefly explained than narrowly demonstrated. To the base <m>AB</m> of some curve <m>AD</m> let the ordinate <m>BD</m> be perpendicular and let <m>AB</m> be called <m>x</m> and <m>BD</m> <m>y</m>. Let <m>a, b, c \ldots</m> be given quantities and <m>m,n</m> integers. Then
+      </p>
+
+      <p>
+        Rule 1: If <m>ax^{m/n} = y</m>, then will <m>(na/(m+n))x^{(m+n)/n}</m> equal the area <m>ABD</m>. The matter will be evident by example. 
+      </p>
+
+      <p>
+        Example 1: If <m>x^2=y</m>, that is, if <m>a = n = 1</m> and <m>m=2</m>, then <m>(\frac{1}{3})x^3 = ABD</m>. 
+      </p>
+
+      <p>
+        Example 2: If <m>4\sqrt{x} = 4x^{1/2} = y</m>, then <m>\frac{8}{3}x^{3/2} = ABD</m>
+      </p>
+
+      <p>
+        Example 4: If <m>\frac{1}{x^2} = x^{-2}</m>, that is, if <m>a = n = 1</m> and <m>m = -2</m> then <m>((1/-1)x^{-1}) = -x^{-1} = \alpha BD</m> infinitely extended in the 
+      </p>
+
+    </blockquote>
     
   </subsection>
 
