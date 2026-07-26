@@ -147,10 +147,73 @@
       </p>
 
       <p>
-        Example 4: If <m>\frac{1}{x^2} = x^{-2}</m>, that is, if <m>a = n = 1</m> and <m>m = -2</m> then <m>((1/-1)x^{-1}) = -x^{-1} = \alpha BD</m> infinitely extended in the 
+        Example 4: If <m>\frac{1}{x^2} = x^{-2}</m>, that is, if <m>a = n = 1</m> and <m>m = -2</m> then <m>((1/-1)x^{-1}) = -x^{-1} = \alpha BD</m> infinitely extended in the direction of <m>\alpha</m>; the computation sets its sign negative because it lies on the further side of the line <m>BD</m>.
+      </p>
+
+      <p>
+        Example 5: If <m>\frac{1}{\sqrt{x^2}} = y</m>, then <m>(\frac{2}{-1})x^{-1/2} = BD\alpha</m> 
+      </p>
+
+      <p>
+        Example 6: If <m>(1/x) = y</m> then <m>(\frac{1}{0})x^{0/1} = (\frac{1}{0}) = infinity</m> just as the area of the hyperbola is on each side of the line <m>BD</m>. 
       </p>
 
     </blockquote>
+
+    <p>
+      Essentially Newton's Rule 1 states that the area under <m>y = ax^{m/n}</m> is <m>\frac{na}{n+m}x^{(n+m)/n}</m> provided that <m>\frac{m}{n} \neq -1</m>. As Example 6 shows the rule breaks down in this case. Newton also had a second rule for finding areas of curves that are combinations of curves of the kind that area computed with the first rule such as <m>x^2+x^{3/2}</m>. The area underneath such a curve is the sum of the areas underneath the simpler curves.  
+    </p>
+
+    <p>
+      From Newton's writings, we know that he was familiar with Rule 1 by 1665. He had also developed a method for finding tangents that was similar to Fermat's adequality method. We will consider Newton's method applied to the curve <m>x^3+y^3 -3axy = 0</m>, which is known as the folium of Descartes. The problem is to find a tangent to this curve.
+    </p>
+
+    <p>
+      To solve this problem, Newton let's <m>o</m> denote a very small quantity and argues that what is <m>(x,y)</m> at one instant will be <m>(x+p0, y+q0)</m> in the next. Thus
+      <md>
+        (x+po)^3 + (y+qo)^3 -3a(x+po)(y+qo) = 0.
+      </md>
+      Expanding the brackets gives that 
+
+      <md>
+        x^3+3x^2po + 3x(po)^2 + (po)^3 + y^3+3y^2qo + 3y(qo)^2 + (qo)^3 - 3axy - 3axqo - 3aypo - 3apoqo = 0
+      </md>
+      
+    </p>
+
+    <p>
+      Since the original equation is <m>x^3+y^3-3axy = 0</m>, Newton deduced that the terms with <m>o</m> in it must sum to <m>0</m>. Dividing those terms by <m>o</m> yields the equation
+      <md>
+        3x^2p + 3xp^2o +p^3o^2 + 3y^2q + 3yq^2o + q^3o^2 - 3axq - 3ayp - 3apqo = 0
+      </md>
+      
+    </p>
+
+    <p>
+      Since <m>o</m> is very small, Newton argued that the terms with <m>o</m> were negligible compared to the ones without <m>o</m>. Dropping those terms leaves
+      <md>
+        3x^2p + 3y^2q - 3axq - 3ayp = 0
+      </md>
+      
+    </p>
+
+    <p>
+      Finally the slope of the tangent will be <m>\frac{q}{p}</m> which in this case is 
+
+      <md>
+        \frac{q}{p} = \frac{x^2-ay}{ax-y^2}. 
+      </md>
+      
+    </p>
+
+    <p>
+      Newton's method for finding tangents works because the slope of the secant line from <m>(x,y)</m> to <m>(x+po, y+qo)</m> is <m>\frac{p}{q}</m>. When <m>o</m> is very small the secant line is approximately a tangent line.
+    </p>
+
+    <p>
+      Newton also explored the connection between the area problem and the tangent problem. In his writings he considered a curve given by an equation given by 
+    </p>
+
     
   </subsection>
 
