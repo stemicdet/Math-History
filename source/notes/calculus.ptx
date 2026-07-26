@@ -211,7 +211,11 @@
     </p>
 
     <p>
-      Newton also explored the connection between the area problem and the tangent problem. In his writings he considered a curve given by an equation given by 
+      Newton also explored the connection between the area problem and the tangent problem. In his writings he considered a curve given by an unknown equation between <m>x</m> and <m>y</m>. The area underneath it is taken to be <m>z = \frac{2}{3}x^{3/2}</m>. Newton argued that if this is the area then the curve is <m>y = x^{1/2}</m>, which is precisely what you obtain when you apply his <m>o</m>-method to find the tangent through the curve <m>y = \frac{2}{3}x^{3/2}</m>. Newton had realized that the problem of finding the area under a curve is the inverse of the tangent problem. Newton's discovery is the basis of the modern Fundamental Theorem of Calculus; however, Newton viewed his result as more of a definition than a theorem. In Newton's mind if you wanted to find the area underneath a curve, you would look at a table of tangents until you found a tangent with the same equation as your curve. From there you could find the original function, which would give you the area under the curve. For example, if you wanted to find the area of <m>y = x^{1/2}</m>, you would guess that the area under the curve is <m>z = \frac{2}{3}x^{3/2}</m>. From there you can check your guess by finding the slope of the tangent at <m>x</m>, which is <m>y=x^{1/2}</m>. Since this is the equation we started with, it confirms that our guess is correct and that we have found the area under the curve.  
+    </p>
+
+    <p>
+      Newton's writings show that his method could be used to find areas for a variety of curves, both algebraic and transcendental. The one advantage that Newton's approach had over previous methods was that it allowed more complicated tangents to be broken into sums of simpler tangents. Using modern notation, if Newton found that the tangent of <m>y = f(x)</m> at <m>a</m> was <m>f'(a)</m> and the tangent of <m>y = g(x)</m> at <m>a</m> was <m>g'(a)</m> then his methods would imply that the tangent of <m> y = f(x)+g(x)</m> at <m>a</m> was <m>f'(a)+g'(a)</m>.
     </p>
 
     
