@@ -211,6 +211,18 @@
     </p>
 
     <p>
+      Newton formalized these ideas in a manuscript he wrote in 1671 called <em>The Methods of Series and Fluxions</em>. In it all variables are thought of as varying over time and are called <term>fluents</term>. The rate at which these variables change is called their <term>fluxions</term>. Newton used fluxions to justify his rules for finding tangent lines. His argument is that each fluent (<m>x</m> or <m>y</m>) increases during an infinitely small period of time by what he called its <term>moment</term>, which is proportional to the speed of flow. That is the moment is equal to <m>o\dot{x}</m> where <m>o</m> is a very small quantity and <m>\dot{x}</m> is its fluxion. 
+    </p>
+
+    <p>
+      To find the tangent line to the curve <m>x^3+y^3-3axy = 0</m>, Newton replaced <m>x</m> with <m>x+o\dot{x}</m> and <m>y</m> with <m>y+o\dot{y}</m>. From there he expanded terms as previously done to find that 
+      <md>
+        \frac{\dot{y}}{\dot{x}} = \frac{x^2-ay}{ax-y^2}. 
+      </md>
+      and thus this is the slope of the tangent line.
+    </p>
+
+    <p>
       Newton also explored the connection between the area problem and the tangent problem. In his writings he considered a curve given by an unknown equation between <m>x</m> and <m>y</m>. The area underneath it is taken to be <m>z = \frac{2}{3}x^{3/2}</m>. Newton argued that if this is the area then the curve is <m>y = x^{1/2}</m>, which is precisely what you obtain when you apply his <m>o</m>-method to find the tangent through the curve <m>y = \frac{2}{3}x^{3/2}</m>. Newton had realized that the problem of finding the area under a curve is the inverse of the tangent problem. Newton's discovery is the basis of the modern Fundamental Theorem of Calculus; however, Newton viewed his result as more of a definition than a theorem. In Newton's mind if you wanted to find the area underneath a curve, you would look at a table of tangents until you found a tangent with the same equation as your curve. From there you could find the original function, which would give you the area under the curve. For example, if you wanted to find the area of <m>y = x^{1/2}</m>, you would guess that the area under the curve is <m>z = \frac{2}{3}x^{3/2}</m>. From there you can check your guess by finding the slope of the tangent at <m>x</m>, which is <m>y=x^{1/2}</m>. Since this is the equation we started with, it confirms that our guess is correct and that we have found the area under the curve.  
     </p>
 
@@ -218,6 +230,55 @@
       Newton's writings show that his method could be used to find areas for a variety of curves, both algebraic and transcendental. The one advantage that Newton's approach had over previous methods was that it allowed more complicated tangents to be broken into sums of simpler tangents. Using modern notation, if Newton found that the tangent of <m>y = f(x)</m> at <m>a</m> was <m>f'(a)</m> and the tangent of <m>y = g(x)</m> at <m>a</m> was <m>g'(a)</m> then his methods would imply that the tangent of <m> y = f(x)+g(x)</m> at <m>a</m> was <m>f'(a)+g'(a)</m>.
     </p>
 
+    
+
+    
+  </subsection>
+
+  <subsection xml:id="subsec-Leibniz">
+    <title>Leibniz and Calculus</title>
+
+    <p>
+      Gottfried Leibniz was born in 1646 in Leipzig, Germany. His father was Professor of Moral Philosophy at the University of Leipzig and Gottfried attended himself when he was 14. He graduated at age 20 and began to make a career in various disciplines. In addition to Calculus he is noted for developing a library catalog system that was used by many of Europe's largest libraries, developing the binary number system, and his work in developing mechanical calculators. In philosophy he postulated that the actual world is <q>the best of all possible worlds</q>, which he used to explain the problem of evil. Based on this view Emil du Bois-Reynard wrote that Leibniz thought of God as a mathematician.
+    </p>
+
+    <blockquote>
+      <p>
+        As is well known, the theory of the maxima and minima of functions was indebted to him for the greatest progress through the discovery of the method of tangents. Well, he conceives God in the creation of the world like a mathematician who is solving a minimum problem, or rather, in our modern phraseology, a problem in the calculus of variations – the question being to determine among an infinite number of possible worlds, that for which the sum of necessary evil is a minimum.
+      </p>
+    </blockquote>
+
+    <p>
+      In 1672 he was invited to come to Paris by the French government. There he met Dutch physicist and mathematician Christian Huygens and realized that his own knowledge of mathematics was lacking. With Huygens as his mentor, Leibniz began to teach himself mathematics. Huygens challenged him with the following question: What is the sum of the series
+      <md>
+        \frac{1}{1} + \frac{1}{3} + \frac{1}{6} + \frac{1}{10} + \ldots
+      </md>
+      
+    </p>
+
+    <p>
+      Leibniz developed a method for summing series by taking differences. The idea is that given a series <m>b_1+b_2+b_3 + \ldots</m> if you can find a sequence <m>a_1, a_2, a_3, \ldots</m> such that <m>b_1=a_1-a_2</m>, <m>b_2=a_2-a_3</m>, <m>b_3 = a_3-a_4</m>, and so forth, then 
+      <md>
+        b_1+b_2+b_3+ b_n = (a_1-a_2)+(a_2-a_3) + (a_3-a_4) + \ldots (a_n-a_{n+1})
+      </md>
+      and most of these terms cancel out. If the series has a finite number of terms then the sum is <m>a_1-a_{n+1}</m> and if the series is infinite then the sum is <m>a_1</m>.
+    </p>
+
+    <p>
+      Leibniz used his technique to solve Huygen's problem. He realized that <m>\frac{1}{1} = 2(1-\frac{1}{2})</m>, <m>\frac{1}{3} = 2(\frac{1}{2}-\frac{1}{3})</m>. <m>\frac{1}{6} = 2(\frac{1}{3}- \frac{1}{4})</m> and so forth. Hence
+      <md>
+        \frac{1}{1} + \frac{1}{3} + \frac{1}{6} + \frac{1}{10} + \ldots = 2(1 - \frac{1}{2} + \frac{1}{2}- \frac{1}{3} + \frac{1}{3}-\frac{1}{4} + \ldots) = 2
+      </md>
+      
+    </p>
+
+    <p>
+      This result was not knew, but it was something that Leibniz had figured out for himself. Moreover, to him it illustrated a general principle that making sums and taking differences are inverse processes of each other.
+    </p>
+
+    <p>
+      Leibniz applied this principle to geometry by regarding the region under a curve as being made up of infinitely many vertical lines. Thus the area of the region is the sum of the lines and the difference between successive lines taken to be a tiny fixed distance apart measures the slope of the boundary curve. This suggested to Leibniz that the area problem and the tangent problem were inverses of each other.
+    </p>
     
   </subsection>
 
