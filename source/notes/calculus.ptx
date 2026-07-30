@@ -354,9 +354,54 @@
 
     <blockquote>
       <p>
-        Knowing thus the <em>Algorithm</em> (as I may say) of this calculus, which I call <m>differential calculus</m>, all other differential equations can be solved by a common method. We can find maxima and minima as well as tangents without the necessity of removing fractions, irrationals, and other restrictions, as had to be done according to the methods that have been published hitherto. The demonstration of all this will be easy to one who is experienced in these matters and who considers the fact, until now not sufficiently explored, that <m>dx, dy, dv, dw, dz</m> can be taken proportional to the momentary differences, that is increments or decrements, of the corresponding <m>x,y,v,w,z</m>. To any given equation we can thus write its differential equation. This can be done by simply substituting for each term (that is, any part which through addition or subtraction contributes to the equation) its differential quantity. For any other quantity (not itself a term, but contributing to the formation of the term) we use its differential quantity to form the differential quantity of the term itself, not by simple substitution, but according to the prescribed Algorithm. The methods published before have no such transition. They mostly use a line such as <m>DX</m> or of similar kind, but not the line <m>dy</m> which is the fourth proportional to <m>DX</m>, <m>DY</m>, <m>dx</m> -- something quite confusing. From there they go on removing fractions and irrationals (in which undetermined quantities occur). It is clear that our method also covers transcendental curves -- those that cannot be reduced by algebraic computation, or have no particular degree -- and thus holds in a most general way without any particular and not always satisfied assumptions.
+        Knowing thus the <em>Algorithm</em> (as I may say) of this calculus, which I call <em>differential calculus</em>, all other differential equations can be solved by a common method. We can find maxima and minima as well as tangents without the necessity of removing fractions, irrationals, and other restrictions, as had to be done according to the methods that have been published hitherto. The demonstration of all this will be easy to one who is experienced in these matters and who considers the fact, until now not sufficiently explored, that <m>dx, dy, dv, dw, dz</m> can be taken proportional to the momentary differences, that is increments or decrements, of the corresponding <m>x,y,v,w,z</m>. To any given equation we can thus write its differential equation. This can be done by simply substituting for each term (that is, any part which through addition or subtraction contributes to the equation) its differential quantity. For any other quantity (not itself a term, but contributing to the formation of the term) we use its differential quantity to form the differential quantity of the term itself, not by simple substitution, but according to the prescribed Algorithm. The methods published before have no such transition. They mostly use a line such as <m>DX</m> or of similar kind, but not the line <m>dy</m> which is the fourth proportional to <m>DX</m>, <m>DY</m>, <m>dx</m> -- something quite confusing. From there they go on removing fractions and irrationals (in which undetermined quantities occur). It is clear that our method also covers transcendental curves -- those that cannot be reduced by algebraic computation, or have no particular degree -- and thus holds in a most general way without any particular and not always satisfied assumptions.
       </p>
     </blockquote>
+
+    <p>
+      Two years later Leibniz published a second paper in which he laid out the rules of the integral calculus and presented his proof of the Fundamental Theorem of Calculus.
+    </p>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-Criticism">
+    <title>Criticisms of Calculus</title>
+
+    <p>
+      In 1734 the philosopher and Anglican bishop George Berkeley criticized Newton's calculus in his book <em>The Analyst</em> (subtitled <em>A Discourse Addressed to an Infidel Mathematician: Wherein It Is Examined Whether the Object, Principles, and Inferences of the Modern Analysis Are More Distinctly Conceived, or More Evidently Deduced, Than Religious Mysteries and Points of Faith</em>).
+    </p>
+
+    <p>
+      The <q>infidel mathematician</q> was most likely Edmund Halley, who was an atheist and had previously criticized religious faith as being unreasonable. Berkeley's book was motivated by theology, not mathematics. However, Berkeley had studied mathematics and raised several valid criticisms against 17th century calculus. Berkeley accepted that calculus was correct; however, he argued that calculus was built on precepts that could only be accepted through faith, just like religion.  
+    </p>
+
+    <p>
+      Berkeley's main objection to the calculus of Newton (and Leibniz as well) was that he made use of infinitessimal quantities which were sometimes taken be to small positive amounts and other times were treated like <m>0</m>. An example of this occurs in Newton's approach to finding tangent lines with the quantity <m>o</m> which Newton used to denote a very small amount. At one point in his method, Newton divides an equation by <m>o</m>, treating it as a non-zero quantity, but later he removes all terms with <m>o</m>, thus treating <m>o</m> as if it were <m>0</m>. Berkeley argued that this contradiction showed that calculus was built on faulty premises. He claimed that this showed <q>how Error may bring forth Truth, though it cannot bring forth Science</q>. Thus, Berkeley argued that calculus was unscientific and its foundations were no less intuitive than those of religion. He famously wrote
+    </p>
+
+   <blockquote>
+    <p>
+      And what are these fluxions? The velocities of evanescent increments. And what are these same evanescent increments? They are neither finite quantities, nor quantities infinitely small, nor yet nothing. May we not call them ghosts of departed quantities?
+    </p>
+   </blockquote>
+
+   <p>
+    In response to Berkeley criticisms, a number of mathematicians wrote responses in defense of Newton. One of the first was Colin MacLaurin, whose 1742 book <em>Treatise of Fluxions</em> was written as a direct reply to Berkeley. Other mathematicians worked to address Berkeley's criticisms and put calculus on a rigorous foundation. In a 1823 calculus textbook Augustin Cauchy gave a definition of derivative that used the concepts of limits to handle Berkeley's objection. His definition is basically the same as the modern definition of the derivative. If <m>f(x) = x^2</m> then we would argue that <m>f'(x) = 2x</m> because
+    <md>
+      <mrow> f'(x) \amp = \lim_{h\to 0} \frac{(x+h)^2 - x^2}{h} </mrow>
+      <mrow> \amp = \lim_{h\to 0} \frac{x^2 +2xh + h^2 - x^2}{h} </mrow>
+      <mrow> \amp = \lim_{h\to 0} \frac{2xh + h^2}{h} </mrow>
+      <mrow> \amp = \lim_{h\to 0} 2x + h </mrow>
+      <mrow> \amp = 2x</mrow>
+    </md>
+    
+    In this way, the concept of the limit is used to address Berkeley's criticisms. Because <m>h</m> is close to but not <m>0</m> we are justified to divide by <m>h</m> and because we are taking a limit as <m>h \to 0</m> we are justified in concluding that <m>2x+h</m> approaches <m>2x</m> as <m>h</m> goes to <m>0</m>.
+
+   </p>
+
+   <p>
+     During the 1960's Abraham Robinson developed the theory of nonstandard analysis which provides a rigorous definition of infinitesimals and allows for the derivative to be defined in the same spirit of Newton and Leibniz.
+   </p>
     
   </subsection>
 
