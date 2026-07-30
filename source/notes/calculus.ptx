@@ -279,6 +279,84 @@
     <p>
       Leibniz applied this principle to geometry by regarding the region under a curve as being made up of infinitely many vertical lines. Thus the area of the region is the sum of the lines and the difference between successive lines taken to be a tiny fixed distance apart measures the slope of the boundary curve. This suggested to Leibniz that the area problem and the tangent problem were inverses of each other.
     </p>
+
+    <p>
+      In 1675 Leibniz developed the ideas of calculus and the rules that governed them. In his personal notes from that year he used the integral sign for the first time. He continued to refine his ideas and the notation for them. In 1684 he published his paper <em>A new method for maxima, minima and tangents</em> in which he set down the rules of differential calculus. He described his work as
+    </p>
+
+    <blockquote>
+      <p>
+        A new method for maxima and minima as well as tangents, which is neither impeded by fractional nor irrational quantities, and a remarkable type of calculus for them.
+      </p>
+    </blockquote>
+
+    <p>
+      Leibniz begins his paper by defining differentials.
+    </p>
+
+    <blockquote>
+      <p>
+        Let an axis <m>AX</m> and several curves such as <m>VV</m>, <m>WW</m>, <m>YY</m>, <m>ZZ</m> be given of which the ordinates <m>VX</m>, <m>WX</m>, <m>YX</m>, <m>ZX</m> perpendicular to the axis are called <m>v, w, y, z</m> respectively. The segment <m>AX</m>, cut off from the axis is called <m>x</m>. Let the tangents be <m>VB, WC, YD, ZE</m> intersecting the axis respectively at <m>B,C,D,E</m>. Now some straight line selected arbitrarily is called <m>dx</m> and the line which is to <m>d</m> as <m>v</m> (or <m>w</m>, or <m>y</m>, or <m>z</m>) is to <m>XB</m> (or <m>XC</m> or <m>XD</m>, or <m>XE</m>) is called <m>dv</m> (or <m>dw</m>, or <m>dy</m>, or <m>dz</m>), or the difference of these <m>v</m> (or <m>w</m> or <m>y</m> or <m>z</m>). Under these assumptions we have the following rules of the calculus. 
+      </p>
+    </blockquote>
+
+    <p>
+      Next Leibniz sets out the rules of differentials.
+    </p>
+
+    <blockquote>
+      <p>
+        If <m>a</m> is a given constant then <m>da = 0</m> and <m>d(ax) = adx</m>. If <m>y = v</m> (that is, if the ordinte of any curve <m>YY</m> is equal to any corresponding ordinate <m>VV</m>) then <m>dy = dv</m>.
+      </p>
+    </blockquote>
+
+    <p>
+      These are the familiars rule from calculus that the derivative of a constant is <m>0</m> and that the derivative of <m>y = x</m> is <m>\frac{dy}{dx} = 1</m>. However, observe that Leibniz is working with differentials, not derivatives. A differential represents a small change in a variable, while a derivative is a ratio of differentials. Next Leibniz gives the rules for addition and subtraction of differentials.
+    </p>
+
+    <blockquote>
+      <p>
+        If <m>z-y+w+x=v</m> then <m>d(z-y+w+x) = dv = dz-dy+dw+dx</m>
+      </p>
+    </blockquote>
+
+    <p>
+      Multiplication and division follow next.
+    </p>
+
+    <blockquote>
+      <p>
+        <m>d(xv) = xdv + vdx</m> or setting <m>y = xv</m>, <m>dy = xdv+vdx</m>. It is indifferent whether we take a formula such as <m>xv</m> or its replacing letter such as <m>y</m>. It is too be noted that <m>x</m> and <m>dx</m> are treated in this calculus in the same way as <m>y</m> and <m>dy</m>, or any other indeterminate letter with its difference. It is also to be noted that we cannot always move backward from a differential equation without some caution, something we will discuss elsewhere.
+      </p>
+
+      <p>
+        Now division:
+        <md>
+          d \frac{v}{y} = \frac{\pm vdy \mp ydv}{yy}
+        </md>
+        
+      </p>
+    </blockquote>
+
+    <p>
+      Leibniz introduced the rules for multiplication and division without giving an indication of how they might be proven. Next Leibniz discussed the signs of differentials and how they can be used to find maxima and minima
+    </p>
+
+    <blockquote>
+      <p>
+        The following should be kept well in mind about the signs. When in the calculus for a letter simply its differential is substituted, then the signs are preserved; for <m>z</m> we write <m>dz</m>, for <m>-z</m> we write <m>-dz</m>, as appears from the previously given rule for addition and subtraction. However, when it comes to an explanation of the values, that is, when the relation of <m>z</m> to <m>x</m> is considered, then we can decide whether <m>dz</m> is a positive quantity or less than zero. When the latter occurs then the tangent <m>ZE</m> is not directed toward <m>A</m>, but in the opposite direction, down from <m>X</m>. This happens when the ordinates <m>z</m> decrease with increasing <m>x</m>. And since the ordinates <m>v</m> sometimes increase and sometimes decrease, <m>dv</m> will sometimes be positive and sometimes be negative; in the first case the tangent <m>VB</m> is directed toward <m>A</m>, in the latter it is directed in the opposite sense. None of these case happen in the intermediate position at <m>M</m>, at the moment when <m>v</m> neither increases nor decreases but is stationary. Then <m>dv=0</m> and it does not matter whether the quantity is positive or negative, since <m>+0 = -0</m>. At this place, <m>v</m>, that is, the ordinate <m>LM</m> is <em>maximum</em> (or when the convexity is turned to the axis, <em>minimum</em>), and the tangent to the curve at <m>M</m> is directed neither in the direction from <m>X</m> up to <m>A</m> to approach the axis, nor down to the other side, but is parallel to the axis. When <m>dv</m> is infinite with respect to <m>dx</m>, then the tangent is perpendicular to the axis, that is, it is the ordinate itself. When <m>dv = dx</m>, then the tangent makes half a right angle with the axis. When with increasing ordinates <m>t</m>; its increments or differences <m>dv</m> also increase (that is, when <m>dv</m> is positive d<m>dv</m>, the difference of the differences, is also positive, and when <m>dv</m> is negative d <m>dv</m> is also negative), then the curve turns toward the axis its concavity, in the other case its convexity. Where the increment is maximum or minimum, or where the increments from decreasing turn into increasing, or the opposite, there is a point of inflection. Here <em>concavity</em> and <em>convexity</em> are interchanged, provided the ordinates too do not turn from increasing into decreasing, or the opposite, because then concavity or convexity would remain. However, it is impossible that the increments continue to increase or decrease, but the ordinates turn from increasing to decreasing, or the opposite. Hence a <em>point of inflection</em> occurs when d <m>dv = 0</m> while neither <m>v</m> nor <m>dv = 0</m>. The problem of finding inflection therefore has not, like that of finding a maximum, two equal roots but three. This all depends on the correct use of signs.
+      </p>
+    </blockquote>
+
+    <p>
+      In the previous paragraph Leibniz laid out the rules for finding minima, maxima, and inflection points that are still used in Calculus. In his paper he also set down the rules for the differential of powers and roots (power rule). Then he addresses the differences between his calculus and previous approaches to the tangent problem. 
+    </p>
+
+    <blockquote>
+      <p>
+        Knowing thus the <em>Algorithm</em> (as I may say) of this calculus, which I call <m>differential calculus</m>, all other differential equations can be solved by a common method. We can find maxima and minima as well as tangents without the necessity of removing fractions, irrationals, and other restrictions, as had to be done according to the methods that have been published hitherto. The demonstration of all this will be easy to one who is experienced in these matters and who considers the fact, until now not sufficiently explored, that <m>dx, dy, dv, dw, dz</m> can be taken proportional to the momentary differences, that is increments or decrements, of the corresponding <m>x,y,v,w,z</m>. To any given equation we can thus write its differential equation. This can be done by simply substituting for each term (that is, any part which through addition or subtraction contributes to the equation) its differential quantity. For any other quantity (not itself a term, but contributing to the formation of the term) we use its differential quantity to form the differential quantity of the term itself, not by simple substitution, but according to the prescribed Algorithm. The methods published before have no such transition. They mostly use a line such as <m>DX</m> or of similar kind, but not the line <m>dy</m> which is the fourth proportional to <m>DX</m>, <m>DY</m>, <m>dx</m> -- something quite confusing. From there they go on removing fractions and irrationals (in which undetermined quantities occur). It is clear that our method also covers transcendental curves -- those that cannot be reduced by algebraic computation, or have no particular degree -- and thus holds in a most general way without any particular and not always satisfied assumptions.
+      </p>
+    </blockquote>
     
   </subsection>
 
