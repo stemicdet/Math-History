@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-euler">
+  <title> The Works of Leonhard Euler (10.2)</title>
+
+  <subsection xml:id="subsec-Euler-life">
+    <title>Euler's Life</title>
+
+    <p>
+        Leonhard Euler is quite possibly the person who has had the most influence on modern mathematics. As we will see he made important contributions in almost all areas of mathematics, revived number theory, created graph theory and topology, and made important contributions to infinite series, exponential and logarithmic functions, and complex analysis.
+    </p>
+
+    <p>
+        The French Mathematician Pierre-Simon Laplace famously advised <q>Read Euler: he is our master in everything</q>.
+    </p>
+
+    <p>
+        Another quote that illustrates Euler's influence on mathematics comes from Fernando Gouvea's review of a volume of his collected works. <q>Euler published so much and in so many different fields that an edited volume is probably the only way (at least at this time) to do him something like justice, since no one person will know enough to span all his work.</q>
+    </p>
+
+    <p>
+        Euler was born in Basel, Switzerland on April 15, 1707. His father was a Lutheran pastor who wanted him to follow in his footsteps and study theology. Euler enrolled in the Theology faculty at the University of Basel where he made the acquaintance of Johann Bernoulli, who taught mathematics there. Bernoulli persuaded Euler's father to let him study mathematics. 
+    </p>
+
+    <p>
+        In 1737 Euler solved the Basel Problem, which had stumped many leading mathematicians of the time, and brought him great fame. The Basel problem is to determine the exact value of the infinite sum
+        <md>
+            \sum_{n=1}^\infty \frac{1}{n^2}.
+        </md>
+        Euler not only found that the value of the sum is <m>\frac{\pi^2}{6}</m> but he also used his method to determine the values of similar infinite sums. He found that
+        <md>
+            <mrow> \sum_{n=1}^\infty \frac{1}{n^4} \amp = \frac{\pi^4}{90} </mrow>
+            <mrow> \sum_{n=1}^\infty \frac{1}{n^6} \amp = \frac{\pi^6}{945} </mrow>
+            <mrow> \sum_{n=1}^\infty \frac{1}{n^8} \amp = \frac{\pi^8}{9450} </mrow>
+        </md>
+        In fact his method can be used for sums of the form <m>\sum \frac{1}{n^p}</m> when <m>p</m> is even, but it is not known how to find the sum for odd values of <m>p</m>.
+    </p>
+
+    <p>
+        In 1738 he suffered an illness that resulted in the loss of sight in his right eye. In 1766 another illness left him almost totally blind. A cataract operation in 1771 temporarily restored his sight, but it faded shortly afterward and left him totally blind for the rest of his life. Despite this he still continued his mathematical research and remarkable almost half of his total works were published after his blindness.
+    </p>
+
+    <p>
+        In all Euler published 563 books and papers in his life and an additional 303 works that were published after his death. In his later years he averaged about one paper published each month.
+    </p>
+
+    <p>
+        Euler is responsible for much of the notation that we used in modern mathematics including <m>f(x)</m> for a function, <m>e</m> for the base of the natural logarithm, <m>i</m> for the square root of negative one, <m>\pi</m> for the ratio of the circumference of a circle to its diameter, and <m>\sum</m> for summation
+    </p>
+    
+  </subsection>
+
+  </section>
